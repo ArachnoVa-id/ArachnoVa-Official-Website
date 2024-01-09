@@ -20,27 +20,31 @@ export default function Hero() {
             Crafting Digital Presence in Every Strand of Code
           </div>
           <div className="py-[2vh] flex gap-[1vw]">
-            <div className="w-[8vw] h-[4vh] bg-gradient-to-r from-[#2DC0D8] to-[#179FB5] font-InterBold text-white rounded-md text-[0.8vw] flex justify-center items-center ">
+            <button className="w-[8vw] h-[4vh] bg-gradient-to-r from-[#2DC0D8] to-[#179FB5] font-InterBold text-white rounded-md text-[0.8vw] flex justify-center items-center hover:translate-y-[-0.208vw] transition-all duration-500 ease-in-out ">
               Start Your Project
-            </div>
-            <div className="w-[10vw] h-[4vh] bg-transparent bg-clip-text text-transparent bg-gradient-to-r from-[#0893D4] to-[#159E8D] font-InterBold rounded-md text-[0.8vw] flex justify-center items-center">
+            </button>
+            <button className="w-[10vw] h-[4vh] bg-transparent  rounded-md text-[0.8vw] flex justify-center items-center hover:translate-y-[-0.208vw] transition-all duration-500 ease-in-out hover:bg-[#cae8ee] ">
+              <div className="bg-clip-text text-transparent bg-gradient-to-r from-[#0893D4] to-[#159E8D] font-InterBold">
               Discover Our Services
-            </div>
+              </div>
+            </button>
           </div>
         </div>
 
         <div className="bg-transparent backdrop-blur-lg w-[28vw] h-[18vw] rounded-lg border-2 border-[#F1F5F9] relative font-ConsolasBold ">
-          <div className="absolute w-[23vw] h-[5vw] bg-white rounded-md -bottom-[3vw] -right-[4vw] text-[1vw] flex justify-center items-center border-2 border-[#E2E8F0] gap-x-[0.4vw]">
+          <div className="absolute w-[23vw] h-[5vw] bg-white rounded-md -bottom-[3vw] -right-[4vw] text-[1vw] flex justify-center items-center border-2 border-[#E2E8F0] ">
             <img
               alt=""
               src="/image/Hero/3ColorButton.png"
-              className="w-[3vw] h-[1vw] top-[0.3vw] left-[0.7vw] absolute"
+              className="w-[3vw] h-[1vw] top-[0.4vw] left-[0.7vw] absolute"
               draggable="false"
             />
+            <div className="flex gap-x-[0.4vw] pt-[1vw]">
             <span className="text-[#8131B2]">@arachnova</span>
             <span className="text-[#0151EC]">official-site</span>
             <span className="text-[#1CA7BD]">@</span>
             npm run dev
+            </div>
           </div>
           <div className="px-[1vw] py-[2vw] text-[1.05vw]/[1.15vw] relative">
             <img
