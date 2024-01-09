@@ -5,13 +5,13 @@
 @layer base {
   @font-face {
     font-family: "Coolvetica-CondReg";
-    src: url("/fonts/Coolvetica/coolvetica condensed rg.ttf") format("truetype");
+    src: url("/fonts/Coolvetica/coolvetica condensed rg.otf") format("truetype");
     font-display: swap;
   }
 
   @font-face {
     font-family: "Coolvetica-Reg";
-    src: url("/fonts/Coolvetica/coolvetica rg.ttf") format("truetype");
+    src: url("/fonts/Coolvetica/coolvetica rg.otf") format("truetype");
     font-display: swap;
   }
 
@@ -42,7 +42,7 @@
 
   @font-face {
     font-family: "Consolas-Regular";
-    src: url("/fontss/Consolas/consola.ttf") format("truetype");
+    src: url("/fonts/Consolas/consola.ttf") format("truetype");
     font-display: swap;
   }
 
