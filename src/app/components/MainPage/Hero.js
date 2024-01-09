@@ -4,35 +4,51 @@ export default function Hero() {
       <img
         alt=""
         src="/image/Hero/HeroBG.png"
-        className="absolute w-full h-full -z-[1] max-lg:hidden "
+        className="absolute w-full h-full -z-[1]  "
         draggable="false"
       />
       <div className="text-black flex gap-x-[8vw]">
-        <div className="flex flex-col justify-center">
-          <div className="text-[1.6vw]">Arachnova </div>
-          <div className="text-[2vw]">Your Web Design Partner</div>
-          <div className="text-[2.8vw]">Always Dependable</div>
-          <div className="text-[1vw] text-[#4E5F66]">
+        <div className="flex flex-col justify-center scale-[1.2]">
+          <div className="text-[1.6vw] text-neutral-g font-CoolveticaCondReg ">
+            Arachnova{" "}
+          </div>
+          <div className="text-neutral-g font-SourceSansProBold text-[2vw]/[2.5vw]">
+            <div className="text-[2vw] ">Your Web Design Partner</div>
+            <div className="text-[2.8vw] ">Always Dependable</div>
+          </div>
+          <div className="text-[1vw] text-[#4E5F66] pt-[1.1vw] font-SourceSansProSemibold ">
             Crafting Digital Presence in Every Strand of Code
           </div>
           <div className="py-[2vh] flex gap-[1vw]">
-            <div className="w-[8vw] h-[4vh] bg-[#2EC1D9] text-white rounded-md text-[0.8vw] flex justify-center items-center ">
+            <div className="w-[8vw] h-[4vh] bg-gradient-to-r from-[#2DC0D8] to-[#179FB5] font-InterBold text-white rounded-md text-[0.8vw] flex justify-center items-center ">
               Start Your Project
             </div>
-            <div className="w-[10vw] h-[4vh] bg-transparent text-[#1CA7BD] rounded-md text-[0.8vw] flex justify-center items-center">
+            <div className="w-[10vw] h-[4vh] bg-transparent bg-clip-text text-transparent bg-gradient-to-r from-[#0893D4] to-[#159E8D] font-InterBold rounded-md text-[0.8vw] flex justify-center items-center">
               Discover Our Services
             </div>
           </div>
         </div>
 
-        <div className="bg-transparent backdrop-blur-lg w-[28vw] h-[20vw] rounded-lg border-2 border-[#F1F5F9] relative ">
-          <div className="absolute w-[20vw] h-[4vw] bg-white rounded-md -bottom-[2vw] -right-[2vw] text-[1vw] flex justify-center items-center border-2 border-[#E2E8F0] gap-x-[0.4vw]">
+        <div className="bg-transparent backdrop-blur-lg w-[28vw] h-[18vw] rounded-lg border-2 border-[#F1F5F9] relative font-ConsolasBold ">
+          <div className="absolute w-[23vw] h-[5vw] bg-white rounded-md -bottom-[3vw] -right-[4vw] text-[1vw] flex justify-center items-center border-2 border-[#E2E8F0] gap-x-[0.4vw]">
+            <img
+              alt=""
+              src="/image/Hero/3ColorButton.png"
+              className="w-[3vw] h-[1vw] top-[0.3vw] left-[0.7vw] absolute"
+              draggable="false"
+            />
             <span className="text-[#8131B2]">@arachnova</span>
             <span className="text-[#0151EC]">official-site</span>
             <span className="text-[#1CA7BD]">@</span>
             npm run dev
           </div>
-          <div className="px-[1vw] py-[2vw] text-[1vw]/[1.3vw]">
+          <div className="px-[1vw] py-[2vw] text-[1.05vw]/[1.15vw] relative">
+            <img
+              alt=""
+              src="/image/Hero/3ColorButton.png"
+              className="w-[3vw] h-[1vw] top-[0.5vw] left-[0.7vw] absolute"
+              draggable="false"
+            />
             <p className="text-[#0151EC]">
               import <span className="text-[#8131B2] "> "./globals.css";</span>
             </p>
