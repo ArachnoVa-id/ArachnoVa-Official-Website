@@ -22,6 +22,22 @@ module.exports = {
         ConsolasRegular: ["Consolas-Regular"],
         ConsolasBold: ["Consolas-Bold"],
       },
+      colors: {
+        // Neutral Color
+        "neutral-a": "#FAFDFF",
+        "neutral-b": "#C3D4DB",
+        "neutral-c": "#9CADB4",
+        "neutral-d": "#75868D",
+        "neutral-e": "#4E5F66",
+        "neutral-f": "#27383F",
+        "neutral-g": "#001118",
+        // Light Blue Color
+        "LightBlue-a": "#84D4E1",
+        "LightBlue-b": "#2EC1D9",
+        "LightBlue-c": "#1AB0C8",
+        "LightBlue-d": "#179FB5",
+        "LightBlue-e": "#158B9E",
+      },
     },
   },
   plugins: [],
