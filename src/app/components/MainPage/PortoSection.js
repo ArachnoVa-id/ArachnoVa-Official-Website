@@ -1,7 +1,7 @@
 export default function PortoSection() {
   return (
-    <section className="w-full min-h-screen relative bg-transparent  flex flex-row justify-center items-center bg-neutral-a">
-      <div className="w-[50vw] h-[50vh] bg-transparent border-4 border-red-600 rounded-md flex flex-col overflow-y-scroll  ">
+    <section className="w-full min-h-screen relative  flex flex-row justify-center items-center bg-neutral-a">
+      <div className="w-[50vw] h-[50vh] bg-transparent border-4 border-red-600 rounded-md flex flex-col overflow-y-scroll no-scrollbar  ">
       <img
         alt=""
         src="/image/Porto/HeroEnfo.png"

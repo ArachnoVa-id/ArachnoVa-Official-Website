@@ -10,7 +10,7 @@ export default function Hero() {
       <div className="text-black flex gap-x-[8vw]">
         <div className="flex flex-col justify-center scale-[1.2]">
           <div className="text-[1.6vw] text-neutral-g font-CoolveticaCondReg ">
-            Arachnova{" "}
+            ArachnoVa{" "}
           </div>
           <div className="text-neutral-g font-SourceSansProBold text-[2vw]/[2.5vw]">
             <div className="text-[2vw] ">Your Web Design Partner</div>
@@ -31,7 +31,7 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="bg-transparent backdrop-blur-lg w-[28vw] h-[18vw] rounded-lg border-2 border-[#F1F5F9] relative font-ConsolasBold ">
+        <div className="bg-transparent backdrop-blur-lg w-[28vw] h-[18vw] rounded-lg border-2 border-[#F1F5F9] relative font-ConsolasRegular ">
           <div className="absolute w-[23vw] h-[5vw] bg-white rounded-md -bottom-[3vw] -right-[4vw] text-[1vw] flex justify-center items-center border-2 border-[#E2E8F0] ">
             <img
               alt=""
