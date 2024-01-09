@@ -2,6 +2,57 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  @font-face {
+    font-family: "Coolvetica-CondReg";
+    src: url("/fonts/Coolvetica/coolvetica condensed rg.ttf") format("truetype");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Coolvetica-Reg";
+    src: url("/fonts/Coolvetica/coolvetica rg.ttf") format("truetype");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "SourceSansPro-Semibold";
+    src: url("/fonts/SourceSansPro/source-sans-pro-semibold.ttf")
+      format("truetype");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "SourceSansPro-Bold";
+    src: url("/fonts/SourceSansPro/source-sans-pro-bold.ttf") format("truetype");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Inter-Bold";
+    src: url("/fonts/Inter/Inter-Bold.ttf") format("truetype");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Inter-SemiBold";
+    src: url("/fonts/Inter/Inter-SemiBold.ttf") format("truetype");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Consolas-Regular";
+    src: url("/fontss/Consolas/consola.ttf") format("truetype");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Consolas-Bold";
+    src: url("/fonts/Consolas/consolab.ttf") format("truetype");
+    font-display: swap;
+  }
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
