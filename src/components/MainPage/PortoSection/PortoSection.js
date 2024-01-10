@@ -40,7 +40,7 @@ export default function PortoSection() {
             />
             <img
               alt=""
-              src="/image/Porto/HeroEnforianMobile.png"
+              src="/image/Porto/TeaserEnfo.png"
               className="w-full h-screen"
               draggable="false"
             />
