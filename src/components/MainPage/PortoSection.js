@@ -1,6 +1,6 @@
 export default function PortoSection() {
   return (
-    <section className="w-full min-h-screen relative  flex flex-row justify-center items-center bg-neutral-a">
+    <section className="w-full min-h-screen relative  flex flex-row justify-center items-center bg-white-MainPage">
       <div className="flex flex-col">
         <div className="text-neutral-g text-[2.5vw] font-SourceSansProBold flex justify-center ">
           Our Work in Action

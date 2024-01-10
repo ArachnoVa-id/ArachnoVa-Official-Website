@@ -23,6 +23,8 @@ module.exports = {
         ConsolasBold: ["Consolas-Bold"],
       },
       colors: {
+        // BG Color
+        "white-MainPage": "#F8FAFC",
         // Neutral Color
         "neutral-a": "#FAFDFF",
         "neutral-b": "#C3D4DB",
