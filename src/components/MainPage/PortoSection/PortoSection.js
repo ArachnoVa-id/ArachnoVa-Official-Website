@@ -1,7 +1,10 @@
+import styles from "./PortoSection.module.css";
+import { FaArrowRight } from "react-icons/fa";
+
 export default function PortoSection() {
   return (
     <section className="w-full min-h-screen relative  flex flex-row justify-center items-center bg-white-MainPage">
-      <div className="flex flex-col">
+      <div className="flex flex-col justify-center items-center">
         <div className="text-neutral-g text-[2.3vw] font-SourceSansProBold flex justify-center ">
           Our Work in Action
         </div>
@@ -14,7 +17,7 @@ export default function PortoSection() {
           Massa scelerisque egestas egestas dictum ut velit feugiat.
         </div>
         <div className="relative py-[2vw]">
-          <div className="w-[50vw] h-[50vh] bg-transparent border-[1.2vw] border-[#E2E8F0] rounded-md flex flex-col overflow-y-scroll no-scrollbar  ">
+          <div className="w-[53vw] h-[53vh] bg-transparent border-[1.2vw] border-[#E2E8F0] mr-[3vw] rounded-md flex flex-col overflow-y-scroll no-scrollbar  ">
             <img
               alt=""
               src="/image/Porto/HeroEnfo.png"
@@ -28,7 +31,7 @@ export default function PortoSection() {
               draggable="false"
             />
           </div>
-          <div className="absolute w-[14vw] h-[44vh] bg-black border-[1.2vw] border-[#E2E8F0] rounded-md -bottom-[4vh] right-[0] flex flex-col overflow-y-scroll no-scrollbar  ">
+          <div className="absolute w-[15vw] h-[44vh] bg-black border-[1.2vw] border-[#E2E8F0] rounded-md -bottom-[4vh] -right-[4vw] flex flex-col overflow-y-scroll no-scrollbar  ">
             <img
               alt=""
               src="/image/Porto/HeroEnforianMobile.png"
@@ -49,6 +52,18 @@ export default function PortoSection() {
             />
           </div>
         </div>
+
+        <button
+          className={
+            "flex flex-row justify-center items-center w-[9.792vw] gap-x-[0.26vw] aspect-[188/48] bg-transparent rounded-[0.417vw] hover:bg-[#5AB0BB]/20 hover:scale-[102%] transition-all duration-700 ease-in-out " +
+            styles.ButtonShadow
+          }
+        >
+          <p className="font-InterBold text-[0.833vw] bg-clip-text text-transparent bg-gradient-to-r from-[#0893D4] via-[#44C4D9] to-[#159E8D]">
+            More Projects
+          </p>
+          <FaArrowRight className="text-[#24AAA7] w-[1.25vw] aspect-[1/1]" />
+        </button>
       </div>
     </section>
   );
