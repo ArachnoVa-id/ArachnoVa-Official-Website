@@ -14,7 +14,13 @@ export default function Hero() {
           </div>
           <div className="text-neutral-g font-SourceSansProBold text-[2vw]/[2.5vw]">
             <div className="text-[2vw] ">Your Web Design Partner</div>
-            <div className="text-[2.8vw] ">Always Dependable</div>
+            <div className="overflow-clip relative flex flex-col items-center justify-center h-[2.8vw]">
+              <div className="animate-movingImagination ">
+                <div className="text-[2.8vw] ">Dependable</div>
+                <div className="text-[2.8vw] ">Delivered</div>
+                <div className="text-[2.8vw] ">Distinctive</div>
+              </div>
+            </div>
           </div>
           <div className="text-[1vw] text-[#4E5F66] pt-[1.1vw] font-SourceSansProSemibold ">
             Crafting Digital Presence in Every Strand of Code
@@ -25,14 +31,14 @@ export default function Hero() {
             </button>
             <button className="w-[10vw] h-[4vh] bg-transparent  rounded-md text-[0.8vw] flex justify-center items-center hover:translate-y-[-0.208vw] transition-all duration-500 ease-in-out hover:bg-[#cae8ee] ">
               <div className="bg-clip-text text-transparent bg-gradient-to-r from-[#0893D4] to-[#159E8D] font-InterBold">
-              Discover Our Services
+                Discover Our Services
               </div>
             </button>
           </div>
         </div>
 
         <div className="bg-transparent backdrop-blur-lg w-[28vw] h-[18vw] rounded-lg border-2 border-[#F1F5F9] relative font-ConsolasRegular ">
-          <div className="absolute w-[23vw] h-[5vw] bg-white rounded-md -bottom-[3vw] -right-[4vw] text-[1vw] flex justify-center items-center border-2 border-[#E2E8F0] ">
+          <div className="absolute w-[23vw] h-[5vw] bg-white rounded-md -bottom-[3vw] -right-[4vw] text-[1vw] flex justify-center items-center border-2 border-[#E2E8F0] font-ConsolasBold ">
             <img
               alt=""
               src="/image/Hero/3ColorButton.png"
@@ -40,10 +46,10 @@ export default function Hero() {
               draggable="false"
             />
             <div className="flex gap-x-[0.4vw] pt-[1vw]">
-            <span className="text-[#8131B2]">@arachnova</span>
-            <span className="text-[#0151EC]">official-site</span>
-            <span className="text-[#1CA7BD]">@</span>
-            npm run dev
+              <span className="text-[#8131B2]">@arachnova</span>
+              <span className="text-[#0151EC]">official-site</span>
+              <span className="text-[#1CA7BD]">@</span>
+              npm run dev
             </div>
           </div>
           <div className="px-[1vw] py-[2vw] text-[1.05vw]/[1.15vw] relative">

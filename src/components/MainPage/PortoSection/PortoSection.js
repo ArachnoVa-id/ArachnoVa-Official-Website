@@ -55,7 +55,7 @@ export default function PortoSection() {
 
         <button
           className={
-            "flex flex-row justify-center items-center w-[9.792vw] gap-x-[0.26vw] aspect-[188/48] bg-transparent rounded-[0.417vw] hover:bg-[#5AB0BB]/20 hover:scale-[102%] transition-all duration-700 ease-in-out " +
+            "flex flex-row justify-center items-center w-[9.792vw] gap-x-[0.26vw] mt-[4vw] aspect-[188/48] bg-transparent rounded-[0.417vw] hover:bg-[#5AB0BB]/20 hover:scale-[102%] transition-all duration-700 ease-in-out " +
             styles.ButtonShadow
           }
         >
