@@ -3,7 +3,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 export default function PortoSection() {
   return (
-    <section className="w-full min-h-screen relative  flex flex-row justify-center items-center bg-white-MainPage">
+    <section className="w-full min-h-screen relative  flex flex-row justify-center items-center bg-white-MainPage border-b-[0.104vw] border-[#E6ECF0] gap-y-[2.083vw]">
       <div className="flex flex-col justify-center items-center">
         <div className="text-neutral-g text-[2.3vw] font-SourceSansProBold flex justify-center ">
           Our Work in Action
