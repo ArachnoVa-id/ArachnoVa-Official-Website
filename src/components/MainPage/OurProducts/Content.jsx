@@ -6,13 +6,13 @@ import { BsFillCaretLeftFill } from "react-icons/bs";
 import { BsFillCaretRightFill } from "react-icons/bs";
 import { useSwiper } from "swiper/react";
 
-const Content = ({ data }) => {
+const Content = ({ data, totalSlide }) => {
   const swiper = useSwiper();
   const [currentSlide, setCurrentSlide] = useState(0);
   const sliderRef = useRef(null);
 
   const handleNext = () => {
-    if (currentSlide < 2) {
+    if (currentSlide < totalSlide) {
       setCurrentSlide(currentSlide + 1);
     } else {
       setCurrentSlide(0);
@@ -23,7 +23,7 @@ const Content = ({ data }) => {
     if (currentSlide > 0) {
       setCurrentSlide(currentSlide - 1);
     } else {
-      setCurrentSlide(2);
+      setCurrentSlide(totalSlide);
     }
   };
 
