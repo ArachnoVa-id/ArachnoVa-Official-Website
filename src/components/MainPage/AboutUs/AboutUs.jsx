@@ -1,10 +1,11 @@
+import BorderSeparator from "../BorderSeparator/BorderSeparator";
 import styles from "./AboutUs.module.css";
 import { FaArrowRight } from "react-icons/fa";
 
 const AboutUs = () => {
   return (
     <>
-      <section className="w-full min-h-[33.125vw] flex flex-col justify-center items-center bg-white-MainPage border-b-[0.104vw] border-[#E6ECF0] gap-y-[2.083vw]">
+      <section className="relative w-full min-h-[33.125vw] flex flex-col justify-center items-center bg-white-MainPage gap-y-[2.083vw]">
         <div className="w-fit flex flex-row justify-center items-center gap-x-[3.333vw]">
           <div
             className={
@@ -56,6 +57,7 @@ const AboutUs = () => {
           </p>
           <FaArrowRight className="text-[#24AAA7] w-[1.25vw] aspect-[1/1]" />
         </button>
+        <BorderSeparator />
       </section>
     </>
   );

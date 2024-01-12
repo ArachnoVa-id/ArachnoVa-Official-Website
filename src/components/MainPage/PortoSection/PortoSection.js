@@ -1,9 +1,10 @@
+import BorderSeparator from "../BorderSeparator/BorderSeparator";
 import styles from "./PortoSection.module.css";
 import { FaArrowRight } from "react-icons/fa";
 
 export default function PortoSection() {
   return (
-    <section className="w-full min-h-screen relative  flex flex-row justify-center items-center bg-white-MainPage border-b-[0.104vw] border-[#E6ECF0] gap-y-[2.083vw]">
+    <section className="w-full min-h-screen relative  flex flex-row justify-center items-center bg-white-MainPage gap-y-[2.083vw]">
       <div className="flex flex-col justify-center items-center">
         <div className="text-neutral-g text-[2.3vw] font-SourceSansProBold flex justify-center ">
           Our Work in Action
@@ -65,6 +66,7 @@ export default function PortoSection() {
           <FaArrowRight className="text-[#24AAA7] w-[1.25vw] aspect-[1/1]" />
         </button>
       </div>
+      <BorderSeparator />
     </section>
   );
 }
