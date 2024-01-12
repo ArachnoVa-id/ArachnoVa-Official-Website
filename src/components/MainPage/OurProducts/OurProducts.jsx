@@ -1,10 +1,11 @@
+import BorderSeparator from "../BorderSeparator/BorderSeparator";
 import Content from "./Content";
 import Description from "./Description";
 
 const OurProducts = () => {
   return (
     <>
-      <section className="flex w-full min-h-[103.021vw] justify-around items-center bg-white-MainPage">
+      <section className="relative flex flex-col w-full min-h-[103.021vw] justify-around items-center bg-white-MainPage">
         <div className="flex flex-col w-fit h-[88.958vw] justify-between items-center bg-transparent">
           <div className="flex flex-col w-[19vw] items-center justify-center gap-y-[0.625vw]">
             <p className="font-SourceSansProBold text-[1.302vw] bg-clip-text text-transparent bg-gradient-to-r from-[#0893D4] via-[#44C4D9] to-[#159E8D]">
@@ -52,6 +53,7 @@ const OurProducts = () => {
             />
           </div>
         </div>
+        <BorderSeparator />
       </section>
     </>
   );
