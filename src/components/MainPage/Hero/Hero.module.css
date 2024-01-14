@@ -1,15 +1,25 @@
 @keyframes spin_words {
-    0%, 100% {
+    10%{
+        transform: translateY(-112%);
+    }
+    25%{
         transform: translateY(-100%);
     }
-    10%, 90% {
-        transform: translateY(0);
+    35%{
+        transform: translateY(-212%);
     }
-    100% {
-        transform: translateY(100%);
+    50%{
+        transform: translateY(-200%);
     }
+    60%{
+        transform: translateY(-312%);
+    }
+    75%{
+        transform: translateY(-300%);
+    }
+    
 }
 
 .animate-movingImagination {
-    animation: spin_words 4s ease-in-out infinite;
+    animation: spin_words 1s ease-in-out infinite;
 }
