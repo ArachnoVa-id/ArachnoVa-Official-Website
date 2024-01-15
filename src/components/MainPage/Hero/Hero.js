@@ -14,11 +14,14 @@ export default function Hero() {
           </div>
           <div className="text-neutral-g font-SourceSansProBold text-[2vw]/[2.5vw]">
             <div className="text-[2vw] ">Your Web Design Partner</div>
-            <div className="overflow-clip relative flex flex-col items-center justify-center h-[2.8vw]">
-              <div className="animate-movingImagination ">
-                <div className="text-[2.8vw] ">Dependable</div>
+            <div className="overflow-clip  flex items-center justify-center h-[2.8vw] gap-[0.5vw]">
+              <div className="text-[2.8vw]">
+                Always
+              </div>
+              <div className="flex-col animate-swap_words gap-[4vw] ">
+                <div className="text-[2.8vw] mb-[2vw] ">Dependable</div>
                 <div className="text-[2.8vw] ">Delivered</div>
-                <div className="text-[2.8vw] ">Distinctive</div>
+                <div className="text-[2.8vw] mt-[2vw]">Distinctive</div>
               </div>
             </div>
           </div>

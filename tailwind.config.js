@@ -40,18 +40,15 @@ module.exports = {
         "LightBlue-d": "#179FB5",
         "LightBlue-e": "#158B9E",
       },
-      keyframes : {
-        spin_words: {
-          "0%": { transform: "translateY(0%)" },
-          "20%": { transform: "translateY(0%)" },
-          "30%": { transform: "translateY(50%)" },
-          "70%": { transform: "translateY(50%)" },
-          "80%": { transform: "translateY(0%)" },
-          "100%": { transform: "translateY(0%)" },
+      keyframes: {
+        swap_words: {
+          "0%, 100%": { transform: "translateY(-37%)" },
+          "33.33%": { transform: "translateY(0%)" },
+          "66.66%": { transform: "translateY(37%)" },
         },
       },
-      animation: {
-        movingImagination: "spin_words 4s ease-in-out infinite",
+      animation:{
+        swap_words:"swap_words 12s ease-in-out infinite"
       }
     },
   },
