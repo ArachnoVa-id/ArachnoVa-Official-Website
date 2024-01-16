@@ -55,7 +55,7 @@ const AboutUs = () => {
           <p className="font-InterBold text-[0.833vw] bg-clip-text text-transparent bg-gradient-to-r from-[#0893D4] via-[#44C4D9] to-[#159E8D]">
             Get to know more
           </p>
-          <FaArrowRight className="text-[#24AAA7] w-[1.25vw] aspect-[1/1]" />
+          <FaArrowRight className="text-[#24AAA7]" size="1.25vw" />
         </button>
         <BorderSeparator />
       </section>
