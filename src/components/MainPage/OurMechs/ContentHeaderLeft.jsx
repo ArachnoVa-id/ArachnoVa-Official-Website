@@ -1,6 +1,6 @@
 const ContentHeaderLeft = ({ Title, Icon }) => {
   return (
-    <div className="w-[16.042vw] flex flex-row justify-between items-center">
+    <div className="w-[16.042vw] flex flex-row justify-between items-center mt-[0.781vw]">
       {Icon}
       <p className="font-SourceSansProBold text-neutral-g text-[1.25vw]">
         {Title}

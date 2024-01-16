@@ -1,9 +1,9 @@
+import { BsBugFill } from "react-icons/bs";
+import { FaScrewdriverWrench } from "react-icons/fa6";
+import { FaArchive } from "react-icons/fa";
 import Content from "./Content";
-import { IoCall } from "react-icons/io5";
-import { IoChatbubbles } from "react-icons/io5";
-import { IoFolder } from "react-icons/io5";
 
-const FirstTouchPoint = () => {
+const FutureTouchPoints = () => {
   return (
     <div className="relative w-[31.458vw] h-[31.354vw] flex flex-col justify-center items-center">
       <img
@@ -13,25 +13,22 @@ const FirstTouchPoint = () => {
         draggable="false"
       />
       <Content
-        Title="Contact Us"
+        Title="Problem Fixing"
         List={
           <>
             <li>Lorem ipsum dolor sit amet consectetur. </li>
-            <li>
-              At tempor massa integer porttitor egestas vitae turpis nisi neque.
-            </li>
-            <li>Vitae varius lorem neque ante eu pretium volutpat nunc.</li>
+            <li>At tempor massa integer porttitor </li>
           </>
         }
         Icon={
           <>
-            <IoCall size="1.042vw" className="text-[#0893D4]" />
+            <BsBugFill size="1.042vw" className="text-[#0893D4]" />
           </>
         }
-        Position="absolute left-0 top-0 z-[10]"
+        Position="absolute left-[3.646vw] top-0 z-[10]"
       />
       <Content
-        Title="Consultation"
+        Title="Upgrading"
         List={
           <>
             <li>Lorem ipsum dolor sit amet consectetur. </li>
@@ -41,12 +38,12 @@ const FirstTouchPoint = () => {
             <li>Vitae varius lorem neque ante eu pretium volutpat nunc.</li>
           </>
         }
-        Icon={<IoChatbubbles size="1.042vw" className="text-[#0893D4]" />}
-        Position="absolute top-[9.583vw] left-[13.177vw] z-[20]"
+        Icon={<FaScrewdriverWrench size="1.042vw" className="text-[#0893D4]" />}
+        Position="absolute top-[9.167vw] right-0 z-[20]"
         Variant="Left"
       />
       <Content
-        Title="Pre-Execution"
+        Title="More Projects"
         List={
           <>
             <li>Lorem ipsum dolor sit amet consectetur. </li>
@@ -56,11 +53,11 @@ const FirstTouchPoint = () => {
             <li>Vitae varius lorem neque ante eu pretium volutpat nunc.</li>
           </>
         }
-        Icon={<IoFolder size="1.042vw" className="text-[#0893D4]" />}
-        Position="absolute left-[2.969vw] bottom-0 z-[30]"
+        Icon={<FaArchive size="1.042vw" className="text-[#0893D4]" />}
+        Position="absolute right-[7.865vw] bottom-[0] z-[30]"
       />
     </div>
   );
 };
 
-export default FirstTouchPoint;
+export default FutureTouchPoints;

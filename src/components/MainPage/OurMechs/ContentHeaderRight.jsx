@@ -1,6 +1,6 @@
 const ContentHeaderRight = ({ Title, Icon }) => {
   return (
-    <div className="w-[16.042vw] flex flex-row justify-between items-center">
+    <div className="w-[16.042vw] flex flex-row justify-between items-center mt-[0.781vw]">
       <div className="flex flex-row w-[3.125vw] justify-between">
         <div
           className="w-[0.729vw] aspect-[1/1] rounded-full"

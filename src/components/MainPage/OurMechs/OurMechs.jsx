@@ -4,9 +4,45 @@ import Container from "./Container";
 import { useState } from "react";
 import { FaHandshake } from "react-icons/fa6";
 import FirstTouchPoint from "./FirstTouchPoint";
+import ProjectExecution from "./ProjectExecution";
+import FutureTouchPoints from "./FutureTouchPoints";
+import FinishingProject from "./FinishingProject";
 
 const OurMechs = () => {
   const [firstTouchPoint, setFirstTouchPoint] = useState(true);
+  const [projectExecution, setProjectExecution] = useState(false);
+  const [finishingTheProject, setFinishingTheProject] = useState(false);
+  const [futureTouchPoints, setFutureTouchPoints] = useState(false);
+
+  const handleFirstTouchPoint = () => {
+    setFirstTouchPoint(true);
+    setProjectExecution(false);
+    setFinishingTheProject(false);
+    setFutureTouchPoints(false);
+  };
+
+  const handleProjectExecution = () => {
+    setFirstTouchPoint(false);
+    setProjectExecution(true);
+    setFinishingTheProject(false);
+    setFutureTouchPoints(false);
+  };
+
+  const handleFinishingTheProject = () => {
+    setFirstTouchPoint(false);
+    setProjectExecution(false);
+    setFinishingTheProject(true);
+    setFutureTouchPoints(false);
+  };
+
+  const handleFutureTouchPoints = () => {
+    setFirstTouchPoint(false);
+    setProjectExecution(false);
+    setFinishingTheProject(false);
+    setFutureTouchPoints(true);
+
+    console.log("Future Touch Points Displayed");
+  };
   return (
     <section className="flex flex-col w-full min-h-[59.74vw] justify-center items-center bg-white-MainPage">
       <div className="w-[70.521vw] h-[44.792vw] flex flex-col gap-y-[2.083vw]">
@@ -36,6 +72,8 @@ const OurMechs = () => {
                   alt="icon"
                 />
               }
+              State={firstTouchPoint}
+              OnClick={handleFirstTouchPoint}
             />
             <Container
               Title="Project Execution"
@@ -48,6 +86,8 @@ const OurMechs = () => {
                   alt="icon"
                 />
               }
+              State={projectExecution}
+              OnClick={handleProjectExecution}
             />
             <Container
               Title="Finishing the Project"
@@ -60,6 +100,8 @@ const OurMechs = () => {
                   alt="icon"
                 />
               }
+              State={finishingTheProject}
+              OnClick={handleFinishingTheProject}
             />
             <Container
               Title="Future Touch Points"
@@ -72,12 +114,35 @@ const OurMechs = () => {
                   alt="icon"
                 />
               }
+              State={futureTouchPoints}
+              Clicked={handleFutureTouchPoints}
             />
           </div>
           <>
             {firstTouchPoint ? (
               <>
                 <FirstTouchPoint />
+              </>
+            ) : (
+              ""
+            )}
+            {projectExecution ? (
+              <>
+                <ProjectExecution />
+              </>
+            ) : (
+              ""
+            )}
+            {finishingTheProject ? (
+              <>
+                <FinishingProject />
+              </>
+            ) : (
+              ""
+            )}
+            {futureTouchPoints ? (
+              <>
+                <FutureTouchPoints />
               </>
             ) : (
               ""

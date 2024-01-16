@@ -1,9 +1,9 @@
 import Content from "./Content";
-import { IoCall } from "react-icons/io5";
-import { IoChatbubbles } from "react-icons/io5";
-import { IoFolder } from "react-icons/io5";
+import { BsFillCloudArrowUpFill } from "react-icons/bs";
+import { BsBoxFill } from "react-icons/bs";
+import { FaLaptopCode } from "react-icons/fa";
 
-const FirstTouchPoint = () => {
+const FinishingProject = () => {
   return (
     <div className="relative w-[31.458vw] h-[31.354vw] flex flex-col justify-center items-center">
       <img
@@ -13,7 +13,7 @@ const FirstTouchPoint = () => {
         draggable="false"
       />
       <Content
-        Title="Contact Us"
+        Title="Deployment"
         List={
           <>
             <li>Lorem ipsum dolor sit amet consectetur. </li>
@@ -25,28 +25,25 @@ const FirstTouchPoint = () => {
         }
         Icon={
           <>
-            <IoCall size="1.042vw" className="text-[#0893D4]" />
+            <BsFillCloudArrowUpFill size="1.042vw" className="text-[#0893D4]" />
           </>
         }
-        Position="absolute left-0 top-0 z-[10]"
+        Position="absolute left-[7.031vw] top-0 z-[10]"
       />
       <Content
-        Title="Consultation"
+        Title="Handover"
         List={
           <>
             <li>Lorem ipsum dolor sit amet consectetur. </li>
-            <li>
-              At tempor massa integer porttitor egestas vitae turpis nisi neque.
-            </li>
-            <li>Vitae varius lorem neque ante eu pretium volutpat nunc.</li>
+            <li>At tempor massa integer porttitor </li>
           </>
         }
-        Icon={<IoChatbubbles size="1.042vw" className="text-[#0893D4]" />}
-        Position="absolute top-[9.583vw] left-[13.177vw] z-[20]"
+        Icon={<BsBoxFill size="1.042vw" className="text-[#0893D4]" />}
+        Position="absolute top-[10.104vw] -left-[0.729vw] z-[20]"
         Variant="Left"
       />
       <Content
-        Title="Pre-Execution"
+        Title="Maintenance"
         List={
           <>
             <li>Lorem ipsum dolor sit amet consectetur. </li>
@@ -56,11 +53,11 @@ const FirstTouchPoint = () => {
             <li>Vitae varius lorem neque ante eu pretium volutpat nunc.</li>
           </>
         }
-        Icon={<IoFolder size="1.042vw" className="text-[#0893D4]" />}
-        Position="absolute left-[2.969vw] bottom-0 z-[30]"
+        Icon={<FaLaptopCode size="1.042vw" className="text-[#0893D4]" />}
+        Position="absolute right-[2.031vw] bottom-[2.604vw] z-[30]"
       />
     </div>
   );
 };
 
-export default FirstTouchPoint;
+export default FinishingProject;

@@ -1,10 +1,10 @@
 import { IoCall } from "react-icons/io5";
 import ContentHeader from "./ContentHeader";
 
-const Content = ({ Title, Icon, List, Variant }) => {
+const Content = ({ Title, Icon, List, Variant, Position }) => {
   return (
     <div
-      className="w-[18.281vw] h-[11.563vw] flex flex-col justify-center items-center border-solidn rounded-[0.833vw] border-[0.104vw] border-white gap-y-[0.938vw] z-[10]"
+      className={`${Position} w-[18.281vw] h-[11.563vw] flex flex-col items-center border-solid rounded-[0.833vw] border-[0.104vw] border-white z-[10]`}
       style={{ background: "rgba(241, 245, 249, 0.50)" }}
     >
       <ContentHeader Title={Title} Icon={Icon} Variant={Variant} />
