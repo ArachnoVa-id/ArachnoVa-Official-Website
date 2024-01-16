@@ -42,13 +42,13 @@ module.exports = {
       },
       keyframes: {
         swap_words: {
-          "0%, 100%": { transform: "translateY(-37%)" },
+          "0%, 100%": { transform: "translateY(-40%)" },
           "33.33%": { transform: "translateY(0%)" },
-          "66.66%": { transform: "translateY(37%)" },
+          "66.66%": { transform: "translateY(40%)" },
         },
       },
       animation:{
-        swap_words:"swap_words 12s ease-in-out infinite"
+        swap_words:"swap_words 6s ease-in-out infinite"
       }
     },
   },

@@ -40,8 +40,8 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="bg-transparent backdrop-blur-lg w-[28vw] h-[18vw] rounded-lg border-2 border-[#F1F5F9] relative font-ConsolasRegular ">
-          <div className="absolute w-[23vw] h-[5vw] bg-white rounded-md -bottom-[3vw] -right-[4vw] text-[1vw] flex justify-center items-center border-2 border-[#E2E8F0] font-ConsolasBold ">
+        <div className="bg-transparent backdrop-blur-lg w-[28vw] h-[18vw] rounded-lg border-2 border-[#F1F5F9]  relative font-ConsolasRegular ">
+          <div className="absolute w-[23vw] h-[5vw] bg-white opacity-50 rounded-md -bottom-[3vw] -right-[4vw] text-[1vw] flex justify-center items-center border-2 border-[#E2E8F0] font-ConsolasBold ">
             <img
               alt=""
               src="/image/Hero/3ColorButton.png"
