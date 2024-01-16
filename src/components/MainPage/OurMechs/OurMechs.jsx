@@ -19,6 +19,8 @@ const OurMechs = () => {
     setProjectExecution(false);
     setFinishingTheProject(false);
     setFutureTouchPoints(false);
+
+    console.log("First Touch Point Displayed");
   };
 
   const handleProjectExecution = () => {
@@ -26,6 +28,8 @@ const OurMechs = () => {
     setProjectExecution(true);
     setFinishingTheProject(false);
     setFutureTouchPoints(false);
+
+    console.log("Project Execution Displayed");
   };
 
   const handleFinishingTheProject = () => {
@@ -33,6 +37,8 @@ const OurMechs = () => {
     setProjectExecution(false);
     setFinishingTheProject(true);
     setFutureTouchPoints(false);
+
+    console.log("Finishing the Project Displayed");
   };
 
   const handleFutureTouchPoints = () => {
@@ -73,7 +79,7 @@ const OurMechs = () => {
                 />
               }
               State={firstTouchPoint}
-              OnClick={handleFirstTouchPoint}
+              Clicked={handleFirstTouchPoint}
             />
             <Container
               Title="Project Execution"
@@ -87,7 +93,7 @@ const OurMechs = () => {
                 />
               }
               State={projectExecution}
-              OnClick={handleProjectExecution}
+              Clicked={handleProjectExecution}
             />
             <Container
               Title="Finishing the Project"
@@ -101,7 +107,7 @@ const OurMechs = () => {
                 />
               }
               State={finishingTheProject}
-              OnClick={handleFinishingTheProject}
+              Clicked={handleFinishingTheProject}
             />
             <Container
               Title="Future Touch Points"
