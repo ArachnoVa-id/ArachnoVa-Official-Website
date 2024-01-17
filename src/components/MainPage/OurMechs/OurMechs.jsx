@@ -7,6 +7,7 @@ import FirstTouchPoint from "./FirstTouchPoint";
 import ProjectExecution from "./ProjectExecution";
 import FutureTouchPoints from "./FutureTouchPoints";
 import FinishingProject from "./FinishingProject";
+import BorderSeparator from "../BorderSeparator/BorderSeparator";
 
 const OurMechs = () => {
   const [firstTouchPoint, setFirstTouchPoint] = useState(true);
@@ -50,7 +51,7 @@ const OurMechs = () => {
     console.log("Future Touch Points Displayed");
   };
   return (
-    <section className="flex flex-col w-full min-h-[59.74vw] justify-center items-center bg-white-MainPage">
+    <section className="relative flex flex-col w-full min-h-[59.74vw] justify-center items-center bg-white-MainPage">
       <div className="w-[70.521vw] h-[44.792vw] flex flex-col gap-y-[2.083vw]">
         <div className="w-[28.385vw] flex flex-col">
           <p className="font-SourceSansProBold text-[1.042vw] bg-clip-text text-transparent bg-gradient-to-r from-[#0893D4] via-[#44C4D9] to-[#159E8D]">
@@ -156,6 +157,7 @@ const OurMechs = () => {
           </>
         </div>
       </div>
+      <BorderSeparator />
     </section>
   );
 };
