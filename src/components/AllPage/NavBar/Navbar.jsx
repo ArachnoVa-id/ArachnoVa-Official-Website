@@ -8,7 +8,7 @@ const Navbar = () => {
       <nav className="fixed z-[100] py-[0.938vw] px-[15vw] w-screen flex items-center justify-between bg-transparent backdrop-blur-[0.208vw] border-b-[0.104vw] border-[#E6ECF0]">
         <div className="flex items-center flex-row">
           <ul className="flex items-center gap-x-[3.125vw]">
-            <a href="#">
+            <a href="/">
               <img
                 className="w-[3.281vw] aspect-[69/53] hover:scale-110 transition-all duration-300 ease-in-out"
                 src="/image/Logo.png"
