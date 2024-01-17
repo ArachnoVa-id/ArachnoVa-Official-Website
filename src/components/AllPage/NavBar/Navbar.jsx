@@ -18,7 +18,7 @@ const Navbar = () => {
             </a>
 
             <NavItem Menu="Projects" href="#" />
-            <NavItem Menu="Services" href="#" />
+            <NavItem Menu="Services" href="/services" />
             <NavItem Menu="About" href="#" />
           </ul>
         </div>
