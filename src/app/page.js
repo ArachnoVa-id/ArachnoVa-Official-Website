@@ -5,6 +5,8 @@ import AboutUs from "@/components/MainPage/AboutUs/AboutUs";
 import OurProducts from "@/components/MainPage/OurProducts/OurProducts";
 import CTA from "@/components/MainPage/CTA";
 import OurMechs from "@/components/MainPage/OurMechs/OurMechs";
+import HeroProjects from "@/components/Projects/HeroProjects";
+import PortoLustrumDTETI from "@/components/Projects/PortoLustrumDTETI";
 
 export default function Home() {
   return (
@@ -18,3 +20,4 @@ export default function Home() {
     </>
   );
 }
+
