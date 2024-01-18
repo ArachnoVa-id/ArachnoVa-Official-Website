@@ -32,7 +32,7 @@ const Content = ({ data, totalSlide }) => {
   }, [currentSlide]);
   return (
     <>
-      <div className="flex justify-around items-center w-[40.729vw] h-[20.833vw]">
+      <div className="flex justify-around items-center w-[40.729vw] h-[20.833vw] z-10">
         <BsFillCaretLeftFill
           size="2.083vw"
           className="text-neutral-c cursor-pointer"
