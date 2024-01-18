@@ -22,16 +22,19 @@ const ServicesHero = () => {
           Title="Landing Page"
           Description="Lorem ipsum dolor sit amet consectetur. Suspendisse quis ut vitae bibendum mattis. Dapibus."
           src="/image/OurServices/ServicesHero/icon-landingpage.png"
+          href="#ServicesLandingPage"
         />
         <ServiceCard
           Title="Profiling Page"
           Description="Lorem ipsum dolor sit amet consectetur. Suspendisse quis ut vitae bibendum mattis. Dapibus."
           src="/image/OurServices/ServicesHero/icon-profilingpage.png"
+          href="#ServicesProfilingPage"
         />
         <ServiceCard
           Title="Custom Web"
           Description="Lorem ipsum dolor sit amet consectetur. Suspendisse quis ut vitae bibendum mattis. Dapibus."
           src="/image/OurServices/ServicesHero/icon-customweb.png"
+          href="#ServicesCustomWeb"
         />
       </div>
     </section>
