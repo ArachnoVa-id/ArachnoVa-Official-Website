@@ -1,7 +1,7 @@
 const HeroProjects = () => {
   return (
     <section className="w-full min-h-screen flex flex-col items-center justify-center bg-neutral-a">
-      <div className="text-black flex flex-col justify-center items-center mt-[4vw]">
+      <div className="text-black flex flex-col justify-center items-center mt-[4vw] text-[2.3vw]/[2.2vw]">
         <div className="text-[1.6vw] font-SourceSansProBold bg-clip-text text-transparent bg-gradient-to-r from-[#0893D4] to-[#159E8D]">
           Unleashing Digital Excellence
         </div>
