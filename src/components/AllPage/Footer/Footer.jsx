@@ -18,9 +18,9 @@ const Footer = () => {
           <div className="flex flex-col ml-[1.979vw] gap-y-[0.521vw]">
             <div className="flex items-center">
               <ul className="flex flex-row gap-x-[2.135vw]">
-                <FooterItem Items="Projects" href="#" />
-                <FooterItem Items="Services" href="#" />
-                <FooterItem Items="About" href="#" />
+                <FooterItem Items="Projects" href="/projects" />
+                <FooterItem Items="Services" href="/services" />
+                <FooterItem Items="About" href="/aboutus" />
               </ul>
             </div>
             <div className="flex flex-row items-center justify-center">
