@@ -17,7 +17,7 @@ const ServicesHero = () => {
           Elevate Your Potential with Our Expertise
         </h1>
       </div>
-      <div className="flex flex-row w-[72.917vw] justify-around">
+      <div className="flex flex-row w-[72.917vw] h-[26.042vw] justify-around items-center">
         <ServiceCard
           Title="Landing Page"
           Description="Lorem ipsum dolor sit amet consectetur. Suspendisse quis ut vitae bibendum mattis. Dapibus."

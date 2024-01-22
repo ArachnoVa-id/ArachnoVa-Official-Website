@@ -4,7 +4,8 @@ const ServiceCard = ({ src, Title, Description, href }) => {
   return (
     <a
       href={href}
-      className="relative w-[19.792vw] aspect-[400/480] flex flex-col p-[2.083vw] bg-neutral-a border-solid border-[0.156vw] border-[##E2E8F0] rounded-[1.302vw] z-[20] text-neutral-e hover:text-LightBlue-c hover:scale-[103%] transition-all duration-300 ease-in-out"
+      className="relative w-[19.792vw] h-[23.958vw] aspect-[400/480] flex flex-col p-[2.083vw] bg-neutral-a border-solid border-[0.156vw] border-[##E2E8F0] rounded-[1.302vw] z-[20] text-neutral-e hover:text-LightBlue-c hover:w-[21.513vw] hover:h-[25.679vw] transition-all duration-500 ease-in-out"
+      style={{ boxShadow: "0px 9px 20px -3px rgba(0, 0, 0, 0.15)" }}
     >
       <img
         className="w-[4.479vw] aspect-[1/1]"
