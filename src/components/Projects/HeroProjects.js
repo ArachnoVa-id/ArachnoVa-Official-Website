@@ -10,7 +10,9 @@ const HeroProjects = () => {
         </div>
       </div>
       <div className="relative bg-gradient-to-r from-[#2DC0D8] to-[#179FB5] rounded-xl w-[70vw] h-[30vw] flex flex-col justify-end items-center mt-[10vw]">
-        <div className="font-SourceSansProBold text-[1.7vw]">Lustrum XII DTETI FT UGM</div>
+        <div className="font-SourceSansProBold text-[1.7vw]">
+          Lustrum XII DTETI FT UGM
+        </div>
         <div className="w-[60vw] text-center font-SourceSansProSemibold mb-[3vw] ">
           Lorem ipsum dolor sit amet consectetur. Tincidunt lectus leo diam id
           turpis urna pellentesque. Lorem turpis lectus magna purus laoreet
@@ -20,16 +22,13 @@ const HeroProjects = () => {
           nulla.
         </div>
         <div className="absolute -top-[8vw] w-[50vw] h-[50vh] ">
-        <img
-        alt=""
-        src="/image/Porto/HeroEnfo.png"
-        className="absolute w-full h-full rounded-xl  "
-        draggable="false"
-      />
-            
-
+          <img
+            alt=""
+            src="/image/Porto/HeroEnfo.png"
+            className="absolute w-full h-full rounded-xl  "
+            draggable="false"
+          />
         </div>
-        
       </div>
     </section>
   );
