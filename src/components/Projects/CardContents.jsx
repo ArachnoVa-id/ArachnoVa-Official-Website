@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { useSwiper } from "swiper/react";
 
 const CardContents = ({ title, description, image }) => {
@@ -9,7 +9,7 @@ const CardContents = ({ title, description, image }) => {
         <img
           alt=""
           src="/image/Projects/LeftArrow.png"
-          className="absolute w-[4vw] h-[4vw] -left-[2vw] top-[24vh] "
+          className="absolute w-[4vw] h-[4vw] left-[2vw] top-[24vh] "
           draggable="false"
         />
       </div>
@@ -17,7 +17,7 @@ const CardContents = ({ title, description, image }) => {
         <img
           alt=""
           src="/image/Projects/RightArrow.png"
-          className="absolute w-[4vw] h-[4vw] -right-[2vw] top-[24vh] "
+          className="absolute w-[4vw] h-[4vw] right-[2vw] top-[24vh] "
           draggable="false"
         />
       </div>

@@ -20,9 +20,9 @@ export default function Slider() {
         return (
           <SwiperSlide key={index}>
             <CardContents
-            title={data.title[index]}
-            description={data.description[index]}
-            image={data.image[index]}
+              title={data.title[index]}
+              description={data.description[index]}
+              image={data.image[index]}
             />
           </SwiperSlide>
         );
