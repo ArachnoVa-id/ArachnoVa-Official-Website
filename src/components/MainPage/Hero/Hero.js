@@ -1,10 +1,16 @@
 export default function Hero() {
   return (
-    <section className="w-full min-h-screen relative max-lg:bg-transparent lg:bg-neutral-a flex flex-row justify-center items-center">
+    <section className="w-full min-h-screen relative bg-transparent lg:bg-neutral-a flex flex-row justify-center items-center">
       <img
         alt=""
         src="/image/Hero/HeroBG.png"
-        className="absolute w-full h-full -z-[1]   "
+        className="absolute w-full h-full -z-[1] max-lg:hidden"
+        draggable="false"
+      />
+      <img
+        alt=""
+        src="/image/Hero/HeroBGMobile.png"
+        className="absolute w-full h-full -z-[1] lg:hidden"
         draggable="false"
       />
 
@@ -120,10 +126,10 @@ export default function Hero() {
           <div className="">Strand of Code</div>
         </div>
 
-        <button className="w-[80vw] h-[8vw] mt-[4vw] bg-gradient-to-r from-[#2DC0D8] to-[#179FB5] font-InterBold text-white rounded-md text-[3vw] flex justify-center items-center hover:translate-y-[-0.208vw] transition-all duration-500 ease-in-out ">
+        <button className="w-[80vw] h-[8vw] mt-[4vw] my-[2.5vw] bg-gradient-to-r from-[#2DC0D8] to-[#179FB5] font-InterBold text-white rounded-md text-[3vw] flex justify-center items-center hover:translate-y-[-0.208vw] transition-all duration-500 ease-in-out ">
           Start Your Project
         </button>
-        <button className="w-[80vw] h-[8vw] bg-transparent  rounded-md text-[3vw] flex justify-center items-center hover:translate-y-[-0.208vw] transition-all duration-500 ease-in-out hover:bg-[#cae8ee] ">
+        <button className="w-[80vw] h-[8vw] bg-transparent mb-[2.5vw] rounded-md text-[3vw] flex justify-center items-center hover:translate-y-[-0.208vw] transition-all duration-500 ease-in-out hover:bg-[#cae8ee] ">
           <div className="bg-clip-text text-transparent bg-gradient-to-r from-[#0893D4] to-[#159E8D] font-InterBold">
             Discover Our Services
           </div>
