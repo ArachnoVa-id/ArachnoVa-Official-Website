@@ -51,8 +51,8 @@ const OurMechs = () => {
     console.log("Future Touch Points Displayed");
   };
   return (
-    <section className="relative flex flex-col w-full min-h-[59.74vw] justify-center items-center bg-white-MainPage">
-      <div className="w-[70.521vw] h-[44.792vw] flex flex-col gap-y-[2.083vw]">
+    <section className="relative flex flex-col w-full lg:min-h-[59.74vw] min-h-[885.581vw] justify-center items-center bg-white-MainPage">
+      <div className="w-[70.521vw] h-[44.792vw] hidden lg:flex flex-col gap-y-[2.083vw]">
         <div className="w-[28.385vw] flex flex-col">
           <p className="font-SourceSansProBold text-[1.042vw] bg-clip-text text-transparent bg-gradient-to-r from-[#0893D4] via-[#44C4D9] to-[#159E8D]">
             Simple Steps, Remarkable Solutions
@@ -157,6 +157,37 @@ const OurMechs = () => {
           </>
         </div>
       </div>
+      {/* Mobile Version */}
+      <div className="w-fit h-fit flex items-center flex-col lg:hidden">
+        <div className="w-[90.698vw] lg:hidden flex flex-col">
+          <p className="font-SourceSansProBold text-[4.186vw] bg-clip-text text-transparent bg-gradient-to-r from-[#0893D4] via-[#44C4D9] to-[#159E8D]">
+            Simple Steps, Remarkable Solutions
+          </p>
+          <h1 className="font-SourceSansProBold text-[6.977vw] text-neutral-g leading-[6.977vw] mt-[0.521vw]">
+            How Our Mechanism Can <br /> Help You Build Your Dream Website
+          </h1>
+          <p className="font-SourceSansProSemibold text-[4.186vw] text-neutral-e mt-[1.042vw]">
+            Dengan ArachnoVa, Anda dapat membangun situs web impian Anda.
+            Mekanisme kami sederhana dan efektif, Anda memberi tahu kami apa
+            yang Anda inginkan, dan kami mewujudkannya
+          </p>
+        </div>
+        <Container
+          Title="First Touch Point"
+          Description="Lorem ipsum dolor sit amet consectetur. Consequat gravida libero tortor vulputate morbi."
+          Icon={
+            <img
+              src="/image/OurMechs/icon-1.png"
+              className="w-[6.512vw] aspect-[21/17]"
+              draggable="false"
+              alt="icon"
+            />
+          }
+          Mobile="hidden"
+        />
+        <FirstTouchPoint />
+      </div>
+
       <BorderSeparator />
     </section>
   );
