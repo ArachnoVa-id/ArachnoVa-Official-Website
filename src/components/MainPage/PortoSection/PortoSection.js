@@ -21,13 +21,13 @@ export default function PortoSection() {
         <div className="relative py-[2vw]">
           <div className="w-[53vw] h-[53vh] bg-transparent border-[1.2vw] border-[#E2E8F0] mr-[3vw] rounded-md flex flex-col overflow-y-scroll no-scrollbar  ">
             <img
-              alt=""
+              alt="Content layer"
               src="/image/Porto/HeroEnfo.png"
               className="w-full h-screen"
               draggable="false"
             />
             <img
-              alt=""
+              alt="Content layer"
               src="/image/Porto/AboutUsEnfo.png"
               className="w-full h-screen"
               draggable="false"
@@ -35,19 +35,19 @@ export default function PortoSection() {
           </div>
           <div className="absolute w-[15vw] h-[44vh] bg-black border-[1.2vw] border-[#E2E8F0] rounded-md -bottom-[4vh] -right-[4vw] flex flex-col overflow-y-scroll no-scrollbar  ">
             <img
-              alt=""
+              alt="Content layer Mobile"
               src="/image/Porto/HeroEnforianMobile.png"
               className="w-full h-screen"
               draggable="false"
             />
             <img
-              alt=""
+              alt="Content layer Mobile"
               src="/image/Porto/TeaserEnfo.png"
               className="w-full h-screen"
               draggable="false"
             />
             <img
-              alt=""
+              alt="Content layer Mobile"
               src="/image/Porto/AboutUsEnfoMobile.png"
               className="w-full h-screen"
               draggable="false"
@@ -83,13 +83,13 @@ export default function PortoSection() {
         </div>
         <div className="w-[80vw] h-[45vw] mt-[2vw] bg-transparent border-[2.2vw] border-[#E2E8F0]  rounded-md flex flex-col overflow-y-scroll no-scrollbar  ">
           <img
-            alt=""
+            alt="Content layer "
             src="/image/Porto/HeroEnfo.png"
             className="w-full h-screen"
             draggable="false"
           />
           <img
-            alt=""
+            alt="Content layer "
             src="/image/Porto/AboutUsEnfo.png"
             className="w-full h-screen"
             draggable="false"
@@ -98,19 +98,19 @@ export default function PortoSection() {
 
         <div className="w-[40vw] h-[70vw] mt-[3vw] bg-black border-[2.2vw] border-[#E2E8F0] rounded-md -bottom-[4vh] -right-[4vw] flex flex-col overflow-y-scroll no-scrollbar  ">
           <img
-            alt=""
+            alt="Content layer Mobile"
             src="/image/Porto/HeroEnforianMobile.png"
             className="w-full h-screen"
             draggable="false"
           />
           <img
-            alt=""
+            alt="Content layer Mobile"
             src="/image/Porto/TeaserEnfo.png"
             className="w-full h-screen"
             draggable="false"
           />
           <img
-            alt=""
+            alt="Content layer Mobile"
             src="/image/Porto/AboutUsEnfoMobile.png"
             className="w-full h-screen"
             draggable="false"

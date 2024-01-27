@@ -17,7 +17,7 @@ export default function PortoLustrumDTETI() {
 
         <div className="w-[40vw] h-[40vh]">
           <img
-            alt=""
+            alt="Content Prototype"
             src="/image/Porto/HeroEnfo.png"
             className=" w-full h-full rounded-xl  "
             draggable="false"
@@ -32,7 +32,7 @@ export default function PortoLustrumDTETI() {
         </h1>
         <div className="w-[90vw] h-[50vw]">
           <img
-            alt=""
+            alt="Content Prototype"
             src="/image/Porto/HeroEnfo.png"
             className=" w-full h-full rounded-xl  "
             draggable="false"

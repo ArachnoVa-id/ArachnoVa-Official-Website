@@ -3,7 +3,7 @@ export default function CTAProjects() {
     <section className="w-full h-[60vh] relative flex flex-row justify-center items-center bg-neutral-a">
       <div className="w-[65vw] h-[17.5vw] relative bg-transparent rounded-xl flex flex-col justify-center items-center max-lg:hidden">
         <img
-          alt=""
+          alt="Content layer "
           src="/image/CTA/BGCTAProjects.png"
           className=" w-full h-full z-[1] absolute  "
           draggable="false"
@@ -18,7 +18,7 @@ export default function CTAProjects() {
 
       <div className="w-[90vw] h-[70.5vw] relative bg-transparent rounded-xl flex flex-col justify-center items-center lg:hidden">
         <img
-          alt=""
+          alt="Content layer Mobile"
           src="/image/CTA/BGCTAProjectsMobile.png"
           className=" w-full h-full z-[1] absolute  "
           draggable="false"

@@ -2,13 +2,13 @@ export default function Hero() {
   return (
     <section className="w-full min-h-screen relative bg-transparent flex flex-row justify-center items-center">
       <img
-        alt=""
+        alt="Background"
         src="/image/Hero/HeroBG.png"
         className="absolute w-full h-full -z-[1] max-lg:hidden"
         draggable="false"
       />
       <img
-        alt=""
+        alt="Background"
         src="/image/Hero/HeroBGMobile.png"
         className="absolute w-full h-full -z-[1] lg:hidden"
         draggable="false"
