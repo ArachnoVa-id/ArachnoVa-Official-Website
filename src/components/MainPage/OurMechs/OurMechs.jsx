@@ -158,8 +158,8 @@ const OurMechs = () => {
         </div>
       </div>
       {/* Mobile Version */}
-      <div className="w-fit h-fit flex items-center flex-col lg:hidden">
-        <div className="w-[90.698vw] lg:hidden flex flex-col">
+      <div className="w-fit h-fit flex items-center flex-col lg:hidden gap-y-[13.953vw]">
+        <div className="w-[90.698vw] lg:hidden flex flex-col gap-y-[1.86vw]">
           <p className="font-SourceSansProBold text-[4.186vw] bg-clip-text text-transparent bg-gradient-to-r from-[#0893D4] via-[#44C4D9] to-[#159E8D]">
             Simple Steps, Remarkable Solutions
           </p>
@@ -172,22 +172,72 @@ const OurMechs = () => {
             yang Anda inginkan, dan kami mewujudkannya
           </p>
         </div>
-        <Container
-          Title="First Touch Point"
-          Description="Lorem ipsum dolor sit amet consectetur. Consequat gravida libero tortor vulputate morbi."
-          Icon={
-            <img
-              src="/image/OurMechs/icon-1.png"
-              className="w-[6.512vw] aspect-[21/17]"
-              draggable="false"
-              alt="icon"
+        <div className="flex flex-col w-fit h-[763.721vw] justify-between items-center">
+          <div className="flex flex-col w-fit h-fit justify-center items-center">
+            <Container
+              Title="First Touch Point"
+              Description="Lorem ipsum dolor sit amet consectetur. Consequat gravida libero tortor vulputate morbi."
+              Icon={
+                <img
+                  src="/image/OurMechs/icon-1.png"
+                  className="w-[6.512vw] aspect-[21/17]"
+                  draggable="false"
+                  alt="icon"
+                />
+              }
             />
-          }
-          Mobile="hidden"
-        />
-        <FirstTouchPoint />
-      </div>
+            <FirstTouchPoint />
+          </div>
 
+          <div className="flex flex-col w-fit h-fit justify-center items-center">
+            <Container
+              Title="Project Execution"
+              Description="Lorem ipsum dolor sit amet consectetur. Consequat gravida libero tortor vulputate morbi."
+              Icon={
+                <img
+                  src="/image/OurMechs/icon-2.png"
+                  className="w-[6.512vw] aspect-[1/1]"
+                  draggable="false"
+                  alt="icon"
+                />
+              }
+            />
+            <ProjectExecution />
+          </div>
+
+          <div className="flex flex-col w-fit h-fit justify-center items-center">
+            <Container
+              Title="Finishing the Project"
+              Description="Lorem ipsum dolor sit amet consectetur. Consequat gravida libero tortor vulputate morbi."
+              Icon={
+                <img
+                  src="/image/OurMechs/icon-3.png"
+                  className="w-[6.512vw] aspect-[1/1]"
+                  draggable="false"
+                  alt="icon"
+                />
+              }
+            />
+            <FinishingProject />
+          </div>
+
+          <div className="flex flex-col w-fit h-fit justify-center items-center">
+            <Container
+              Title="Future Touch Points"
+              Description="Lorem ipsum dolor sit amet consectetur. Consequat gravida libero tortor vulputate morbi."
+              Icon={
+                <img
+                  src="/image/OurMechs/icon-4.png"
+                  className="w-[6.047vw] aspect-[1/1]"
+                  draggable="false"
+                  alt="icon"
+                />
+              }
+            />
+            <FutureTouchPoints />
+          </div>
+        </div>
+      </div>
       <BorderSeparator />
     </section>
   );
