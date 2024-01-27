@@ -15,7 +15,7 @@ export default function Slider() {
   };
 
   return (
-    <Swiper height={720} spaceBetween={30} slidesPerView={1} loop={true}>
+    <Swiper height={720} spaceBetween={40} slidesPerView={1} loop={true}>
       {data.title.map(function (item, index) {
         return (
           <SwiperSlide key={index}>
