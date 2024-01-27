@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="w-full min-h-screen relative bg-transparent lg:bg-neutral-a flex flex-row justify-center items-center">
+    <section className="w-full min-h-screen relative bg-transparent flex flex-row justify-center items-center">
       <img
         alt=""
         src="/image/Hero/HeroBG.png"
