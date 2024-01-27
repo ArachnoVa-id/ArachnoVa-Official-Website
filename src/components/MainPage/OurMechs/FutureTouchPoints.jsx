@@ -77,6 +77,7 @@ const FutureTouchPoints = () => {
               <BsBugFill size="5.581vw" className="text-[#0893D4]" />
             </>
           }
+          Variant="Left"
         />
         <Content
           Title="Upgrading"
@@ -93,7 +94,6 @@ const FutureTouchPoints = () => {
           Icon={
             <FaScrewdriverWrench size="5.581vw" className="text-[#0893D4]" />
           }
-          Variant="Left"
         />
         <Content
           Title="More Projects"
@@ -108,6 +108,7 @@ const FutureTouchPoints = () => {
             </>
           }
           Icon={<FaArchive size="5.581vw" className="text-[#0893D4]" />}
+          Variant="Left"
         />
       </div>
     </>

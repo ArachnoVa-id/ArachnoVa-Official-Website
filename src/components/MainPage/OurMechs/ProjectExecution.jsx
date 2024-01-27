@@ -23,7 +23,7 @@ const ProjectExecution = () => {
           }
           Icon={
             <>
-              <IoIosPeople size="1.042vw" className="text-[#0893D4]" />
+              <IoIosPeople size="1.542vw" className="text-[#0893D4]" />
             </>
           }
           Position="absolute right-0 top-0 z-[10]"
@@ -56,7 +56,7 @@ const ProjectExecution = () => {
               <li>Vitae varius lorem neque ante eu pretium volutpat nunc.</li>
             </>
           }
-          Icon={<IoSettings size="1.042vw" className="text-[#0893D4]" />}
+          Icon={<IoSettings size="1.242vw" className="text-[#0893D4]" />}
           Position="absolute right-[2.031vw] bottom-[2.604vw] z-[30]"
         />
       </div>
@@ -81,6 +81,7 @@ const ProjectExecution = () => {
               <IoIosPeople size="7.674vw" className="text-[#0893D4]" />
             </>
           }
+          Variant="Left"
         />
         <Content
           Title="Aggrement"
@@ -95,7 +96,6 @@ const ProjectExecution = () => {
             </>
           }
           Icon={<IoIosArchive size="5.814vw" className="text-[#0893D4]" />}
-          Variant="Left"
         />
         <Content
           Title="Production"
@@ -110,6 +110,7 @@ const ProjectExecution = () => {
             </>
           }
           Icon={<IoSettings size="5.581vw" className="text-[#0893D4]" />}
+          Variant="Left"
         />
       </div>
     </>
