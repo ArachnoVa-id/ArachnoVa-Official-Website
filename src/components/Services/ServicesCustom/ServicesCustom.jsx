@@ -5,7 +5,7 @@ const ServicesCustomWeb = () => {
   return (
     <div
       id="ServicesCustomWeb"
-      className="w-full min-h-[39.531vw] flex flex-col justify-start items-center bg-white-MainPage"
+      className="w-full lg:min-h-[39.531vw] min-h-[175.349vw] flex flex-col lg:justify-start justify-center items-center bg-white-MainPage"
     >
       <ServicesContainer
         Title="Custom Web"
