@@ -26,11 +26,11 @@ const CardContents = ({ title, description, image }) => {
         <div className="w-[60vw] text-center font-SourceSansProSemibold mb-[3vw] ">
           {description}
         </div>
-        <div className="absolute -top-[8vw] w-[45vw] h-[45vh] ">
+        <div className="absolute -top-[8vw] w-[50vw] aspect-[1187/573]  ">
           <img
             alt="Image "
             src={image}
-            className="absolute w-full h-full rounded-xl  "
+            className="absolute w-full h-full  "
             draggable="false"
           />
         </div>

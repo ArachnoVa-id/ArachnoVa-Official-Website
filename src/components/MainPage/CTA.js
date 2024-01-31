@@ -10,11 +10,11 @@ export default function CTA() {
 
       {/* Desktop */}
       <div className="flex flex-col justify-center items-center max-lg:hidden">
-        <div className="text-neutral-g font-SourceSansProBold text-[3vw]/[3vw] flex flex-col justify-center items-center">
+        <div className="text-neutral-g font-SourceSansProBold text-[2.396vw]/[2.4vw] flex flex-col justify-center items-center">
           <p>Ready to Transform Your Digital Presence ? </p>
           <p>Let's Start Crafting Your Website Today</p>
         </div>
-        <button className="bg-black w-[20vw] h-[2.5vw] rounded-lg font-SourceSansProSemibold mt-[3vw] text-[1.5vw] hover:bg-neutral-e duration-500">
+        <button className="bg-black w-[13.646vw] aspect-[262/54] rounded-lg font-SourceSansProSemibold mt-[3vw] text-[1.042vw] hover:bg-neutral-e duration-500">
           Start Your Project
         </button>
       </div>

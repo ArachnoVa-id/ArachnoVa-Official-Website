@@ -19,21 +19,23 @@ export default function PortoSection() {
           Massa scelerisque egestas egestas dictum ut velit feugiat.
         </div>
         <div className="relative py-[2vw]">
-          <div className="w-[53vw] h-[53vh] bg-transparent border-[1.2vw] border-[#E2E8F0] mr-[3vw] rounded-md flex flex-col overflow-y-scroll no-scrollbar  ">
-            <img
-              alt="Content layer"
-              src="/image/Porto/HeroEnfo.png"
-              className="w-full h-screen"
-              draggable="false"
-            />
-            <img
-              alt="Content layer"
-              src="/image/Porto/AboutUsEnfo.png"
-              className="w-full h-screen"
-              draggable="false"
-            />
+          <div className="border-[#E2E8F0] border-[0.2vw] rounded-md ">
+            <div className="w-[53vw] h-[53vh] bg-transparent border-[1vw] border-[#FBFCFD] rounded-md flex flex-col overflow-y-scroll no-scrollbar  ">
+              <img
+                alt="Content layer"
+                src="/image/Porto/HeroEnfo.png"
+                className="w-full h-screen"
+                draggable="false"
+              />
+              <img
+                alt="Content layer"
+                src="/image/Porto/AboutUsEnfo.png"
+                className="w-full h-screen"
+                draggable="false"
+              />
+            </div>
           </div>
-          <div className="absolute w-[15vw] h-[44vh] bg-black border-[1.2vw] border-[#E2E8F0] rounded-md -bottom-[4vh] -right-[4vw] flex flex-col overflow-y-scroll no-scrollbar  ">
+          <div className="absolute w-[15vw] h-[44vh] border-[0.7vw] bg-[#E2E8F0] rounded-md -bottom-[4vh] -right-[4vw] flex flex-col overflow-y-scroll no-scrollbar  ">
             <img
               alt="Content layer Mobile"
               src="/image/Porto/HeroEnforianMobile.png"

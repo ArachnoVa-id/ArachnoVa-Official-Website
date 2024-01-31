@@ -22,12 +22,16 @@ export default function Hero() {
           </div>
           <div className="text-neutral-g font-SourceSansProBold text-[2vw]/[2.5vw]">
             <div className="text-[2vw] ">Your Web Design Partner</div>
-            <div className="overflow-clip  flex items-center justify-center h-[2.8vw] gap-[0.5vw]">
+            <div className="overflow-clip  flex items-center justify-center h-[2.8vw] gap-[0.5vw] leading-none">
               <div className="text-[2.8vw]">Always</div>
-              <div className="flex-col animate-swap_words gap-[4vw] ">
-                <div className="text-[2.8vw] mb-[2vw] ">Dependable</div>
-                <div className="text-[2.8vw] ">Delivered</div>
-                <div className="text-[2.8vw] mt-[2vw]">Distinctive</div>
+              <div className="flex-col  gap-[4vw] h-full w-full -translate-y-full overflow-visible ">
+                <div className="text-[2.8vw] animate-swap_words">
+                  Dependable
+                </div>
+                <div className="text-[2.8vw] animate-swap_words">Delivered</div>
+                <div className="text-[2.8vw] animate-swap_words">
+                  Distinctive
+                </div>
               </div>
             </div>
           </div>
@@ -47,7 +51,7 @@ export default function Hero() {
         </div>
 
         <div className="bg-transparent backdrop-blur-lg w-[28vw] h-[18vw] rounded-lg border-2 border-[#F1F5F9]  relative font-ConsolasRegular ">
-          <div className="absolute w-[23vw] h-[5vw] bg-white opacity-50 rounded-md -bottom-[3vw] -right-[4vw] text-[1vw] flex justify-center items-center border-2 border-[#E2E8F0] font-ConsolasBold ">
+          <div className="absolute w-[23vw] h-[5vw] bg-white opacity-90 rounded-md -bottom-[3vw] -right-[4vw] text-[1vw]  flex justify-center items-center border-2 border-[#E2E8F0] font-ConsolasBold ">
             <img
               alt=""
               src="/image/Hero/3ColorButton.png"
@@ -111,12 +115,12 @@ export default function Hero() {
 
         <div className="text-neutral-g items-center justify-center font-SourceSansProBold text-[2vw]/[6vw]">
           <div className="text-[7vw] mx-[5vw]   ">Your Web Design Partner</div>
-          <div className="overflow-clip  flex items-center justify-center h-[10.2vw] gap-[2vw]">
+          <div className="overflow-clip  flex items-center justify-center h-[9.8vw] gap-[2vw]  leading-none">
             <div className="text-[9.8vw]">Always</div>
-            <div className="flex-col animate-swap_words gap-[4vw] text-[9.8vw] ">
-              <div className=" mb-[8vw] ">Dependable</div>
-              <div className=" ">Delivered</div>
-              <div className=" mt-[8vw]">Distinctive</div>
+            <div className="flex-col gap-[4vw] text-[9.8vw] gap-y-[2vw] ">
+              <div className=" animate-swap_words ">Dependable</div>
+              <div className=" animate-swap_words ">Delivered</div>
+              <div className=" animate-swap_words">Distinctive</div>
             </div>
           </div>
         </div>
@@ -135,22 +139,22 @@ export default function Hero() {
           </div>
         </button>
 
-        <div className="bg-transparent backdrop-blur-lg w-[80vw] h-[50vw] rounded-lg border-2 border-[#F1F5F9]  relative font-ConsolasRegular ">
-          <div className="absolute w-[60vw] h-[10vw]  bg-white opacity-50 rounded-md -bottom-[3vw] -right-[4vw] text-[3vw] flex justify-center items-center border-2 border-[#E2E8F0] font-ConsolasBold  ">
+        <div className="bg-transparent backdrop-blur-lg w-[80vw] h-[60vw] rounded-lg border-2 border-[#F1F5F9]  relative font-ConsolasRegular ">
+          <div className="absolute w-[60vw] h-[13vw]  bg-white opacity-90 rounded-md -bottom-[6vw] -right-[4vw] text-[3vw] border-2 border-[#E2E8F0] font-ConsolasBold  ">
             <img
               alt=""
               src="/image/Hero/3ColorButton.png"
-              className="w-[3vw] h-[1vw] top-[0.4vw] left-[0.7vw] absolute"
+              className="w-[10  vw] h-[3vw] top-[0.9vw] left-[0.7vw] absolute"
               draggable="false"
             />
-            <div className="flex gap-x-[0.4vw] pt-[1vw]">
-              <span className="text-[#8131B2]">@arachnova</span>
-              <span className="text-[#0151EC]">official-site</span>
-              <span className="text-[#1CA7BD]">@</span>
-              npm run dev
+            <div className="flex justify-center items-center text-[2.6vw] gap-x-[1.4vw] pt-[5vw]">
+              <div className="text-[#8131B2]">@arachnova</div>
+              <div className="text-[#0151EC]">official-site</div>
+              <div className="text-[#1CA7BD]">@</div>
+              <div className="text-neutral-g">npm run dev</div>
             </div>
           </div>
-          <div className="px-[1vw] py-[4vw] text-[3vw]/[3vw] relative">
+          <div className="px-[1vw] py-[4vw] text-[3vw]/[4vw] relative">
             <img
               alt=""
               src="/image/Hero/3ColorButton.png"

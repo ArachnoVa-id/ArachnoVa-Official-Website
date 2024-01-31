@@ -9,9 +9,9 @@ export default function Slider() {
     title: ["Lustrum DTETI XII", "KPU FT"],
     description: [
       "Lorem ipsum dolor sit amet consectetur. Tincidunt lectus leo diam id turpis urna pellentesque. Lorem turpis lectus magna purus laoreet accumsan velit nibh. Malesuada lacus sed auctor neque lacus sed ullamcorper. Augue amet egestas ornare at suspendisse. Nibh orci pellentesque in massa imperdiet ipsum tristique purus. Gravida eget nulla.",
-      "Lorem ipsum dolor sit amet consectetur. Tincidunt lectus leo diam id turpis urna pellentesque. Lorem turpis lectus magna purus laoreet accumsan velit nibh. Malesuada lacus sed auctor neque lacus sed ullamcorper. Augue amet egestas ornare at suspendisse. Nibh orci pellentesque in massa imperdiet ipsum tristique purus. Gravida eget nulla.",
+      "Tincidunt lectus leo diam id turpis urna pellentesque. Lorem ipsum dolor sit amet consectetur.  Lorem turpis lectus magna purus laoreet accumsan velit nibh. Malesuada lacus sed auctor neque lacus sed ullamcorper. Augue amet egestas ornare at suspendisse. Nibh orci pellentesque in massa imperdiet ipsum tristique purus. Gravida eget nulla.",
     ],
-    image: ["/image/Porto/HeroEnfo.png", "/image/Porto/HeroEnfo.png"],
+    image: ["/image/Porto/PortoLustrum.png", "/image/Porto/PortoKPUFT.png"],
   };
 
   return (
