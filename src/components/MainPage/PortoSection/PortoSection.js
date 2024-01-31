@@ -18,9 +18,9 @@ export default function PortoSection() {
           nunc leo eget natoque vitae. Urna ut vestibulum id nisl vel nunc.
           Massa scelerisque egestas egestas dictum ut velit feugiat.
         </div>
-        <div className="relative py-[2vw]">
-          <div className="border-[#E2E8F0] border-[0.2vw] rounded-md ">
-            <div className="w-[53vw] h-[53vh] bg-transparent border-[1vw] border-[#FBFCFD] rounded-md flex flex-col overflow-y-scroll no-scrollbar  ">
+        <div className="relative py-[2vw] ">
+          <div className="border-[#E2E8F0] border-[0.2vw] rounded-[0.781vw] ">
+            <div className="aspect-[1008/588]  w-[52.500vw] bg-transparent border-[1vw] rounded-[0.781vw] border-[#FBFCFD] flex flex-col overflow-y-scroll no-scrollbar  ">
               <img
                 alt="Content layer"
                 src="/image/Porto/HeroEnfo.png"
@@ -35,7 +35,7 @@ export default function PortoSection() {
               />
             </div>
           </div>
-          <div className="absolute w-[15vw] h-[44vh] border-[0.7vw] bg-[#E2E8F0] rounded-md -bottom-[4vh] -right-[4vw] flex flex-col overflow-y-scroll no-scrollbar  ">
+          <div className="absolute aspect-[303/514] w-[15.781vw] border-[0.7vw] bg-[#E2E8F0] rounded-[0.521vw] -bottom-[4vh] -right-[8vw] flex flex-col overflow-y-scroll no-scrollbar  ">
             <img
               alt="Content layer Mobile"
               src="/image/Porto/HeroEnforianMobile.png"

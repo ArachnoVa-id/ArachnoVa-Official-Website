@@ -39,10 +39,10 @@ export default function Hero() {
             Crafting Digital Presence in Every Strand of Code
           </div>
           <div className="py-[2vh] flex gap-[1vw]">
-            <button className="w-[8vw] h-[4vh] bg-gradient-to-r from-[#2DC0D8] to-[#179FB5] font-InterBold text-white rounded-md text-[0.8vw] flex justify-center items-center hover:translate-y-[-0.208vw] transition-all duration-500 ease-in-out ">
+            <button className="aspect-[167/46] w-[8.698vw] rounded-[0.4vw] bg-gradient-to-r from-[#2DC0D8] to-[#179FB5] font-InterBold text-white text-[0.8vw] flex justify-center items-center hover:translate-y-[-0.208vw] transition-all duration-500 ease-in-out ">
               Start Your Project
             </button>
-            <button className="w-[10vw] h-[4vh] bg-transparent  rounded-md text-[0.8vw] flex justify-center items-center hover:translate-y-[-0.208vw] transition-all duration-500 ease-in-out hover:bg-[#cae8ee] ">
+            <button className="aspect-[197/48] w-[10.26vw] rounded-[0.4vw] bg-transparent text-[0.8vw] flex justify-center items-center hover:translate-y-[-0.208vw] transition-all duration-500 ease-in-out hover:bg-[#cae8ee] ">
               <div className="bg-clip-text text-transparent bg-gradient-to-r from-[#0893D4] to-[#159E8D] font-InterBold">
                 Discover Our Services
               </div>
@@ -50,8 +50,8 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="bg-transparent backdrop-blur-lg w-[28vw] h-[18vw] rounded-lg border-2 border-[#F1F5F9]  relative font-ConsolasRegular ">
-          <div className="absolute w-[23vw] h-[5vw] bg-white opacity-90 rounded-md -bottom-[3vw] -right-[4vw] text-[1vw]  flex justify-center items-center border-2 border-[#E2E8F0] font-ConsolasBold ">
+        <div className="bg-transparent backdrop-blur-lg aspect-[537/366] w-[27.969vw] rounded-lg border-2 border-[#F1F5F9]  relative font-ConsolasRegular ">
+          <div className="absolute aspect-[419/96] w-[21.823vw] bg-white opacity-90 rounded-[0.625vw] -bottom-[3vw] -right-[4vw] text-[1vw]  flex justify-center items-center border-2 border-[#E2E8F0] font-ConsolasBold ">
             <img
               alt=""
               src="/image/Hero/3ColorButton.png"

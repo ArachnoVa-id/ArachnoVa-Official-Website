@@ -53,7 +53,7 @@ module.exports = {
         },
       },
       animation:{
-        swap_words:"swap_words 7s linear infinite "
+        swap_words:"swap_words 5s linear infinite "
       }
     },
   },
