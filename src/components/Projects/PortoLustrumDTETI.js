@@ -15,11 +15,11 @@ export default function PortoLustrumDTETI() {
           </button>
         </div>
 
-        <div className="w-[40vw] h-[40vh]">
+        <div className="w-[40vw] h-[40vh] aspect-[1187/573]">
           <img
             alt="Content Prototype"
-            src="/image/Porto/HeroEnfo.png"
-            className=" w-full h-full rounded-xl  "
+            src="/image/Porto/PortoLustrum.png"
+            className=" w-full h-full  "
             draggable="false"
           />
         </div>

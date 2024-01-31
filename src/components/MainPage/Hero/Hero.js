@@ -22,12 +22,12 @@ export default function Hero() {
           </div>
           <div className="text-neutral-g font-SourceSansProBold text-[2vw]/[2.5vw]">
             <div className="text-[2vw] ">Your Web Design Partner</div>
-            <div className="overflow-clip  flex items-center justify-center h-[2.8vw] gap-[0.5vw]">
+            <div className="overflow-clip  flex items-center justify-center h-[2.8vw] gap-[0.5vw] leading-none">
               <div className="text-[2.8vw]">Always</div>
-              <div className="flex-col animate-swap_words gap-[4vw] ">
-                <div className="text-[2.8vw] mb-[2vw] ">Dependable</div>
-                <div className="text-[2.8vw] ">Delivered</div>
-                <div className="text-[2.8vw] mt-[2vw]">Distinctive</div>
+              <div className="flex-col  gap-[4vw] h-full w-full -translate-y-full overflow-visible ">
+                <div className="text-[2.8vw] animate-swap_words">Dependable</div>
+                <div className="text-[2.8vw] animate-swap_words">Delivered</div>
+                <div className="text-[2.8vw] animate-swap_words">Distinctive</div>
               </div>
             </div>
           </div>
