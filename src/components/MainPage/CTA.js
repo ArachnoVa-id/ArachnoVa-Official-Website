@@ -14,7 +14,7 @@ export default function CTA() {
           <p>Ready to Transform Your Digital Presence ? </p>
           <p>Let's Start Crafting Your Website Today</p>
         </div>
-        <button className="bg-black w-[13.646vw] aspect-[262/54] rounded-lg font-SourceSansProSemibold mt-[3vw] text-[1.042vw] hover:bg-neutral-e duration-500">
+        <button className="bg-black w-[13.646vw] aspect-[262/54] rounded-[0.260vw] font-SourceSansProSemibold mt-[3vw] text-[1.042vw] hover:bg-neutral-e duration-500">
           Start Your Project
         </button>
       </div>

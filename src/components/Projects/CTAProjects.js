@@ -11,7 +11,7 @@ export default function CTAProjects() {
         <h1 className="text-neutral-a font-SourceSansProBold text-[2.5vw] z-[2]">
           Get Inspired? Create Yours Now!
         </h1>
-        <button className="bg-black w-[20vw] h-[2.5vw] z-[2] rounded-lg font-SourceSansProSemibold mt-[1vw] text-[1.5vw] hover:bg-neutral-e duration-500">
+        <button className="bg-black w-[13.646vw] aspect-[262/54] z-[2] rounded-[0.260vw] font-SourceSansProSemibold mt-[1vw] text-[1.042vw] hover:bg-neutral-e duration-500">
           Start Your Project
         </button>
       </div>
