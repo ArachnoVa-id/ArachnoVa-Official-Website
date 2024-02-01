@@ -1,6 +1,7 @@
 import BorderSeparator from "../BorderSeparator/BorderSeparator";
 import styles from "./PortoSection.module.css";
 import { FaArrowRight } from "react-icons/fa";
+import Image from "next/image";
 
 export default function PortoSection() {
   return (
@@ -21,38 +22,48 @@ export default function PortoSection() {
         <div className="relative py-[2vw] ">
           <div className="border-[#E2E8F0] border-[0.2vw] rounded-[0.781vw] ">
             <div className="aspect-[1008/588]  w-[52.500vw] bg-transparent border-[1vw] rounded-[0.781vw] border-[#FBFCFD] flex flex-col overflow-y-scroll no-scrollbar  ">
-              <img
+              <Image
                 alt="Content layer"
                 src="/image/Porto/HeroEnfo.png"
                 className="w-full h-screen"
                 draggable="false"
+                width={1000}
+                height={1000}
               />
-              <img
+              <Image
                 alt="Content layer"
                 src="/image/Porto/AboutUsEnfo.png"
                 className="w-full h-screen"
                 draggable="false"
+                width={1000}
+                height={1000}
               />
             </div>
           </div>
           <div className="absolute aspect-[303/514] w-[15.781vw] border-[0.7vw] bg-[#E2E8F0] rounded-[0.521vw] -bottom-[4vh] -right-[8vw] flex flex-col overflow-y-scroll no-scrollbar  ">
-            <img
+            <Image
               alt="Content layer Mobile"
               src="/image/Porto/HeroEnforianMobile.png"
               className="w-full h-screen"
               draggable="false"
+              width={1000}
+              height={1000}
             />
-            <img
+            <Image
               alt="Content layer Mobile"
               src="/image/Porto/TeaserEnfo.png"
               className="w-full h-screen"
               draggable="false"
+              width={1000}
+              height={1000}
             />
-            <img
+            <Image
               alt="Content layer Mobile"
               src="/image/Porto/AboutUsEnfoMobile.png"
               className="w-full h-screen"
               draggable="false"
+              width={1000}
+              height={1000}
             />
           </div>
         </div>
@@ -71,7 +82,7 @@ export default function PortoSection() {
       </div>
 
       {/* Mobile */}
-      <div className="flex flex-col justify-center items-center lg:hidden">
+      <div className="flex flex-col justify-center items-center lg:hidden aspect-[430/1101]">
         <div className="text-neutral-g text-[8vw] font-SourceSansProBold flex justify-center ">
           Our Work in Action
         </div>
@@ -83,39 +94,49 @@ export default function PortoSection() {
           nunc leo eget natoque vitae. Urna ut vestibulum id nisl vel nunc.
           Massa scelerisque egestas egestas dictum ut velit feugiat.
         </div>
-        <div className="w-[80vw] h-[45vw] mt-[2vw] bg-transparent border-[2.2vw] border-[#E2E8F0]  rounded-md flex flex-col overflow-y-scroll no-scrollbar  ">
-          <img
+        <div className="w-[90.698vw] aspect-[390/228] mt-[2vw] bg-transparent border-[2.2vw] border-[#E2E8F0]  rounded-md flex flex-col overflow-y-scroll no-scrollbar  ">
+          <Image
             alt="Content layer "
             src="/image/Porto/HeroEnfo.png"
             className="w-full h-screen"
             draggable="false"
+            width={1000}
+            height={1000}
           />
-          <img
+          <Image
             alt="Content layer "
             src="/image/Porto/AboutUsEnfo.png"
             className="w-full h-screen"
             draggable="false"
+            width={1000}
+            height={1000}
           />
         </div>
 
-        <div className="w-[40vw] h-[70vw] mt-[3vw] bg-black border-[2.2vw] border-[#E2E8F0] rounded-md -bottom-[4vh] -right-[4vw] flex flex-col overflow-y-scroll no-scrollbar  ">
-          <img
+        <div className="w-[60.465vw] mt-[3vw] aspect-[260/438] bg-black border-[2.2vw] border-[#E2E8F0] rounded-md -bottom-[4vh] -right-[4vw] flex flex-col overflow-y-scroll no-scrollbar  ">
+          <Image
             alt="Content layer Mobile"
             src="/image/Porto/HeroEnforianMobile.png"
             className="w-full h-screen"
             draggable="false"
+            width={1000}
+            height={1000}
           />
-          <img
+          <Image
             alt="Content layer Mobile"
             src="/image/Porto/TeaserEnfo.png"
             className="w-full h-screen"
             draggable="false"
+            width={1000}
+            height={1000}
           />
-          <img
+          <Image
             alt="Content layer Mobile"
             src="/image/Porto/AboutUsEnfoMobile.png"
             className="w-full h-screen"
             draggable="false"
+            width={1000}
+            height={1000}
           />
         </div>
       </div>
