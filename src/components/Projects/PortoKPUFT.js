@@ -22,7 +22,7 @@ export default function KPUFT() {
             adipiscing adipiscing sed vitae.
           </p>
           <div className="flex justify-end">
-            <button className="w-[6vw] h-[4vh] mt-[1vw] bg-gradient-to-r from-[#2DC0D8] to-[#179FB5] font-InterBold text-white rounded-md text-[0.8vw] flex justify-center items-center hover:translate-y-[-0.208vw] transition-all duration-500 ease-in-out  ">
+            <button className="w-[4.688vw] mt-[1vw] bg-gradient-to-r rounded-[0.5vw] text-[0.833vw] aspect-[90/48] from-[#2DC0D8] to-[#179FB5] font-InterBold text-white flex justify-center items-center hover:translate-y-[-0.208vw] transition-all duration-500 ease-in-out ">
               Source
             </button>
           </div>
