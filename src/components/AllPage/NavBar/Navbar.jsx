@@ -15,12 +15,15 @@ const Navbar = () => {
 				<div className="flex items-center flex-row">
 					<ul className="lg:flex items-center gap-x-[3.125vw] hidden">
 						<a href="/">
-							<img
-								className="w-[3.281vw] aspect-[69/53] hover:scale-110 transition-all duration-300 ease-in-out"
-								src="/image/Logo.png"
-								draggable="false"
-								alt="logo"
-							/>
+							<div className="relative w-[3.281vw] aspect-[69/53] hover:scale-110 transition-all duration-300 ease-in-out">
+								<Image
+									src="/image/Logo.png"
+									draggable="false"
+									alt="logo"
+									fill
+									className="object-contain"
+								/>
+							</div>
 						</a>
 
 						<NavItem Menu="Projects" href="/projects" />
@@ -28,12 +31,15 @@ const Navbar = () => {
 						<NavItem Menu="About" href="/aboutus" />
 					</ul>
 					<a href="/">
-						<img
-							className="lg:hidden w-[10.465vw] aspect-[45/33] hover:scale-110 transition-all duration-300 ease-in-out"
-							src="/image/Logo.png"
-							draggable="false"
-							alt="logo"
-						/>
+						<div className="relative lg:hidden w-[10.465vw] aspect-[45/33] hover:scale-110 transition-all duration-300 ease-in-out">
+							<Image
+								src="/image/Logo.png"
+								draggable="false"
+								alt="logo"
+								fill
+								className="object-contain"
+							/>
+						</div>
 					</a>
 				</div>
 				<div className="w-fit h-fit block lg:hidden">

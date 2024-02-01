@@ -2,17 +2,21 @@ import Content from "./Content";
 import { IoCall } from "react-icons/io5";
 import { IoChatbubbles } from "react-icons/io5";
 import { IoFolder } from "react-icons/io5";
+import Image from "next/image";
 
 const FirstTouchPoint = () => {
 	return (
 		<>
 			<div className="relative w-[31.458vw] h-[31.354vw] lg:flex hidden flex-col justify-center items-center">
-				<img
-					src="/image/OurMechs/bg-right.png"
-					className="absolute w-[40vw] aspect-[1037/1070] z-[9] right-[0vw]"
-					alt="bg"
-					draggable="false"
-				/>
+				<div className="absolute w-[55vw] aspect-[1037/1070] z-[9] -right-[10vw] -top-[20vw]">
+					<Image
+						src="/image/OurMechs/bg-right.png"
+						alt="bg"
+						fill
+						className="object-contain"
+						draggable="false"
+					/>
+				</div>
 				<Content
 					Title="Contact Us"
 					List={

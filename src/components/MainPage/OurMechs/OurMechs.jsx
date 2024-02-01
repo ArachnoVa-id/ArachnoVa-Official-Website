@@ -8,6 +8,7 @@ import ProjectExecution from "./ProjectExecution";
 import FutureTouchPoints from "./FutureTouchPoints";
 import FinishingProject from "./FinishingProject";
 import BorderSeparator from "../BorderSeparator/BorderSeparator";
+import Image from "next/image";
 
 const OurMechs = () => {
 	const [firstTouchPoint, setFirstTouchPoint] = useState(true);
@@ -72,12 +73,17 @@ const OurMechs = () => {
 							Title="First Touch Point"
 							Description="Lorem ipsum dolor sit amet consectetur. Consequat gravida libero tortor vulputate morbi."
 							Icon={
-								<img
-									src="/image/OurMechs/icon-1.png"
-									className="w-[2vw] aspect-[21/17]"
-									draggable="false"
-									alt="icon"
-								/>
+								<>
+									<div className="relative w-[2vw] aspect-[21/17]">
+										<Image
+											src="/image/OurMechs/icon-1.png"
+											draggable="false"
+											alt="icon"
+											fill
+											className="object-contain"
+										/>
+									</div>
+								</>
 							}
 							State={firstTouchPoint}
 							Clicked={handleFirstTouchPoint}
@@ -86,12 +92,17 @@ const OurMechs = () => {
 							Title="Project Execution"
 							Description="Lorem ipsum dolor sit amet consectetur. Consequat gravida libero tortor vulputate morbi."
 							Icon={
-								<img
-									src="/image/OurMechs/icon-2.png"
-									className="w-[1.563vw] aspect-[1/1]"
-									draggable="false"
-									alt="icon"
-								/>
+								<>
+									<div className="relative w-[1.563vw] aspect-[1/1]">
+										<Image
+											src="/image/OurMechs/icon-2.png"
+											draggable="false"
+											alt="icon"
+											fill
+											className="object-contain"
+										/>
+									</div>
+								</>
 							}
 							State={projectExecution}
 							Clicked={handleProjectExecution}
@@ -100,12 +111,17 @@ const OurMechs = () => {
 							Title="Finishing the Project"
 							Description="Lorem ipsum dolor sit amet consectetur. Consequat gravida libero tortor vulputate morbi."
 							Icon={
-								<img
-									src="/image/OurMechs/icon-3.png"
-									className="w-[1.563vw] aspect-[1/1]"
-									draggable="false"
-									alt="icon"
-								/>
+								<>
+									<div className="relative w-[1.563vw] aspect-[1/1]">
+										<Image
+											src="/image/OurMechs/icon-3.png"
+											draggable="false"
+											alt="icon"
+											fill
+											className="object-contain"
+										/>
+									</div>
+								</>
 							}
 							State={finishingTheProject}
 							Clicked={handleFinishingTheProject}
@@ -114,12 +130,17 @@ const OurMechs = () => {
 							Title="Future Touch Points"
 							Description="Lorem ipsum dolor sit amet consectetur. Consequat gravida libero tortor vulputate morbi."
 							Icon={
-								<img
-									src="/image/OurMechs/icon-4.png"
-									className="w-[1.563vw] aspect-[1/1]"
-									draggable="false"
-									alt="icon"
-								/>
+								<>
+									<div className="relative w-[1.563vw] aspect-[1/1]">
+										<Image
+											src="/image/OurMechs/icon-4.png"
+											draggable="false"
+											alt="icon"
+											fill
+											className="object-contain"
+										/>
+									</div>
+								</>
 							}
 							State={futureTouchPoints}
 							Clicked={handleFutureTouchPoints}
@@ -174,112 +195,156 @@ const OurMechs = () => {
 				</div>
 				<div className="flex flex-col w-fit h-[763.721vw] justify-between items-center">
 					<div className="relative flex flex-col w-fit h-fit justify-center items-center">
-						<img
-							src="/image/OurMechs/bg-mobile-left.png"
-							className="w-[120.698vw] aspect-[621/632] z-[0] absolute -left-[25vw] -bottom-[10vw]"
-							alt="bg"
-							draggable="false"
-						/>
-						<img
-							src="/image/OurMechs/bg-mobile-right.png"
-							className="w-[120.698vw] aspect-[598/600] z-[0] absolute -right-[25vw] top-[25vw]"
-							alt="bg"
-							draggable="false"
-						/>
+						<div className="w-[120.698vw] aspect-[621/632] z-[0] absolute -left-[30vw] -bottom-[10vw]">
+							<Image
+								src="/image/OurMechs/bg-mobile-left.png"
+								alt="bg"
+								draggable="false"
+								fill
+								className="object-contain"
+							/>
+						</div>
+						<div className="w-[130.698vw] aspect-[598/600] z-[0] absolute -right-[50vw] top-[5vw]">
+							<Image
+								src="/image/OurMechs/bg-mobile-right.png"
+								alt="bg"
+								draggable="false"
+								fill
+								className="object-contain"
+							/>
+						</div>
 						<Container
 							Title="First Touch Point"
 							Description="Lorem ipsum dolor sit amet consectetur. Consequat gravida libero tortor vulputate morbi."
 							Icon={
-								<img
-									src="/image/OurMechs/icon-1.png"
-									className="w-[6.512vw] aspect-[21/17]"
-									draggable="false"
-									alt="icon"
-								/>
+								<>
+									<div className="relative w-[6.512vw] aspect-[21/17]">
+										<Image
+											src="/image/OurMechs/icon-1.png"
+											draggable="false"
+											alt="icon"
+											fill
+											className="object-contain"
+										/>
+									</div>
+								</>
 							}
 						/>
 						<FirstTouchPoint />
 					</div>
 
 					<div className="relative flex flex-col w-fit h-fit justify-center items-center">
-						<img
-							src="/image/OurMechs/bg-mobile-left.png"
-							className="w-[120.698vw] aspect-[621/632] z-[0] absolute -left-[25vw] -bottom-[10vw]"
-							alt="bg"
-							draggable="false"
-						/>
-						<img
-							src="/image/OurMechs/bg-mobile-right.png"
-							className="w-[120.698vw] aspect-[598/600] z-[0] absolute -right-[25vw] top-[25vw]"
-							alt="bg"
-							draggable="false"
-						/>
+						<div className="w-[120.698vw] aspect-[621/632] z-[0] absolute -left-[30vw] -bottom-[10vw]">
+							<Image
+								src="/image/OurMechs/bg-mobile-left.png"
+								alt="bg"
+								draggable="false"
+								fill
+								className="object-contain"
+							/>
+						</div>
+						<div className="w-[130.698vw] aspect-[598/600] z-[0] absolute -right-[50vw] top-[5vw]">
+							<Image
+								src="/image/OurMechs/bg-mobile-right.png"
+								alt="bg"
+								draggable="false"
+								fill
+								className="object-contain"
+							/>
+						</div>
 						<Container
 							Title="Project Execution"
 							Description="Lorem ipsum dolor sit amet consectetur. Consequat gravida libero tortor vulputate morbi."
 							Icon={
-								<img
-									src="/image/OurMechs/icon-2.png"
-									className="w-[6.512vw] aspect-[1/1]"
-									draggable="false"
-									alt="icon"
-								/>
+								<>
+									<div className="relative w-[6.512vw] aspect-[1/1]">
+										<Image
+											src="/image/OurMechs/icon-2.png"
+											draggable="false"
+											alt="icon"
+											fill
+											className="object-contain"
+										/>
+									</div>
+								</>
 							}
 						/>
 						<ProjectExecution />
 					</div>
 
 					<div className="relative flex flex-col w-fit h-fit justify-center items-center">
-						<img
-							src="/image/OurMechs/bg-mobile-left.png"
-							className="w-[120.698vw] aspect-[621/632] z-[0] absolute -left-[25vw] -bottom-[10vw]"
-							alt="bg"
-							draggable="false"
-						/>
-						<img
-							src="/image/OurMechs/bg-mobile-right.png"
-							className="w-[120.698vw] aspect-[598/600] z-[0] absolute -right-[25vw] top-[25vw]"
-							alt="bg"
-							draggable="false"
-						/>
+						<div className="w-[120.698vw] aspect-[621/632] z-[0] absolute -left-[30vw] -bottom-[10vw]">
+							<Image
+								src="/image/OurMechs/bg-mobile-left.png"
+								alt="bg"
+								draggable="false"
+								fill
+								className="object-contain"
+							/>
+						</div>
+						<div className="w-[130.698vw] aspect-[598/600] z-[0] absolute -right-[50vw] top-[5vw]">
+							<Image
+								src="/image/OurMechs/bg-mobile-right.png"
+								alt="bg"
+								draggable="false"
+								fill
+								className="object-contain"
+							/>
+						</div>
 						<Container
 							Title="Finishing the Project"
 							Description="Lorem ipsum dolor sit amet consectetur. Consequat gravida libero tortor vulputate morbi."
 							Icon={
-								<img
-									src="/image/OurMechs/icon-3.png"
-									className="w-[6.512vw] aspect-[1/1]"
-									draggable="false"
-									alt="icon"
-								/>
+								<>
+									<div className="relative w-[6.512vw] aspect-[1/1]">
+										<Image
+											src="/image/OurMechs/icon-3.png"
+											draggable="false"
+											alt="icon"
+											fill
+											className="object-contain"
+										/>
+									</div>
+								</>
 							}
 						/>
 						<FinishingProject />
 					</div>
 
 					<div className="relative flex flex-col w-fit h-fit justify-center items-center">
-						<img
-							src="/image/OurMechs/bg-mobile-left.png"
-							className="w-[120.698vw] aspect-[621/632] z-[0] absolute -left-[25vw] -bottom-[10vw]"
-							alt="bg"
-							draggable="false"
-						/>
-						<img
-							src="/image/OurMechs/bg-mobile-right.png"
-							className="w-[120.698vw] aspect-[598/600] z-[0] absolute -right-[25vw] top-[25vw]"
-							alt="bg"
-							draggable="false"
-						/>
+						<div className="w-[120.698vw] aspect-[621/632] z-[0] absolute -left-[30vw] -bottom-[10vw]">
+							<Image
+								src="/image/OurMechs/bg-mobile-left.png"
+								alt="bg"
+								draggable="false"
+								fill
+								className="object-contain"
+							/>
+						</div>
+						<div className="w-[130.698vw] aspect-[598/600] z-[0] absolute -right-[50vw] top-[5vw]">
+							<Image
+								src="/image/OurMechs/bg-mobile-right.png"
+								alt="bg"
+								draggable="false"
+								fill
+								className="object-contain"
+							/>
+						</div>
 						<Container
 							Title="Future Touch Points"
 							Description="Lorem ipsum dolor sit amet consectetur. Consequat gravida libero tortor vulputate morbi."
 							Icon={
-								<img
-									src="/image/OurMechs/icon-4.png"
-									className="w-[6.047vw] aspect-[1/1]"
-									draggable="false"
-									alt="icon"
-								/>
+								<>
+									<div className="relative w-[6.047vw] aspect-[1/1]">
+										<Image
+											src="/image/OurMechs/icon-4.png"
+											draggable="false"
+											alt="icon"
+											fill
+											className="object-contain"
+										/>
+									</div>
+								</>
 							}
 						/>
 						<FutureTouchPoints />

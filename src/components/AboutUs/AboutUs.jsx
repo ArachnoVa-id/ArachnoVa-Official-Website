@@ -3,6 +3,7 @@ import SocialMediaIcon from "./SocialMediaIcon";
 import { FaInstagram } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import ContentBox from "./ContentBox";
+import Image from "next/image";
 
 const AboutUs = () => {
 	const email = "#";
@@ -12,18 +13,24 @@ const AboutUs = () => {
 		"Lorem ipsum dolor sit amet consectetur. Vitae augue facilisis consectetur arcu volutpat non blandit dolor cras. Turpis vulputate faucibus commodo urna diam id imperdiet. Bibendum duis aliquet nulla purus venenatis condimentum magna. Ac mauris sagittis ultrices bibendum mi porttitor. Pellentesque fermentum convallis fames ipsum quam feugiat nisl convallis eleifend. Mauris in velit non tempus risus vel amet. Commodo viverra risus donec malesuada interdum est vulputate eu. Sed auctor condimentum ornare id amet venenatis. Nunc lorem turpis elit scelerisque varius. Orci non blandit diam eget.";
 	return (
 		<section className="relative w-full lg:min-h-[104.167vw] min-h-[413.256vw] flex flex-col justify-around items-center bg-white-MainPage">
-			<img
-				className="absolute top-[4.271vw] w-full aspect-[1920/458] z-0 lg:flex hidden"
-				src="/image/OurServices/ServicesHero/bg.png"
-				alt="bg"
-				draggable="false"
-			/>
-			<img
-				className="absolute top-[0] w-full aspect-[430/195] z-0 lg:hidden"
-				src="/image/OurServices/ServicesHero/bg-mobile.png"
-				alt="bg"
-				draggable="false"
-			/>
+			<div className="absolute top-[4.271vw] w-full aspect-[1920/458] z-0 lg:flex hidden">
+				<Image
+					src="/image/OurServices/ServicesHero/bg.png"
+					alt="bg"
+					draggable="false"
+					fill
+					className="object-contain"
+				/>
+			</div>
+			<div className="absolute top-[0] w-full aspect-[430/195] z-0 lg:hidden">
+				<Image
+					src="/image/OurServices/ServicesHero/bg-mobile.png"
+					alt="bg"
+					draggable="false"
+					fill
+					className="object-contain"
+				/>
+			</div>
 			<div className="w-fit flex flex-col items-center gap-y-[0.417vw] mt-[4.271vw]">
 				<p className="font-SourceSansProBold lg:text-[1.563vw] text-[4.186vw] lg:leading-[1.563vw] leading-[4.186vw] bg-clip-text text-transparent bg-gradient-to-r from-[#0893D4] via-[#44C4D9] to-[#159E8D]">
 					Who We Are
@@ -33,24 +40,42 @@ const AboutUs = () => {
 				</h1>
 			</div>
 			<div className="relative w-fit h-fit">
-				<img
-					src="/image/AboutUs/blur-left.png"
-					className="absolute -left-[19.083vw] -bottom-[10.917vw] lg:w-[45.552vw] w-[50vw] aspect-[433/235] z-0 lg:flex hidden"
-					alt="blur"
-				/>
-				<img
-					src="/image/AboutUs/blur-right.png"
-					className="absolute lg:-right-[11.208vw] -right-[5vw] -top-[15vw] lg:w-[28.24vw] w-[40vw] aspect-[225/321] z-0 lg:flex hidden"
-				/>
-				<img
-					src="/image/AboutUs/blur-left-mobile.png"
-					className="absolute z-0 w-[100vw] aspect-[430/576] -left-[5vw] -bottom-[49vw] lg:hidden flex"
-					alt="blur"
-				/>
-				<img
-					src="/image/AboutUs/blur-right-mobile.png"
-					className="absolute z-0 w-[65.349vw] aspect-[281/621] -right-[5vw] -top-[50vw] lg:hidden flex"
-				/>
+				<div className="absolute -left-[23.083vw] -bottom-[13.917vw] lg:w-[55.552vw] w-[50vw] aspect-[433/235] z-0 lg:flex hidden">
+					<Image
+						src="/image/AboutUs/blur-left.png"
+						alt="blur"
+						draggable="false"
+						fill
+						className="object-contain"
+					/>
+				</div>
+				<div className="absolute lg:-right-[11.208vw] -right-[10vw] -top-[25vw] lg:w-[40.24vw] w-[40vw] aspect-[225/321] z-0 lg:flex hidden">
+					<Image
+						src="/image/AboutUs/blur-right.png"
+						alt="blur"
+						draggable="false"
+						fill
+						className="object-contain"
+					/>
+				</div>
+				<div className="absolute z-0 w-[100vw] aspect-[430/576] -left-[5vw] -bottom-[49vw] lg:hidden flex">
+					<Image
+						src="/image/AboutUs/blur-left-mobile.png"
+						alt="blur"
+						draggable="false"
+						fill
+						className="object-contain"
+					/>
+				</div>
+				<div className="absolute z-0 w-[65.349vw] aspect-[281/621] -right-[5vw] -top-[50vw] lg:hidden flex">
+					<Image
+						src="/image/AboutUs/blur-right-mobile.png"
+						alt="blur"
+						draggable="false"
+						fill
+						className="object-contain"
+					/>
+				</div>
 				<div
 					className="relative lg:w-[58.75vw] w-[90.698vw] lg:aspect-[1128/414] aspect-[390/612] justify-center items-center flex flex-col lg:rounded-[0.833vw] rounded-[3.721vw] lg:border-[0.104vw] border-[0.698vw] border-white z-10"
 					style={{ background: "rgba(241, 245, 249, 0.50)" }}
@@ -79,12 +104,15 @@ const AboutUs = () => {
 						/>
 					</div>
 					<div className="w-fit flex flex-col justify-center items-center mb-[1.25vw]">
-						<img
-							src="/image/AboutUs/logo.png"
-							alt="logo"
-							className="lg:w-[4.583vw] w-[18.372vw] lg:aspect-[88/65] aspect-[79/58]"
-							draggable="false"
-						/>
+						<div className="relative lg:w-[4.583vw] w-[18.372vw] lg:aspect-[88/65] aspect-[79/58]">
+							<Image
+								src="/image/AboutUs/logo.png"
+								alt="logo"
+								draggable="false"
+								fill
+								className="object-contain"
+							/>
+						</div>
 						<p className="font-CoolveticaReg lg:text-[2.604vw] text-[9.302vw] text-[#1AB0C8]">
 							ARACHNOVA
 						</p>
@@ -104,7 +132,7 @@ const AboutUs = () => {
 						Get In Touch
 					</h1>
 					<p className="font-SourceSansProSemibold lg:text-[1.042vw] text-[4.186vw] text-neutral-e">
-						Let's Connect and Create Together Reach Out to Us Today!
+						Let&apos;s Connect and Create Together Reach Out to Us Today!
 					</p>
 				</div>
 				<div className="w-[17.135vw] lg:flex hidden flex-row justify-between items-center">
