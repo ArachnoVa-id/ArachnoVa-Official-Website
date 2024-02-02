@@ -9,8 +9,16 @@ import FutureTouchPoints from "./FutureTouchPoints";
 import FinishingProject from "./FinishingProject";
 import BorderSeparator from "../BorderSeparator/BorderSeparator";
 import Image from "next/image";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const OurMechs = () => {
+	useEffect(() => {
+		AOS.init({
+			duration: 1500,
+		});
+	}, []);
 	const [firstTouchPoint, setFirstTouchPoint] = useState(true);
 	const [projectExecution, setProjectExecution] = useState(false);
 	const [finishingTheProject, setFinishingTheProject] = useState(false);
@@ -54,7 +62,7 @@ const OurMechs = () => {
 	return (
 		<section className="relative flex flex-col w-full lg:min-h-[59.74vw] min-h-[885.581vw] justify-center items-center bg-white-MainPage">
 			<div className="w-[70.521vw] h-[44.792vw] hidden lg:flex flex-col gap-y-[2.083vw]">
-				<div className="w-[28.385vw] flex flex-col">
+				<div data-aos="fade-up" className="w-[28.385vw] flex flex-col">
 					<p className="font-SourceSansProBold text-[1.042vw] bg-clip-text text-transparent bg-gradient-to-r from-[#0893D4] via-[#44C4D9] to-[#159E8D]">
 						Simple Steps, Remarkable Solutions
 					</p>
@@ -67,7 +75,10 @@ const OurMechs = () => {
 						yang Anda inginkan, dan kami mewujudkannya
 					</p>
 				</div>
-				<div className="w-full flex flex-row justify-between">
+				<div
+					data-aos="fade-up"
+					className="w-full flex flex-row justify-between"
+				>
 					<div className="w-fit flex flex-col">
 						<Container
 							Title="First Touch Point"
@@ -180,7 +191,10 @@ const OurMechs = () => {
 			</div>
 			{/* Mobile Version */}
 			<div className="w-fit h-fit flex items-center flex-col lg:hidden gap-y-[13.953vw]">
-				<div className="w-[90.698vw] lg:hidden flex flex-col gap-y-[1.86vw]">
+				<div
+					data-aos="fade-up"
+					className="w-[90.698vw] lg:hidden flex flex-col gap-y-[1.86vw]"
+				>
 					<p className="font-SourceSansProBold text-[4.186vw] bg-clip-text text-transparent bg-gradient-to-r from-[#0893D4] via-[#44C4D9] to-[#159E8D]">
 						Simple Steps, Remarkable Solutions
 					</p>
@@ -194,7 +208,10 @@ const OurMechs = () => {
 					</p>
 				</div>
 				<div className="flex flex-col w-fit h-[763.721vw] justify-between items-center">
-					<div className="relative flex flex-col w-fit h-fit justify-center items-center">
+					<div
+						data-aos="fade-up"
+						className="relative flex flex-col w-fit h-fit justify-center items-center"
+					>
 						<div className="w-[120.698vw] aspect-[621/632] z-[0] absolute -left-[30vw] -bottom-[10vw]">
 							<Image
 								src="/image/OurMechs/bg-mobile-left.png"
@@ -233,7 +250,10 @@ const OurMechs = () => {
 						<FirstTouchPoint />
 					</div>
 
-					<div className="relative flex flex-col w-fit h-fit justify-center items-center">
+					<div
+						data-aos="fade-up"
+						className="relative flex flex-col w-fit h-fit justify-center items-center"
+					>
 						<div className="w-[120.698vw] aspect-[621/632] z-[0] absolute -left-[30vw] -bottom-[10vw]">
 							<Image
 								src="/image/OurMechs/bg-mobile-left.png"
@@ -272,7 +292,10 @@ const OurMechs = () => {
 						<ProjectExecution />
 					</div>
 
-					<div className="relative flex flex-col w-fit h-fit justify-center items-center">
+					<div
+						data-aos="fade-up"
+						className="relative flex flex-col w-fit h-fit justify-center items-center"
+					>
 						<div className="w-[120.698vw] aspect-[621/632] z-[0] absolute -left-[30vw] -bottom-[10vw]">
 							<Image
 								src="/image/OurMechs/bg-mobile-left.png"
@@ -311,7 +334,10 @@ const OurMechs = () => {
 						<FinishingProject />
 					</div>
 
-					<div className="relative flex flex-col w-fit h-fit justify-center items-center">
+					<div
+						data-aos="fade-up"
+						className="relative flex flex-col w-fit h-fit justify-center items-center"
+					>
 						<div className="w-[120.698vw] aspect-[621/632] z-[0] absolute -left-[30vw] -bottom-[10vw]">
 							<Image
 								src="/image/OurMechs/bg-mobile-left.png"

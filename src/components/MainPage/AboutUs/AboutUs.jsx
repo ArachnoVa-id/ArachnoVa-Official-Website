@@ -1,13 +1,25 @@
 import BorderSeparator from "../BorderSeparator/BorderSeparator";
 import styles from "./AboutUs.module.css";
 import { FaArrowRight } from "react-icons/fa";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const AboutUs = () => {
+	useEffect(() => {
+		AOS.init({
+			duration: 1500,
+		});
+	}, []);
+
 	const href = "#";
 	return (
 		<>
 			<section className="relative w-full lg:min-h-[33.125vw] min-h-[158.14vw] flex flex-col justify-center items-center bg-white-MainPage lg:gap-y-[2.083vw] gap-y-[5.581vw]">
-				<div className="w-fit flex lg:flex-row flex-col justify-center items-center lg:gap-x-[3.333vw] gap-y-[5.581vw]">
+				<div
+					data-aos="fade-up"
+					className="w-fit flex lg:flex-row flex-col justify-center items-center lg:gap-x-[3.333vw] gap-y-[5.581vw]"
+				>
 					<div
 						className={
 							"flex flex-col justify-center items-center lg:w-[31.667vw] w-[90.698vw] aspect-[390/224] lg:aspect-[608/316] lg:rounded-[0.833vw] rounded-[3.721vw] border-solid lg:border-[0.156vw] border-[0.698vw] border-[#76BDE4] gap-y-[1.823vw] " +
@@ -48,6 +60,7 @@ const AboutUs = () => {
 					</div>
 				</div>
 				<a
+					data-aos="fade-up"
 					href={href}
 					className={
 						"flex flex-row justify-center items-center lg:w-[9.792vw] w-[47.209vw] aspect-[204/40] gap-x-[0.26vw] lg:aspect-[188/48] bg-transparent cursor-pointer lg:rounded-[0.417vw] rounded-[1.86vw] hover:bg-[#5AB0BB]/20 hover:scale-[102%] transition-all duration-700 ease-in-out " +
