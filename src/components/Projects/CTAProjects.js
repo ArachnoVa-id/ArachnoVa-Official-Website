@@ -1,12 +1,16 @@
+import Image from "next/image";
+
 export default function CTAProjects() {
   return (
     <section className="w-full h-[60vh] relative flex flex-row justify-center items-center bg-neutral-a">
       <div className="w-[65vw] h-[17.5vw] relative bg-transparent rounded-xl flex flex-col justify-center items-center max-lg:hidden">
-        <img
+        <Image
           alt="Content layer "
           src="/image/CTA/BGCTAProjects.png"
           className=" w-full h-full z-[1] absolute  "
           draggable="false"
+          width={1000}
+          height={1000}
         />
         <h1 className="text-neutral-a font-SourceSansProBold text-[2.5vw] z-[2]">
           Get Inspired? Create Yours Now!

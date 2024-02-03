@@ -1,6 +1,8 @@
+import Image from "next/image";
+
 export default function PortoLustrumDTETI() {
   return (
-    <section className="w-full min-h-screen flex flex-col items-center justify-center bg-[#F1F4F4]">
+    <section className="w-full min-h-screen flex flex-col items-center justify-center bg-[#F1F4F4] ">
       {/* Desktop */}
       <div className="flex max-lg:hidden">
         <div className="w-[20vw] text-black pt-[2vw] mr-[5vw]">
@@ -15,12 +17,22 @@ export default function PortoLustrumDTETI() {
           </button>
         </div>
 
-        <div className="w-[40vw] h-[40vh] aspect-[1187/573]">
-          <img
+        <div className="relative w-[40vw] aspect-[824.28/426.9]">
+          <Image
             alt="Content Prototype"
-            src="/image/Porto/PortoLustrum.png"
-            className=" w-full h-full  "
+            src="/image/Porto/LustrumDTETI/LustrumDTETIDesktop.png"
+            className=" w-[34.6vw] aspect-[669/376] rounded-xl border-white border-[0.2vw] shadow-2xl "
             draggable="false"
+            width={1000}
+            height={1000}
+          />
+          <Image
+            alt="Content Prototype"
+            src="/image/Porto/LustrumDTETI/LustrumDTETIMobile.svg"
+            className="absolute w-[8vw] aspect-[245/495] rounded-[1vw] -bottom-[2vw] right-[0vw] shadow-2xl "
+            draggable="false"
+            width={1000}
+            height={1000}
           />
         </div>
       </div>
@@ -30,12 +42,22 @@ export default function PortoLustrumDTETI() {
         <h1 className="text-[8vw] font-SourceSansProBold text-neutral-g ">
           Title Web
         </h1>
-        <div className="w-[90vw] h-[50vw]">
-          <img
+        <div className="relative w-[90.698vw] aspect-[824.28/426.9]">
+          <Image
             alt="Content Prototype"
-            src="/image/Porto/HeroEnfo.png"
-            className=" w-full h-full rounded-xl  "
+            src="/image/Porto/LustrumDTETI/LustrumDTETIDesktop.png"
+            className=" w-[75.6vw] aspect-[669/376] rounded-xl border-white border-[0.2vw] shadow-2xl "
             draggable="false"
+            width={1000}
+            height={1000}
+          />
+          <Image
+            alt="Content Prototype"
+            src="/image/Porto/LustrumDTETI/LustrumDTETIMobile.svg"
+            className="absolute w-[20vw] aspect-[245/495] rounded-[3vw] -bottom-[2vw] right-[0vw] shadow-2xl "
+            draggable="false"
+            width={1000}
+            height={1000}
           />
         </div>
         <div className="justify-center items-center w-[90vw]">

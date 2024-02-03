@@ -35,7 +35,7 @@ export default function PortoSection() {
 				</div>
 				<div data-aos="fade-up" className="relative py-[2vw] ">
 					<div className="border-[#E2E8F0] border-[0.2vw] rounded-[0.781vw] ">
-						<div className="aspect-[1008/588]  w-[52.500vw] bg-transparent border-[1vw] rounded-[0.781vw] border-[#FBFCFD] flex flex-col overflow-y-scroll no-scrollbar  ">
+						<div className="aspect-[1008/588]  w-[52.500vw] bg-transparent border-[1vw] rounded-[0.781vw] border-[#FBFCFD] flex flex-col overflow-y-scroll no-scrollbar shadow-2xl  ">
 							<Image
 								alt="Content layer"
 								src="/image/Porto/HeroEnfo.png"
@@ -47,7 +47,7 @@ export default function PortoSection() {
 							<Image
 								alt="Content layer"
 								src="/image/Porto/AboutUsEnfo.png"
-								className="w-full h-screen"
+								className="w-full h-screen shadow-2xl"
 								draggable="false"
 								width={1000}
 								height={1000}

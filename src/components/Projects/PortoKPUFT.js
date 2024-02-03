@@ -1,14 +1,26 @@
+import Image from "next/image";
+
 export default function KPUFT() {
   return (
     <section className="w-full min-h-screen flex flex-col items-center justify-center bg-neutral-a">
       {/* Desktop */}
       <div className="flex max-lg:hidden">
-        <div className="w-[40vw] h-[40vh]">
-          <img
+        <div className="relative w-[40vw] aspect-[824.28/426.9]">
+          <Image
             alt="Content Prototype"
-            src="/image/Porto/HeroEnfo.png"
-            className=" w-full h-full rounded-xl  "
+            src="/image/Porto/LustrumDTETI/LustrumDTETIDesktop.png"
+            className="absolute w-[34.6vw] aspect-[669/376] rounded-xl border-white border-[0.2vw] right-[0] shadow-2xl "
             draggable="false"
+            width={1000}
+            height={1000}
+          />
+          <Image
+            alt="Content Prototype"
+            src="/image/Porto/LustrumDTETI/LustrumDTETIMobile.svg"
+            className="absolute w-[8vw] aspect-[245/495] rounded-[1vw] -bottom-[2vw] left-[0vw] shadow-2xl "
+            draggable="false"
+            width={1000}
+            height={1000}
           />
         </div>
 
@@ -34,12 +46,22 @@ export default function KPUFT() {
         <h1 className="text-[8vw] font-SourceSansProBold text-neutral-g ">
           Title Web
         </h1>
-        <div className="w-[90vw] h-[50vw]">
-          <img
+        <div className="relative w-[90.698vw] justify-end items-start flex aspect-[824.28/426.9]">
+          <Image
             alt="Content Prototype"
-            src="/image/Porto/HeroEnfo.png"
-            className=" w-full h-full rounded-xl  "
+            src="/image/Porto/LustrumDTETI/LustrumDTETIDesktop.png"
+            className=" w-[75.6vw] aspect-[669/376] rounded-xl border-white border-[0.2vw] shadow-2xl "
             draggable="false"
+            width={1000}
+            height={1000}
+          />
+          <Image
+            alt="Content Prototype"
+            src="/image/Porto/LustrumDTETI/LustrumDTETIMobile.svg"
+            className="absolute w-[20vw] aspect-[245/495] rounded-[3vw] -bottom-[2vw] left-[0vw] shadow-2xl "
+            draggable="false"
+            width={1000}
+            height={1000}
           />
         </div>
         <div className="justify-center items-center w-[90vw]">
