@@ -91,7 +91,7 @@ const FirstTouchPoint = () => {
           Title="Contact Us"
           List={
             <>
-              <li className="text-[3vw] mb-[2.5vw]">
+              <li className="text-[3vw] mb-[1.5vw]">
                 Client menghubungi admin melalui DM Instagram maupun Whatsapp
                 atau Email yang tertera{" "}
               </li>

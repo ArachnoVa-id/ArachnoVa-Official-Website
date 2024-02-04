@@ -71,8 +71,9 @@ const OurMechs = () => {
           </h1>
           <p className="font-SourceSansProSemibold text-[1.042vw] text-neutral-e mt-[1.042vw]">
             Anda dapat membangun situs web impian Anda dengan mekanisme kami
-            yang sederhana dan efektif. Dengan beberapa langkah tersebut, Kami akan
-            mengeksekusi projects Anda secara detail dan tepat sesuai kebutuhan yang diinginkan.
+            yang sederhana dan efektif. Dengan beberapa langkah tersebut, Kami
+            akan mengeksekusi projects Anda secara detail dan tepat sesuai
+            kebutuhan yang diinginkan.
           </p>
         </div>
         <div
@@ -82,7 +83,7 @@ const OurMechs = () => {
           <div className="w-fit flex flex-col">
             <Container
               Title="First Touch Point"
-              Description="Tahapan awal untuk memulai proses kolaborasi  dengan melakukan identifikasi kebutuhan dan tujuan ."
+              Description="Tahapan awal untuk memulai proses kolaborasi  dengan melakukan identifikasi kebutuhan dan tujuan."
               Icon={
                 <>
                   <div className="relative w-[2vw] aspect-[21/17]">
@@ -101,7 +102,7 @@ const OurMechs = () => {
             />
             <Container
               Title="Project Execution"
-              Description="Lorem ipsum dolor sit amet consectetur. Consequat gravida libero tortor vulputate morbi."
+              Description="Tata cara eksekusi dan proses produksi dalam progres pengerjaan projects secara berkala. "
               Icon={
                 <>
                   <div className="relative w-[1.563vw] aspect-[1/1]">
@@ -120,7 +121,7 @@ const OurMechs = () => {
             />
             <Container
               Title="Finishing the Project"
-              Description="Lorem ipsum dolor sit amet consectetur. Consequat gravida libero tortor vulputate morbi."
+              Description="Masa penyelesaian projects dan perjanjian akhir serta diskusi pemeliharaan berkelanjutan"
               Icon={
                 <>
                   <div className="relative w-[1.563vw] aspect-[1/1]">
@@ -139,7 +140,7 @@ const OurMechs = () => {
             />
             <Container
               Title="Future Touch Points"
-              Description="Lorem ipsum dolor sit amet consectetur. Consequat gravida libero tortor vulputate morbi."
+              Description="Layanan yang kami tawarkan setelah masa pengerjaan projects telah usai "
               Icon={
                 <>
                   <div className="relative w-[1.563vw] aspect-[1/1]">
@@ -232,7 +233,7 @@ const OurMechs = () => {
             </div>
             <Container
               Title="First Touch Point"
-              Description="Lorem ipsum dolor sit amet consectetur. Consequat gravida libero tortor vulputate morbi."
+              Description="Tahapan awal untuk memulai proses kolaborasi  dengan melakukan identifikasi kebutuhan dan tujuan."
               Icon={
                 <>
                   <div className="relative w-[6.512vw] aspect-[21/17]">
@@ -274,7 +275,7 @@ const OurMechs = () => {
             </div>
             <Container
               Title="Project Execution"
-              Description="Lorem ipsum dolor sit amet consectetur. Consequat gravida libero tortor vulputate morbi."
+              Description="Tata cara eksekusi dan proses produksi dalam progres pengerjaan projects secara berkala.	"
               Icon={
                 <>
                   <div className="relative w-[6.512vw] aspect-[1/1]">
@@ -316,7 +317,7 @@ const OurMechs = () => {
             </div>
             <Container
               Title="Finishing the Project"
-              Description="Lorem ipsum dolor sit amet consectetur. Consequat gravida libero tortor vulputate morbi."
+              Description="Masa penyelesaian projects dan perjanjian akhir serta diskusi pemeliharaan berkelanjutan."
               Icon={
                 <>
                   <div className="relative w-[6.512vw] aspect-[1/1]">
