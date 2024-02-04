@@ -20,8 +20,15 @@ const HeroProjects = () => {
         width={100000}
         height={100000}
       />
-      <div className="aspect-[1349/576] w-[70.260vw] bg-gray-300 absolute z-[1] rounded-[2vw] bottom-[8.6vw] shadow-2xl ">
-        
+      <div className="aspect-[1349/576] w-[70.260vw] bg-gray-300 absolute z-[1] rounded-[2vw] bottom-[8.6vw] shadow-2xl flex items-center justify-center ">
+        <Image
+          src="/image/Footer/FooterLogo.png"
+          alt="logo"
+          className="aspect-[1/1] w-[10vw]"
+          draggable="false"
+          width={100000}
+          height={100000}
+        />
       </div>
 
       <div className="text-black flex flex-col justify-center items-center  text-[2.3vw]/[2.2vw] max-lg:hidden z-[2] mb-[2.6vw]  ">
