@@ -55,19 +55,19 @@ const Footer = () => {
 						Follow Us!
 					</p>
 					<div className="w-full lg:flex flex-row justify-between hidden">
-						<a href="#">
+						<a href="https://www.linkedin.com/company/arachnova-id/">
 							<FaLinkedin
 								size="1.563vw"
 								className="text-neutral-a hover:text-neutral-c transition-all duration-500 ease-in-out"
 							/>
 						</a>
-						<a href="#">
+						<a href="https://www.instagram.com/arachnova.id/">
 							<AiFillInstagram
 								size="1.563vw"
 								className="text-neutral-a hover:text-neutral-c transition-all duration-500 ease-in-out"
 							/>
 						</a>
-						<a href="#">
+						<a href="https://wa.me/6281809252706">
 							<PiWhatsappLogoFill
 								size="1.563vw"
 								className="text-neutral-a hover:text-neutral-c transition-all duration-500 ease-in-out"
@@ -75,19 +75,19 @@ const Footer = () => {
 						</a>
 					</div>
 					<div className="w-full lg:hidden flex flex-row justify-between items-center">
-						<a href="#">
+						<a href="https://www.linkedin.com/company/arachnova-id/">
 							<FaLinkedin
 								size="6.279vw"
 								className="text-neutral-a hover:text-neutral-c transition-all duration-500 ease-in-out"
 							/>
 						</a>
-						<a href="#">
+						<a href="https://www.instagram.com/arachnova.id/">
 							<AiFillInstagram
 								size="6.279vw"
 								className="text-neutral-a hover:text-neutral-c transition-all duration-500 ease-in-out"
 							/>
 						</a>
-						<a href="#">
+						<a href="https://wa.me/6281809252706">
 							<PiWhatsappLogoFill
 								size="7.209vw"
 								className="text-neutral-a hover:text-neutral-c transition-all duration-500 ease-in-out"

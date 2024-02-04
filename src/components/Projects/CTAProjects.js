@@ -21,11 +21,13 @@ export default function CTAProjects() {
       </div>
 
       <div className="w-[90vw] h-[70.5vw] relative bg-transparent rounded-xl flex flex-col justify-center items-center lg:hidden">
-        <img
+        <Image
           alt="Content layer Mobile"
           src="/image/CTA/BGCTAProjectsMobile.png"
           className=" w-full h-full z-[1] absolute  "
           draggable="false"
+          width={1000}
+          height={1000}
         />
         <div className="text-[7vw]/[7vw] z-[2] flex flex-col justify-center items-center mb-[10vw]">
           <h1 className="text-neutral-a font-SourceSansProBold">

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const HeroProjects = () => {
   return (
-    <section className="w-full min-h-screen flex flex-col items-center relative justify-center aspect-[1920/1312] bg-neutral-a ">
+    <section className="w-full h-full flex flex-col items-center relative justify-center aspect-[1920/1312] bg-neutral-a ">
       <Image
         alt="Background"
         src="/image/Projects/BGHeroProjects.png"
@@ -20,8 +20,11 @@ const HeroProjects = () => {
         width={100000}
         height={100000}
       />
+      <div className="aspect-[1349/576] w-[70.260vw] bg-gray-300 absolute z-[1] rounded-[2vw] bottom-[8.6vw] shadow-2xl ">
+        
+      </div>
 
-      <div className="text-black flex flex-col justify-center items-center  text-[2.3vw]/[2.2vw] max-lg:hidden z-[2] mb-[2.6vw]">
+      <div className="text-black flex flex-col justify-center items-center  text-[2.3vw]/[2.2vw] max-lg:hidden z-[2] mb-[2.6vw]  ">
         <div className="text-[1.6vw] font-SourceSansProBold bg-clip-text text-transparent bg-gradient-to-r from-[#0893D4] to-[#159E8D]">
           Unleashing Digital Excellence
         </div>
@@ -36,7 +39,7 @@ const HeroProjects = () => {
       </div>
 
       {/* Mobile */}
-      <div className="text-black flex flex-col justify-center items-center text-[4vw]/[6vw] mb-[10vw] lg:hidden z-[2]">
+      <div className="text-black flex flex-col justify-center items-center text-[4vw]/[6vw] mb-[10vw] lg:hidden z-[2] mt-[12vw]">
         <div className="text-[4.186vw] font-SourceSansProBold bg-clip-text text-transparent bg-gradient-to-r from-[#0893D4] to-[#159E8D]">
           Unleashing Digital Excellence
         </div>

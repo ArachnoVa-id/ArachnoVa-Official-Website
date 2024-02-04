@@ -3,11 +3,11 @@ import { useSwiper } from "swiper/react";
 import Image from "next/image";
 import styles from "./CardContents.module.css";
 
-const CardContents = ({ title, description, image }) => {
+const CardContents = ({ title, description, image, imageMobile }) => {
   const swiper = useSwiper();
   return (
     <section>
-      <div className="relative bg-gradient-to-r from-[#2DC0D8] to-[#179FB5] shadow-2xl  mx-[5vw] rounded-[2vw] w-[70.260vw] aspect-[1349/576] flex flex-col justify-end items-center mt-[13vw] max-lg:hidden">
+      <div className="relative bg-gradient-to-r from-[#2DC0D8] to-[#179FB5]  mx-[5vw] rounded-[2vw] w-[70.260vw] aspect-[1349/576] flex flex-col justify-end items-center mt-[13vw] max-lg:hidden">
         <div
           className="absolute flex justify-center items-center w-[4vw] h-[4vw] -left-[2vw] top-[24vh] bg-[#84D4E1] rounded-[3vw] hover:bg-[#cae8ee] duration-500 ease-in-out"
           onClick={() => swiper.slidePrev()}
@@ -40,9 +40,17 @@ const CardContents = ({ title, description, image }) => {
         </div>
         <div className="absolute -top-[12vw] w-[61.823vw] aspect-[1187/573]  ">
           <Image
-            alt="Image "
+            alt="Content Prototype"
             src={image}
-            className="absolute w-full h-full "
+            className=" w-[51.042vw] aspect-[980/551] rounded-xl border-white border-[0.2vw] shadow-2xl "
+            draggable="false"
+            width={10000}
+            height={10000}
+          />
+          <Image
+            alt="Content Prototype"
+            src={imageMobile}
+            className="absolute w-[12.760vw] aspect-[245/495] rounded-[2vw] bottom-[0vw] right-[0vw] shadow-2xl "
             draggable="false"
             width={1000}
             height={1000}
@@ -77,15 +85,25 @@ const CardContents = ({ title, description, image }) => {
             height={1000}
           />
         </div>
-        <div className="font-SourceSansProBold mb-[2vw] text-[5.581vw]">{title}</div>
+        <div className="font-SourceSansProBold mb-[2vw] text-[5.581vw]">
+          {title}
+        </div>
         <div className="w-[60vw] text-[3vw] text-center font-SourceSansProSemibold mb-[5vw] ">
           {description}
         </div>
-        <div className="absolute -top-[25vw] w-[76.744vwvw] h-[35vw] aspect-[1920/1080] ">
+        <div className="absolute -top-[25vw] w-[70.744vw] h-[35vw] aspect-[1920/1080] ">
           <Image
-            alt="Image "
+            alt="Content Prototype"
             src={image}
-            className="absolute w-full h-full rounded-xl  "
+            className=" w-[58.042vw] aspect-[980/551] rounded-xl border-white border-[0.2vw] ml-[2vw] shadow-2xl "
+            draggable="false"
+            width={10000}
+            height={10000}
+          />
+          <Image
+            alt="Content Prototype"
+            src={imageMobile}
+            className="absolute w-[12.760vw] aspect-[245/495] rounded-[2vw] bottom-[0vw] right-[0vw] mr-[2vw] shadow-2xl "
             draggable="false"
             width={1000}
             height={1000}
