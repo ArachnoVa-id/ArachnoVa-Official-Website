@@ -11,7 +11,7 @@ const Navbar = () => {
 	const [isOpen, setIsOpen] = useState(false);
 	return (
 		<>
-			<nav className="relative lg:fixed z-[100] lg:py-[0.938vw] lg:px-[15vw] px-[5.581vw] py-[2.88vw] w-screen flex items-center justify-between lg:bg-transparent bg-[#FAFDFF] lg:backdrop-blur-[0.208vw] backdrop-blur-[1.163vw] lg:border-b-[0.104vw] border-b-[0.465vw] border-[#E6ECF0]">
+			<nav className="relative lg:fixed z-[100] lg:py-[0.938vw] lg:px-[15vw] px-[5.581vw] py-[2.88vw] w-screen flex items-center justify-between lg:bg-[#FAFDFF]/[0.75] bg-[#FAFDFF] lg:backdrop-blur-[0.208vw] backdrop-blur-[1.163vw] lg:border-b-[0.104vw] border-b-[0.465vw] border-[#E6ECF0]">
 				<div className="flex items-center flex-row">
 					<ul className="lg:flex items-center gap-x-[3.125vw] hidden">
 						<a href="/">
