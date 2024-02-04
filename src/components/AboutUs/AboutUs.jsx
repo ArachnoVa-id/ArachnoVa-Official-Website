@@ -78,7 +78,10 @@ const AboutUs = () => {
 				</div>
 				<div
 					className="relative lg:w-[58.75vw] w-[90.698vw] lg:aspect-[1128/414] aspect-[390/612] justify-center items-center flex flex-col lg:rounded-[0.833vw] rounded-[3.721vw] lg:border-[0.104vw] border-[0.698vw] border-white z-10"
-					style={{ background: "rgba(241, 245, 249, 0.50)" }}
+					style={{
+						background: "rgba(241, 245, 249, 0.50)",
+						boxShadow: "0px 25px 50px -12px rgba(71, 85, 105, 0.25)",
+					}}
 				>
 					<div className="absolute lg:top-[0.677vw] top-[3.023vw] lg:left-[0.677vw] left-[3.023vw] flex flex-row lg:w-[3.125vw] w-[12.093vw] justify-between">
 						<div

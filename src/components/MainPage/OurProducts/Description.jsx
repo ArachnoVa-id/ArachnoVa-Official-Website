@@ -7,6 +7,7 @@ const Description = ({ Title, Description, Variant, href }) => {
 			: Variant === "Left"
 			? "items-start justify-start"
 			: "justify-center items-center text-justify";
+	const paragraph = Variant === "Right" ? "text-right" : "";
 	const ButtonMobile = () => {
 		return (
 			<button className="w-[77.907vw] aspect-[335/40] rounded-[1.86vw] flex lg:hidden items-center justify-center bg-gradient-to-br from-[#2EC1D9] to-[#179FB5] hover:translate-y-[-0.208vw] transition-all duration-500 ease-in-out">
@@ -25,7 +26,9 @@ const Description = ({ Title, Description, Variant, href }) => {
 				<h2 className="font-SourceSansProBold lg:text-[1.823vw] text-[5.581vw] text-neutral-g">
 					{Title}
 				</h2>
-				<p className="font-SourceSansProSemibold lg:text-[1.042vw] text-[3.256vw] text-neutral-e">
+				<p
+					className={`font-SourceSansProSemibold lg:text-[1.042vw] text-[3.256vw] text-neutral-e ${paragraph}`}
+				>
 					{Description}
 				</p>
 				<Button Text="Learn More" href={href} />
