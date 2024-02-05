@@ -22,7 +22,7 @@ export default function KPUFT() {
           <Image
             alt="Content Prototype"
             src="/image/OurProducts/KPUFTHero.svg"
-            className="absolute w-[34.6vw] aspect-[669/376] rounded-2xl border-white border-[0.2vw] right-[0] shadow-2xl "
+            className="absolute w-[34.6vw] aspect-[669/376] rounded-2xl right-[0] shadow-2xl "
             draggable="false"
             width={1000}
             height={1000}

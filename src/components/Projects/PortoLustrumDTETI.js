@@ -33,8 +33,8 @@ export default function PortoLustrumDTETI() {
         <div className="relative w-[40vw] aspect-[824.28/426.9]" data-aos="fade-left">
           <Image
             alt="Content Prototype"
-            src="/image/Porto/LustrumDTETI/LustrumDTETIDesktop.png"
-            className=" w-[34.6vw] aspect-[669/376] rounded-xl border-white border-[0.2vw] shadow-2xl "
+            src="image/Projects/LustrumDTETIDesktop.svg"
+            className=" w-[34.6vw] aspect-[669/376] rounded-xl shadow-2xl "
             draggable="false"
             width={1000}
             height={1000}
@@ -58,8 +58,8 @@ export default function PortoLustrumDTETI() {
         <div className="relative w-[90.698vw] aspect-[824.28/426.9]" data-aos="fade-left">
           <Image
             alt="Content Prototype"
-            src="/image/Porto/LustrumDTETI/LustrumDTETIDesktop.png"
-            className=" w-[75.6vw] aspect-[669/376] rounded-xl border-white border-[0.2vw] shadow-2xl "
+            src="image/Projects/LustrumDTETIDesktop.svg"
+            className=" w-[75.6vw] aspect-[669/376] rounded-xl shadow-2xl "
             draggable="false"
             width={1000}
             height={1000}
