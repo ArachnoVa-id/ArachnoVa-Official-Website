@@ -65,7 +65,6 @@ export default function Hero() {
         <div className="aspect-[537/366] w-[27.969vw] border-2 border-[#F1F5F9] rounded-[0.625vw]  relative font-ConsolasRegular ">
           <div
             className="bg-white opacity-60 w-full h-full absolute rounded-[0.625vw] backdrop-blur-3xl"
-            data-aos="fade-up"
           ></div>
           <div
             className="absolute aspect-[419/96] w-[21.823vw] bg-white opacity-90 rounded-[0.625vw] -bottom-[3vw] -right-[4vw] text-[1vw]  flex justify-center items-center border-2 border-[#E2E8F0] font-ConsolasBold"
@@ -88,7 +87,7 @@ export default function Hero() {
           </div>
           <div
             className="px-[1vw] py-[2vw] text-[1.05vw]/[1.15vw] relative"
-            data-aos="fade-up"
+
           >
             <Image
               alt=""
