@@ -41,7 +41,7 @@ const Content = ({ data, totalSlide, variant }) => {
           onClick={handlePrevious}
         />
         <div className="flex justify-center items-center lg:w-[35.729vw] w-[79.07vw] lg:h-[20.833vw] h-[45.581vw] bg-[#FBFCFD] lg:rounded-[0.781vw] rounded-[2.326vw] border-solid border-[#E2E8F0] lg:border-[0.156vw] border-[0.349vw]">
-          <div className="flex justify-center items-center lg:w-[34.167vw] w-[75.814vw] lg:h-[19.271vw] h-[42.326vw] lg:rounded-[0.521vw] rounded-[1.86vw] overflow-hidden">
+          <div className="flex justify-center items-center object-cover lg:w-[34.167vw] w-[75.814vw] lg:h-[19.271vw] h-[42.326vw] lg:rounded-[0.521vw] rounded-[1.86vw] overflow-hidden">
             <ContentSlider data={data} sliderRef={sliderRef} />
           </div>
         </div>

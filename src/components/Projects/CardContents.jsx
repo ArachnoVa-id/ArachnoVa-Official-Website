@@ -42,7 +42,7 @@ const CardContents = ({ title, description, image, imageMobile }) => {
           <Image
             alt="Content Prototype"
             src={image}
-            className=" w-[51.042vw] aspect-[980/551] rounded-xl border-white border-[0.2vw] shadow-2xl "
+            className=" w-[51.042vw] aspect-[1920/1080] rounded-xl border-white shadow-2xl "
             draggable="false"
             width={10000}
             height={10000}
@@ -52,8 +52,8 @@ const CardContents = ({ title, description, image, imageMobile }) => {
             src={imageMobile}
             className="absolute w-[12.760vw] aspect-[245/495] rounded-[2vw] bottom-[0vw] right-[0vw] shadow-2xl "
             draggable="false"
-            width={1000}
-            height={1000}
+            width={10000}
+            height={10000}
           />
         </div>
       </div>
