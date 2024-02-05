@@ -3,7 +3,7 @@ import ServicesContainer from "../ServicesContainer";
 
 const ServicesLandingPage = () => {
 	const Description =
-		"Lorem ipsum dolor sit amet consectetur. Praesent phasellus sagittis dignissim id egestas aenean dictum et. Gravida enim rutrum adipiscing adipiscing sed vitae.";
+		"Jenis website dengan page tunggal untuk mengarahkan pengunjung pada informasi yang ingin disampaikan pemilik website secara spesifik seperti mempromosikan kegiatan/produk, pemberian kontak person dan lain-lain.";
 	const Function = "Lorem ipsum dolor sit amet consectetur. Iaculis.";
 	const Duration = "Lorem ipsum dolor sit amet consectetur. Iaculis.";
 	const Pages = "Lorem ipsum dolor sit amet consectetur. Iaculis.";

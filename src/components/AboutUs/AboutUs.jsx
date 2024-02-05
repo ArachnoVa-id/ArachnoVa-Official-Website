@@ -1,16 +1,26 @@
+"use client"
+
 import { IoIosMail } from "react-icons/io";
 import SocialMediaIcon from "./SocialMediaIcon";
 import { FaInstagram } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import ContentBox from "./ContentBox";
 import Image from "next/image";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css"
 
 const AboutUs = () => {
+	useEffect(() => {
+		AOS.init({
+		  duration: 1500,
+		});
+	  }, []);
 	const email = "#";
 	const instagram = "#";
 	const whatsapp = "#";
 	const Description =
-		"Lorem ipsum dolor sit amet consectetur. Vitae augue facilisis consectetur arcu volutpat non blandit dolor cras. Turpis vulputate faucibus commodo urna diam id imperdiet. Bibendum duis aliquet nulla purus venenatis condimentum magna. Ac mauris sagittis ultrices bibendum mi porttitor. Pellentesque fermentum convallis fames ipsum quam feugiat nisl convallis eleifend. Mauris in velit non tempus risus vel amet. Commodo viverra risus donec malesuada interdum est vulputate eu. Sed auctor condimentum ornare id amet venenatis. Nunc lorem turpis elit scelerisque varius. Orci non blandit diam eget.";
+		"Bisnis yang dibentuk dari komunitas mahasiswa Departemen Teknik Elektro dan Teknologi Informasi (DTETI) UGM hadir dengan fokus utama pada penyediaan layanan desain dan pengembangan website. ArachnoVa memiliki kompetensi dalam merancang dan mengembangkan solusi web inovatif. Melibatkan tim yang didasari dengan pengetahuan teknis seputar IT  berkomitmen untuk memberikan layanan web yang berkualitas, memberikan solusi yang kreatif, dan merespons kebutuhan  setiap klien dengan cermat dan efektif.";
 	return (
 		<section className="relative w-full lg:min-h-[104.167vw] min-h-[413.256vw] flex flex-col justify-around items-center bg-white-MainPage">
 			<div className="absolute top-[4.271vw] w-full aspect-[1920/458] z-0 lg:flex hidden">
@@ -31,7 +41,7 @@ const AboutUs = () => {
 					className="object-contain"
 				/>
 			</div>
-			<div className="w-fit flex flex-col items-center gap-y-[0.417vw] mt-[4.271vw]">
+			<div className="w-fit flex flex-col items-center gap-y-[0.417vw] mt-[4.271vw]" data-aos="fade-down">
 				<p className="font-SourceSansProBold lg:text-[1.563vw] text-[4.186vw] lg:leading-[1.563vw] leading-[4.186vw] bg-clip-text text-transparent bg-gradient-to-r from-[#0893D4] via-[#44C4D9] to-[#159E8D]">
 					Who We Are
 				</p>
@@ -39,7 +49,7 @@ const AboutUs = () => {
 					About ArachnoVa
 				</h1>
 			</div>
-			<div className="relative w-fit h-fit">
+			<div className="relative w-fit h-fit" data-aos="fade-up">
 				<div className="absolute -left-[23.083vw] -bottom-[13.917vw] lg:w-[55.552vw] w-[50vw] aspect-[433/235] z-0 lg:flex hidden">
 					<Image
 						src="/image/AboutUs/blur-left.png"
@@ -127,10 +137,11 @@ const AboutUs = () => {
 				</div>
 			</div>
 			<div
-				className="flex lg:flex-row flex-col justify-between lg:items-center items-start lg:w-[40.625vw] w-[90.698vw] lg:aspect-[702/111] aspect-[390/253] lg:p-[2.083vw] p-[9.302vw] bg-white lg:rounded-[1.042vw] rounded-[4.651vw] lg:border-[0.156vw] border-[0.698vw] border-[#E2E8F0] lg:mb-[2.604vw]"
+				data-aos="fade-down" className="flex lg:flex-row flex-col justify-between lg:items-center items-start lg:w-[40.625vw] w-[90.698vw] lg:aspect-[702/111] aspect-[390/253] lg:p-[2.083vw] p-[9.302vw] bg-white lg:rounded-[1.042vw] rounded-[4.651vw] lg:border-[0.156vw] border-[0.698vw] border-[#E2E8F0] lg:mb-[2.604vw]"
 				style={{ boxShadow: "0px 10px 40px -10px rgba(71, 85, 105, 0.25)" }}
+				
 			>
-				<div className="lg:w-[15.35vw] w-[61.395vw] flex flex-col items-start justify-center">
+				<div className="lg:w-[15.35vw] w-[61.395vw] flex flex-col items-start justify-center" >
 					<h1 className="font-SourceSansProBold lg:text-[2.083vw] text-[6.977vw] text-neutral-g">
 						Get In Touch
 					</h1>
@@ -167,16 +178,16 @@ const AboutUs = () => {
 					/>
 				</div>
 			</div>
-			<div className="lg:w-[66.667vw] lg:h-fit w-[90.698vw] h-[113.767vw] flex flex-col lg:flex-row justify-between items-center lg:mb-[10vw]">
+			<div data-aos="fade-up" className="lg:w-[66.667vw] lg:h-fit w-[90.698vw] h-[113.767vw] flex flex-col lg:flex-row justify-between items-center lg:mb-[10vw]">
 				<ContentBox
 					Title="Vision"
-					Description="Lorem ipsum dolor sit amet consectetur. Aliquam natoque nec porta eget convallis fames. Erat sit mauris in rhoncus in convallis posuere. Nibh dictum vitae nec tristique elit imperdiet. Ut mauris leo est ultricies nunc nunc eu. Elementum magna ac ut justo at sed eget. A at quis porta."
+					Description="Menjadi pionir dalam penyediaan solusi layanan website inovatif dan berkualitas tinggi serta menjadi wadah kolaborasi yang menghubungkan mahasiswa dengan industri di bidang desain dan pengembangan web."
 					Background="linear-gradient(65deg, rgba(107, 179, 231, 0.50) 6.41%, rgba(209, 248, 241, 0.50) 101.04%)"
 					Border="border-[#76BDE4]"
 				/>
 				<ContentBox
 					Title="Mission"
-					Description="Lorem ipsum dolor sit amet consectetur. Aliquam natoque nec porta eget convallis fames. Erat sit mauris in rhoncus in convallis posuere. Nibh dictum vitae nec tristique elit imperdiet. Ut mauris leo est ultricies nunc nunc eu. Elementum magna ac ut justo at sed eget. A at quis porta."
+					Description="Menawarkan layanan desain dan pengembangan web yang kreatif dengan standar tinggi dan memberikan solusi yang teliti, akurat, dan responsif terhadap kebutuhan unik setiap client."
 					Background="linear-gradient(107deg, rgba(118, 188, 239, 0.50) -5.5%, rgba(135, 213, 224, 0.50) 106.23%)"
 					Border="border-[#52CEE0]"
 				/>
