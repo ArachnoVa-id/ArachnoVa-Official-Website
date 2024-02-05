@@ -3,7 +3,7 @@ import ServicesContainer from "../ServicesContainer";
 
 const ServicesCustomWeb = () => {
 	const Description =
-		"Lorem ipsum dolor sit amet consectetur. Praesent phasellus sagittis dignissim id egestas aenean dictum et. Gravida enim rutrum adipiscing adipiscing sed vitae.";
+		"Website yang memiliki kapabilitas melakukan hal yang lebih kompleks untuk keperluan client seperti pembentukan dashboard profesional, sistem registrasi dalam platform dan beberapa fitur yang memerlukan database.";
 	const Function = "Lorem ipsum dolor sit amet consectetur. Iaculis.";
 	const Duration = "Lorem ipsum dolor sit amet consectetur. Iaculis.";
 	const Pages = "Lorem ipsum dolor sit amet consectetur. Iaculis.";
@@ -21,7 +21,9 @@ const ServicesCustomWeb = () => {
 					Function={Function}
 					Duration={Duration}
 					Pages={Pages}
-					SlideContent={<Content data={Data} totalSlide={TotalSlide - 1} />}
+					SlideContent={
+						<Content data={Data} totalSlide={TotalSlide - 1} aos="fade-right" />
+					}
 				/>
 			</div>
 			<div className="lg:hidden flex">
@@ -32,7 +34,12 @@ const ServicesCustomWeb = () => {
 					Duration={Duration}
 					Pages={Pages}
 					SlideContent={
-						<Content data={Data} totalSlide={TotalSlide - 1} variant="Mobile" />
+						<Content
+							data={Data}
+							totalSlide={TotalSlide - 1}
+							variant="Mobile"
+							aos="zoom-in"
+						/>
 					}
 				/>
 			</div>
