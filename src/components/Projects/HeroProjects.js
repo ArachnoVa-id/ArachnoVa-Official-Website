@@ -31,8 +31,8 @@ const HeroProjects = () => {
         />
       </div>
 
-      <div className="text-black flex flex-col justify-center items-center  text-[2.3vw]/[2.2vw] max-lg:hidden z-[2] mb-[2.6vw]  ">
-        <div className="text-[1.6vw] font-SourceSansProBold bg-clip-text text-transparent bg-gradient-to-r from-[#0893D4] to-[#159E8D]">
+      <div className="text-black flex flex-col justify-center items-center  text-[2.3vw]/[2.2vw] max-lg:hidden z-[2] mb-[2.6vw] " data-aos="fade-down">
+        <div className="text-[1.6vw] font-SourceSansProBold bg-clip-text text-transparent bg-gradient-to-r from-[#0893D4] to-[#159E8D]" > 
           Unleashing Digital Excellence
         </div>
         <div className="text-[2.3vw] font-SourceSansProBold">
@@ -46,8 +46,8 @@ const HeroProjects = () => {
       </div>
 
       {/* Mobile */}
-      <div className="text-black flex flex-col justify-center items-center text-[4vw]/[6vw] mb-[10vw] lg:hidden z-[2] mt-[12vw]">
-        <div className="text-[4.186vw] font-SourceSansProBold bg-clip-text text-transparent bg-gradient-to-r from-[#0893D4] to-[#159E8D]">
+      <div className="text-black flex flex-col justify-center items-center text-[4vw]/[6vw] mb-[10vw] lg:hidden z-[2] mt-[12vw]" data-aos="fade-down">
+        <div className="text-[4.186vw] font-SourceSansProBold bg-clip-text text-transparent bg-gradient-to-r from-[#0893D4] to-[#159E8D]" >
           Unleashing Digital Excellence
         </div>
         <div className="text-[6.977vw] font-SourceSansProBold ">

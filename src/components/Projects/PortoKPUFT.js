@@ -21,8 +21,8 @@ export default function KPUFT() {
         >
           <Image
             alt="Content Prototype"
-            src="/image/Porto/LustrumDTETI/LustrumDTETIDesktop.png"
-            className="absolute w-[34.6vw] aspect-[669/376] rounded-xl border-white border-[0.2vw] right-[0] shadow-2xl "
+            src="/image/OurProducts/KPUFTHero.svg"
+            className="absolute w-[34.6vw] aspect-[669/376] rounded-2xl border-white border-[0.2vw] right-[0] shadow-2xl "
             draggable="false"
             width={1000}
             height={1000}
@@ -63,11 +63,11 @@ export default function KPUFT() {
         </h1>
         <div
           className="relative w-[90.698vw] justify-end items-start flex aspect-[824.28/426.9]"
-          data-aos="fade-left"
+          data-aos="fade-right"
         >
           <Image
             alt="Content Prototype"
-            src="/image/Porto/LustrumDTETI/LustrumDTETIDesktop.png"
+            src="/image/OurProducts/KPUFTHero.svg"
             className=" w-[75.6vw] aspect-[669/376] rounded-xl border-white border-[0.2vw] shadow-2xl "
             draggable="false"
             width={1000}

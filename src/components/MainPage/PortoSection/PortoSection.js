@@ -47,7 +47,7 @@ export default function PortoSection() {
             <Image
               alt="Content layer"
               src="/image/Porto/TETIPFullPageMobile.svg"
-              className="w-full rounded-xl"
+              className="w-full"
               draggable="false"
               width={1000}
               height={1000}

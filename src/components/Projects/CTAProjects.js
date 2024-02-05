@@ -1,9 +1,22 @@
+"use client";
+
 import Image from "next/image";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function CTAProjects() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1500,
+    });
+  }, []);
   return (
     <section className="w-full h-[60vh] relative flex flex-row justify-center items-center bg-neutral-a">
-      <div className="w-[65vw] h-[17.5vw] relative bg-transparent rounded-xl flex flex-col justify-center items-center max-lg:hidden">
+      <div
+        className="w-[65vw] h-[17.5vw] relative bg-transparent rounded-xl flex flex-col justify-center items-center max-lg:hidden"
+        data-aos="fade-up"
+      >
         <Image
           alt="Content layer "
           src="/image/CTA/BGCTAProjects.png"
@@ -20,7 +33,10 @@ export default function CTAProjects() {
         </button>
       </div>
 
-      <div className="w-[90vw] h-[70.5vw] relative bg-transparent rounded-xl flex flex-col justify-center items-center lg:hidden">
+      <div
+        className="w-[90vw] h-[70.5vw] relative bg-transparent rounded-xl flex flex-col justify-center items-center lg:hidden"
+        data-aos="fade-up"
+      >
         <Image
           alt="Content layer Mobile"
           src="/image/CTA/BGCTAProjectsMobile.png"
