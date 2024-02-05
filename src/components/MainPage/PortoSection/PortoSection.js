@@ -23,28 +23,19 @@ export default function PortoSection() {
           data-aos="fade-up"
           className="text-neutral-e w-[58vw] text-center text-[1vw] font-SourceSansProSemibold mt-[0.75vw] mb-[2.083vw] "
         >
-          Lorem ipsum dolor sit amet consectetur. Nunc luctus libero enim dui
-          pellentesque dolor mattis lacus. Malesuada accumsan tempor ultrices
-          id. Sed et id ut etiam. Et egestas varius at pellentesque nisl cursus
-          donec arcu. Nisi elementum lectus imperdiet elit risus. Mi at orci
-          nunc leo eget natoque vitae. Urna ut vestibulum id nisl vel nunc.
-          Massa scelerisque egestas egestas dictum ut velit feugiat.
+          ArachnoVa telah berpengalaman dalam pembuatan website mencakup aspek
+          Frontend, Backend, dan desain UI. Kami dengan bangga mempersembahkan
+          beberapa karya terbaru kami sebagai gambaran representatif. Berikut
+          merupakan website terbaru karya kami, serta jelajahi lebih lanjut
+          portofolio yang kami miliki.
         </div>
         <div data-aos="fade-up" className="relative mr-[10vw]">
           <div className="border-[#E2E8F0] border-[0.2vw] rounded-[0.781vw] ">
             <div className="aspect-[1008/588]  w-[52.500vw] bg-transparent border-[1vw] rounded-[0.781vw] border-[#FBFCFD] flex flex-col overflow-y-scroll no-scrollbar shadow-2xl  ">
               <Image
                 alt="Content layer"
-                src="/image/Porto/HeroEnfo.png"
-                className="w-full h-screen"
-                draggable="false"
-                width={1000}
-                height={1000}
-              />
-              <Image
-                alt="Content layer"
-                src="/image/Porto/AboutUsEnfo.png"
-                className="w-full h-screen shadow-2xl"
+                src="/image/Porto/EnforianFullPage.svg"
+                className="w-full"
                 draggable="false"
                 width={1000}
                 height={1000}
@@ -53,25 +44,9 @@ export default function PortoSection() {
           </div>
           <div className="absolute aspect-[303/514] w-[15.781vw] border-[1vw] border-white shadow-2xl rounded-[0.521vw] -bottom-[4vh] -right-[12vw] flex flex-col overflow-y-scroll no-scrollbar  ">
             <Image
-              alt="Content layer Mobile"
-              src="/image/Porto/HeroEnforianMobile.png"
-              className="w-full h-screen"
-              draggable="false"
-              width={1000}
-              height={1000}
-            />
-            <Image
-              alt="Content layer Mobile"
-              src="/image/Porto/TeaserEnfo.png"
-              className="w-full h-screen"
-              draggable="false"
-              width={1000}
-              height={1000}
-            />
-            <Image
-              alt="Content layer Mobile"
-              src="/image/Porto/AboutUsEnfoMobile.png"
-              className="w-full h-screen"
+              alt="Content layer"
+              src="/image/Porto/EnforianFullPageMobile.svg"
+              className="w-full"
               draggable="false"
               width={1000}
               height={1000}
@@ -101,28 +76,19 @@ export default function PortoSection() {
           Our Work in Action
         </div>
         <div className="text-neutral-e w-[78vw] text-center text-[2.5vw] font-SourceSansProSemibold my-[1vw] mb-[5vw] ">
-          Lorem ipsum dolor sit amet consectetur. Nunc luctus libero enim dui
-          pellentesque dolor mattis lacus. Malesuada accumsan tempor ultrices
-          id. Sed et id ut etiam. Et egestas varius at pellentesque nisl cursus
-          donec arcu. Nisi elementum lectus imperdiet elit risus. Mi at orci
-          nunc leo eget natoque vitae. Urna ut vestibulum id nisl vel nunc.
-          Massa scelerisque egestas egestas dictum ut velit feugiat.
+        ArachnoVa telah berpengalaman dalam pembuatan website mencakup aspek
+          Frontend, Backend, dan desain UI. Kami dengan bangga mempersembahkan
+          beberapa karya terbaru kami sebagai gambaran representatif. Berikut
+          merupakan website terbaru karya kami, serta jelajahi lebih lanjut
+          portofolio yang kami miliki.
         </div>
 
         <div className="border-[#E2E8F0] border-[0.5vw] rounded-[1.781vw] shadow-2xl">
           <div className="w-[90.698vw] aspect-[390/228]  bg-transparent border-[2.2vw] border-[#FBFCFD] rounded-[1.781vw]  flex flex-col overflow-y-scroll no-scrollbar  ">
             <Image
-              alt="Content layer "
-              src="/image/Porto/HeroEnfo.png"
-              className="w-full h-screen"
-              draggable="false"
-              width={1000}
-              height={1000}
-            />
-            <Image
-              alt="Content layer "
-              src="/image/Porto/AboutUsEnfo.png"
-              className="w-full h-screen"
+              alt="Content layer"
+              src="/image/Porto/EnforianFullPage.svg"
+              className="w-full"
               draggable="false"
               width={1000}
               height={1000}
@@ -133,25 +99,9 @@ export default function PortoSection() {
         <div className="border-[#E2E8F0] border-[0.4vw] rounded-[1.781vw] shadow-2xl mt-[3vw]">
           <div className="w-[60.465vw]  aspect-[260/438] bg-black border-[2.2vw] border-[#FBFCFD] rounded-md -bottom-[4vh] -right-[4vw] flex flex-col overflow-y-scroll no-scrollbar  ">
             <Image
-              alt="Content layer Mobile"
-              src="/image/Porto/HeroEnforianMobile.png"
-              className="w-full h-screen"
-              draggable="false"
-              width={1000}
-              height={1000}
-            />
-            <Image
-              alt="Content layer Mobile"
-              src="/image/Porto/TeaserEnfo.png"
-              className="w-full h-screen"
-              draggable="false"
-              width={1000}
-              height={1000}
-            />
-            <Image
-              alt="Content layer Mobile"
-              src="/image/Porto/AboutUsEnfoMobile.png"
-              className="w-full h-screen"
+              alt="Content layer"
+              src="/image/Porto/EnforianFullPageMobile.svg"
+              className="w-full"
               draggable="false"
               width={1000}
               height={1000}
