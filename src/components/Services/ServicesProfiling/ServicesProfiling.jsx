@@ -3,7 +3,7 @@ import ServicesContainer from "../ServicesContainer";
 
 const ServicesProfiling = () => {
 	const Description =
-		"Lorem ipsum dolor sit amet consectetur. Praesent phasellus sagittis dignissim id egestas aenean dictum et. Gravida enim rutrum adipiscing adipiscing sed vitae.";
+		"Website Profiling memberikan informasi menyeluruh tentang organisasi atau event melalui beberapa halaman, memungkinkan pengunjung untuk dengan mudah menavigasi situs dan memperoleh detail informasi mendetail.";
 	const Function = "Lorem ipsum dolor sit amet consectetur. Iaculis.";
 	const Duration = "Lorem ipsum dolor sit amet consectetur. Iaculis.";
 	const Pages = "Lorem ipsum dolor sit amet consectetur. Iaculis.";
@@ -21,7 +21,9 @@ const ServicesProfiling = () => {
 					Function={Function}
 					Duration={Duration}
 					Pages={Pages}
-					SlideContent={<Content data={Data} totalSlide={TotalSlide - 1} />}
+					SlideContent={
+						<Content data={Data} totalSlide={TotalSlide - 1} aos="fade-left" />
+					}
 					Variant="left"
 				/>
 			</div>
@@ -33,7 +35,12 @@ const ServicesProfiling = () => {
 					Duration={Duration}
 					Pages={Pages}
 					SlideContent={
-						<Content data={Data} totalSlide={TotalSlide - 1} variant="mobile" />
+						<Content
+							data={Data}
+							totalSlide={TotalSlide - 1}
+							variant="mobile"
+							aos="zoom-in"
+						/>
 					}
 				/>
 			</div>
