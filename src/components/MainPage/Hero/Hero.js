@@ -10,7 +10,7 @@ export default function Hero() {
     });
   }, []);
   return (
-    <section className="w-full min-h-screen relative bg-transparent flex flex-row justify-center items-center">
+    <section className="w-full min-h-screen relative bg-transparent flex flex-row justify-center items-center bg-white-MainPage ">
       <Image
         alt="Background"
         src="/image/Hero/HeroBG.png"

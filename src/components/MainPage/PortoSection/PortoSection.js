@@ -67,8 +67,6 @@ export default function PortoSection() {
               width={1000}
               height={1000}
             />
-            
-            
           </div>
           <div className="absolute bg-[#E2E8F0] aspect-[303/510] w-[16.2vw] -bottom-[4.4vh] -right-[12.2vw] rounded-[0.521vw]"></div>
         </div>
