@@ -1,6 +1,16 @@
-const ContentBox = ({ Title, Description, Background, Border }) => {
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+const ContentBox = ({ Title, Description, Background, Border, aos }) => {
+	useEffect(() => {
+		AOS.init({
+			duration: 1500,
+		});
+	}, []);
 	return (
 		<div
+			data-aos={aos}
 			className={`lg:w-[31.667vw] lg:aspect-[608/316] w-[90.698vw] aspect-[390/234] flex flex-col justify-center items-center lg:rounded-[0.833vw] rounded-[3.721vw] lg:border-[0.156vw] border-[0.698vw] ${Border}`}
 			style={{
 				background: Background,

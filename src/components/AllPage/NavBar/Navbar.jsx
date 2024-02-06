@@ -1,5 +1,6 @@
 "use client";
 
+import { usePathname } from "next/navigation";
 import Image from "next/image";
 import NavItem from "./NavItem";
 import Button from "../Button/Button";
@@ -8,10 +9,11 @@ import { useState } from "react";
 import NavItemMobile from "./NavItemMobile";
 
 const Navbar = () => {
+	const path = usePathname();
 	const [isOpen, setIsOpen] = useState(false);
 	return (
 		<>
-			<nav className="relative lg:fixed z-[100] lg:py-[0.938vw] lg:px-[15vw] px-[5.581vw] py-[2.88vw] w-screen flex items-center justify-between lg:bg-[#FAFDFF]/[0.75] bg-[#FAFDFF] lg:backdrop-blur-[0.208vw] backdrop-blur-[1.163vw] lg:border-b-[0.104vw] border-b-[0.465vw] border-[#E6ECF0]">
+			<nav className="fixed z-[100] lg:py-[0.938vw] lg:px-[15vw] px-[5.581vw] py-[2.88vw] w-screen flex items-center justify-between bg-[#FAFDFF]/[0.75] lg:backdrop-blur-[0.208vw] backdrop-blur-[1.163vw] lg:border-b-[0.104vw] border-b-[0.465vw] border-[#E6ECF0]">
 				<div className="flex items-center flex-row">
 					<ul className="lg:flex items-center gap-x-[3.125vw] hidden">
 						<a href="/">
@@ -26,9 +28,9 @@ const Navbar = () => {
 							</div>
 						</a>
 
-						<NavItem Menu="Projects" href="/projects" />
-						<NavItem Menu="Services" href="/services" />
-						<NavItem Menu="About" href="/aboutus" />
+						<NavItem Menu="Projects" href="/projects" path={path} />
+						<NavItem Menu="Services" href="/services" path={path} />
+						<NavItem Menu="About" href="/aboutus" path={path} />
 					</ul>
 					<a href="/">
 						<div className="relative lg:hidden w-[10.465vw] aspect-[45/33] hover:scale-110 transition-all duration-300 ease-in-out">

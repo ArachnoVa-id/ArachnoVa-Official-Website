@@ -50,7 +50,7 @@ const PointText = ({ Title, Description, Icon, Variant }) => {
 	const Position = Variant === "left" ? "justify-end text-right" : "";
 	return (
 		<div
-			className={`w-full lg:h-[3.646vw] h-[20.023vw] flex flex-row items-start lg:gap-x-[0.938vw] gap-x-[2.558vw] ${Position}`}
+			className={`w-full lg:h-[3.646vw] h-fit flex flex-row items-start lg:gap-x-[0.938vw] gap-x-[2.558vw] ${Position}`}
 		>
 			{Left}
 			{Right}

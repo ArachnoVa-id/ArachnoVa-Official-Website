@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { IoIosMail } from "react-icons/io";
 import SocialMediaIcon from "./SocialMediaIcon";
@@ -8,14 +8,14 @@ import ContentBox from "./ContentBox";
 import Image from "next/image";
 import { useEffect } from "react";
 import AOS from "aos";
-import "aos/dist/aos.css"
+import "aos/dist/aos.css";
 
 const AboutUs = () => {
 	useEffect(() => {
 		AOS.init({
-		  duration: 1500,
+			duration: 1500,
 		});
-	  }, []);
+	}, []);
 	const email = "#";
 	const instagram = "#";
 	const whatsapp = "#";
@@ -41,7 +41,10 @@ const AboutUs = () => {
 					className="object-contain"
 				/>
 			</div>
-			<div className="w-fit flex flex-col items-center gap-y-[0.417vw] mt-[4.271vw]" data-aos="fade-down">
+			<div
+				className="w-fit flex flex-col items-center gap-y-[0.417vw] lg:mt-[4.271vw] mt-[15vw]"
+				data-aos="fade-down"
+			>
 				<p className="font-SourceSansProBold lg:text-[1.563vw] text-[4.186vw] lg:leading-[1.563vw] leading-[4.186vw] bg-clip-text text-transparent bg-gradient-to-r from-[#0893D4] via-[#44C4D9] to-[#159E8D]">
 					Who We Are
 				</p>
@@ -137,11 +140,11 @@ const AboutUs = () => {
 				</div>
 			</div>
 			<div
-				data-aos="fade-down" className="flex lg:flex-row flex-col justify-between lg:items-center items-start lg:w-[40.625vw] w-[90.698vw] lg:aspect-[702/111] aspect-[390/253] lg:p-[2.083vw] p-[9.302vw] bg-white lg:rounded-[1.042vw] rounded-[4.651vw] lg:border-[0.156vw] border-[0.698vw] border-[#E2E8F0] lg:mb-[2.604vw]"
+				data-aos="fade-down"
+				className="flex lg:flex-row flex-col justify-between lg:items-center items-start lg:w-[40.625vw] w-[90.698vw] lg:aspect-[702/111] aspect-[390/253] lg:p-[2.083vw] p-[9.302vw] bg-white lg:rounded-[1.042vw] rounded-[4.651vw] lg:border-[0.156vw] border-[0.698vw] border-[#E2E8F0] lg:mb-[2.604vw]"
 				style={{ boxShadow: "0px 10px 40px -10px rgba(71, 85, 105, 0.25)" }}
-				
 			>
-				<div className="lg:w-[15.35vw] w-[61.395vw] flex flex-col items-start justify-center" >
+				<div className="lg:w-[15.35vw] w-[61.395vw] flex flex-col items-start justify-center">
 					<h1 className="font-SourceSansProBold lg:text-[2.083vw] text-[6.977vw] text-neutral-g">
 						Get In Touch
 					</h1>
@@ -178,18 +181,23 @@ const AboutUs = () => {
 					/>
 				</div>
 			</div>
-			<div data-aos="fade-up" className="lg:w-[66.667vw] lg:h-fit w-[90.698vw] h-[113.767vw] flex flex-col lg:flex-row justify-between items-center lg:mb-[10vw]">
+			<div
+				data-aos="fade-up"
+				className="lg:w-[66.667vw] lg:h-fit w-[90.698vw] h-[113.767vw] flex flex-col lg:flex-row justify-between items-center lg:mb-[10vw]"
+			>
 				<ContentBox
 					Title="Vision"
 					Description="Menjadi pionir dalam penyediaan solusi layanan website inovatif dan berkualitas tinggi serta menjadi wadah kolaborasi yang menghubungkan mahasiswa dengan industri di bidang desain dan pengembangan web."
 					Background="linear-gradient(65deg, rgba(107, 179, 231, 0.50) 6.41%, rgba(209, 248, 241, 0.50) 101.04%)"
 					Border="border-[#76BDE4]"
+					aos="fade-right"
 				/>
 				<ContentBox
 					Title="Mission"
 					Description="Menawarkan layanan desain dan pengembangan web yang kreatif dengan standar tinggi dan memberikan solusi yang teliti, akurat, dan responsif terhadap kebutuhan unik setiap client."
 					Background="linear-gradient(107deg, rgba(118, 188, 239, 0.50) -5.5%, rgba(135, 213, 224, 0.50) 106.23%)"
 					Border="border-[#52CEE0]"
+					aos="fade-left"
 				/>
 			</div>
 		</section>
