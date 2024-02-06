@@ -9,7 +9,7 @@ const CardContents = ({ title, description, image, imageMobile }) => {
     <section>
       <div className="relative bg-gradient-to-r from-[#2DC0D8] to-[#179FB5]  mx-[5vw] rounded-[2vw] w-[70.260vw] aspect-[1349/576] flex flex-col justify-end items-center mt-[13vw] max-lg:hidden">
         <div
-          className="absolute flex justify-center items-center w-[4vw] h-[4vw] -left-[2vw] top-[24vh] bg-[#84D4E1] rounded-[3vw] hover:bg-[#cae8ee] duration-500 ease-in-out"
+          className="absolute flex cursor-pointer justify-center items-center w-[4vw] h-[4vw] -left-[2vw] top-[24vh] bg-[#84D4E1] rounded-[3vw] hover:bg-[#cae8ee] duration-500 ease-in-out"
           onClick={() => swiper.slidePrev()}
         >
           <Image
@@ -22,7 +22,7 @@ const CardContents = ({ title, description, image, imageMobile }) => {
           />
         </div>
         <div
-          className="flex justify-center items-center absolute w-[4vw] h-[4vw] -right-[2vw] top-[24vh] bg-[#84D4E1] rounded-[3vw] hover:bg-[#cae8ee] duration-500 ease-in-out"
+          className="cursor-pointer flex justify-center items-center absolute w-[4vw] h-[4vw] -right-[2vw] top-[24vh] bg-[#84D4E1] rounded-[3vw] hover:bg-[#cae8ee] duration-500 ease-in-out"
           onClick={() => swiper.slideNext()}
         >
           <Image
