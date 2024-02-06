@@ -10,24 +10,24 @@ export default function Hero() {
 		});
 	}, []);
 	return (
-		<section className="w-full min-h-screen relative bg-transparent flex flex-row justify-center items-center">
+		<section className="w-full min-h-screen relative bg-transparent flex flex-row justify-center items-center bg-white-MainPage ">
 			<Image
 				alt="Background"
 				src="/image/Hero/HeroBG.png"
-				className="absolute w-full h-full -z-[1] max-lg:hidden"
+				className="absolute w-full h-full z-[1] max-lg:hidden"
 				fill
 				draggable="false"
 			/>
 			<Image
 				alt="Background"
 				src="/image/Hero/HeroBGMobile.png"
-				className="absolute w-full h-full -z-[1] lg:hidden"
+				className="absolute w-full h-full z-[1] lg:hidden"
 				fill
 				draggable="false"
 			/>
 
 			{/* Dekstop */}
-			<div className="text-black flex gap-x-[8vw] max-lg:hidden">
+			<div className="text-black flex gap-x-[8vw] max-lg:hidden z-[2]">
 				<div className="flex flex-col justify-center scale-[1.2]">
 					<div className="text-[1.6vw] text-neutral-g font-CoolveticaCondReg ">
 						ArachnoVa{" "}
@@ -53,20 +53,14 @@ export default function Hero() {
 						Crafting Digital Presence in Every Strand of Code
 					</div>
 					<div className="py-[2vh] flex gap-[1vw]">
-						<a
-							href="https://wa.me/6281809252706"
-							className="aspect-[167/46] w-[8.698vw] rounded-[0.4vw] bg-gradient-to-r from-[#2DC0D8] to-[#179FB5] font-InterBold text-white text-[0.8vw] flex justify-center items-center hover:translate-y-[-0.208vw] transition-all duration-500 ease-in-out "
-						>
+						<button className="aspect-[167/46] w-[8.698vw] rounded-[0.4vw] bg-gradient-to-r from-[#2DC0D8] to-[#179FB5] font-InterBold text-white text-[0.8vw] flex justify-center items-center hover:translate-y-[-0.208vw] transition-all duration-500 ease-in-out ">
 							Start Your Project
-						</a>
-						<a
-							href="/services"
-							className="aspect-[197/48] w-[10.26vw] rounded-[0.4vw] bg-transparent text-[0.8vw] flex justify-center items-center hover:translate-y-[-0.208vw] transition-all duration-500 ease-in-out hover:bg-[#cae8ee] "
-						>
+						</button>
+						<button className="aspect-[197/48] w-[10.26vw] rounded-[0.4vw] bg-transparent text-[0.8vw] flex justify-center items-center hover:translate-y-[-0.208vw] transition-all duration-500 ease-in-out hover:bg-[#cae8ee] ">
 							<div className="bg-clip-text text-transparent bg-gradient-to-r from-[#0893D4] to-[#159E8D] font-InterBold">
 								Discover Our Services
 							</div>
-						</a>
+						</button>
 					</div>
 				</div>
 
@@ -141,7 +135,7 @@ export default function Hero() {
 			{/* Mobile */}
 			<div
 				data-aos="fade-up"
-				className="flex flex-col lg:hidden w-full items-center mb-[40vw]"
+				className="flex flex-col lg:hidden w-full items-center mb-[40vw] z-[2]"
 			>
 				<div className="text-[8.6vw] text-neutral-g font-CoolveticaCondReg ">
 					ArachnoVa{" "}
