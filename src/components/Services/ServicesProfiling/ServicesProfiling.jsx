@@ -4,9 +4,9 @@ import ServicesContainer from "../ServicesContainer";
 const ServicesProfiling = () => {
 	const Description =
 		"Website Profiling memberikan informasi menyeluruh tentang organisasi atau event melalui beberapa halaman, memungkinkan pengunjung untuk dengan mudah menavigasi situs dan memperoleh detail informasi mendetail.";
-	const Function = "Lorem ipsum dolor sit amet consectetur. Iaculis.";
-	const Duration = "Lorem ipsum dolor sit amet consectetur. Iaculis.";
-	const Pages = "Lorem ipsum dolor sit amet consectetur. Iaculis.";
+	const Function = "Penjelasan lengkap tentang instansi.";
+	const Duration = "2 - 4 Minggu.";
+	const Pages = "3 - 5 Halaman.";
 	const Data = ["/image/OurProducts/Profiling-1.png"];
 	const TotalSlide = 1;
 	return (

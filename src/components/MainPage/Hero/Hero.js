@@ -53,14 +53,20 @@ export default function Hero() {
 						Crafting Digital Presence in Every Strand of Code
 					</div>
 					<div className="py-[2vh] flex gap-[1vw]">
-						<button className="aspect-[167/46] w-[8.698vw] rounded-[0.4vw] bg-gradient-to-r from-[#2DC0D8] to-[#179FB5] font-InterBold text-white text-[0.8vw] flex justify-center items-center hover:translate-y-[-0.208vw] transition-all duration-500 ease-in-out ">
+						<a
+							href="https://wa.me/6281809252706"
+							className="aspect-[167/46] w-[8.698vw] rounded-[0.4vw] bg-gradient-to-r from-[#2DC0D8] to-[#179FB5] font-InterBold text-white text-[0.8vw] flex justify-center items-center hover:translate-y-[-0.208vw] transition-all duration-500 ease-in-out "
+						>
 							Start Your Project
-						</button>
-						<button className="aspect-[197/48] w-[10.26vw] rounded-[0.4vw] bg-transparent text-[0.8vw] flex justify-center items-center hover:translate-y-[-0.208vw] transition-all duration-500 ease-in-out hover:bg-[#cae8ee] ">
+						</a>
+						<a
+							href="/services"
+							className="aspect-[197/48] w-[10.26vw] rounded-[0.4vw] bg-transparent text-[0.8vw] flex justify-center items-center hover:translate-y-[-0.208vw] transition-all duration-500 ease-in-out hover:bg-[#cae8ee] "
+						>
 							<div className="bg-clip-text text-transparent bg-gradient-to-r from-[#0893D4] to-[#159E8D] font-InterBold">
 								Discover Our Services
 							</div>
-						</button>
+						</a>
 					</div>
 				</div>
 

@@ -4,9 +4,9 @@ import ServicesContainer from "../ServicesContainer";
 const ServicesLandingPage = () => {
 	const Description =
 		"Jenis website dengan page tunggal untuk mengarahkan pengunjung pada informasi yang ingin disampaikan pemilik website secara spesifik seperti mempromosikan kegiatan/produk, pemberian kontak person dan lain-lain.";
-	const Function = "Lorem ipsum dolor sit amet consectetur. Iaculis.";
-	const Duration = "Lorem ipsum dolor sit amet consectetur. Iaculis.";
-	const Pages = "Lorem ipsum dolor sit amet consectetur. Iaculis.";
+	const Function = "Pemaparan informasi ke pengunjung.";
+	const Duration = "1 - 3 Minggu.";
+	const Pages = "1 - 2 Halaman.";
 	const Data = [
 		"/image/OurProducts/LandingPage-1.png",
 		"/image/OurProducts/LandingPage-2.png",
