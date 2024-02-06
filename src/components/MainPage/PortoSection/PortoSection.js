@@ -30,18 +30,30 @@ export default function PortoSection() {
           yang kami miliki.
         </div>
         <div data-aos="fade-up" className="relative mr-[10vw]">
-          <div className="bg-[#E2E8F0] p-[0.2vw] rounded-[0.781vw] ">
-            <div className="relative aspect-[1008/588]  w-[52.500vw] bg-transparent border-[1vw] rounded-[0.781vw] border-[#FBFCFD] flex flex-col overflow-y-scroll no-scrollbar shadow-2xl  ">
-              <Image
-                alt="Content layer"
-                src="/image/Porto/EnforianFullPage.svg"
-                className="w-full rounded-xl"
-                draggable="false"
-                width={1000}
-                height={1000}
-              />
-              <div className="rounded-[0.781vw] w-full h-full fixed top-0 left-0">
-                <div className="w-full h-full bg-gradient-to-b from-transparent to-black" />
+          <div className="bg-[#E2E8F0] p-[0.2vw] rounded-[0.781vw] group">
+            <div className="aspect-[1008/588] w-[52.500vw] p-[1vw] bg-[#FBFCFD] flex flex-col shadow-2xl rounded-[0.781vw]">
+              <div className="w-full h-full relative overflow-y-scroll no-scrollbar rounded-[0.781vw]">
+                <Image
+                  alt="Content layer"
+                  src="/image/Porto/EnforianFullPage.svg"
+                  className="w-full rounded-xl"
+                  draggable="false"
+                  width={1000}
+                  height={1000}
+                />
+                <div className="p-[1.2vw] w-full h-full fixed top-0 left-0 pointer-events-none">
+                  <div className="w-full justify-center items-center flex group-hover:opacity-0 duration-500 ">
+                    <Image
+                      alt="Content layer"
+                      src="/image/Porto/scroll-down.gif"
+                      className="w-[5vw] z-[3] absolute bottom-[2vw] rounded-xl"
+                      draggable="false"
+                      width={1000}
+                      height={1000}
+                    />
+                  </div>
+                  <div className="w-full h-full bg-gradient-to-b from-transparent from-55% to-black group-hover:opacity-0 duration-500 rounded-[0.781vw]" />
+                </div>
               </div>
             </div>
           </div>
@@ -55,6 +67,8 @@ export default function PortoSection() {
               width={1000}
               height={1000}
             />
+            
+            
           </div>
           <div className="absolute bg-[#E2E8F0] aspect-[303/510] w-[16.2vw] -bottom-[4.4vh] -right-[12.2vw] rounded-[0.521vw]"></div>
         </div>
