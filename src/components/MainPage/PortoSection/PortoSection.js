@@ -30,23 +30,26 @@ export default function PortoSection() {
           yang kami miliki.
         </div>
         <div data-aos="fade-up" className="relative mr-[10vw]">
-          <div className="border-[#E2E8F0] border-[0.2vw] rounded-[0.781vw] ">
-            <div className="aspect-[1008/588]  w-[52.500vw] bg-transparent border-[1vw] rounded-[0.781vw] border-[#FBFCFD] flex flex-col overflow-y-scroll no-scrollbar shadow-2xl  ">
+          <div className="bg-[#E2E8F0] p-[0.2vw] rounded-[0.781vw] ">
+            <div className="relative aspect-[1008/588]  w-[52.500vw] bg-transparent border-[1vw] rounded-[0.781vw] border-[#FBFCFD] flex flex-col overflow-y-scroll no-scrollbar shadow-2xl  ">
               <Image
                 alt="Content layer"
-                src="/image/Porto/TETIPFullPage.svg"
+                src="/image/Porto/EnforianFullPage.svg"
                 className="w-full rounded-xl"
                 draggable="false"
                 width={1000}
                 height={1000}
               />
+              <div className="rounded-[0.781vw] w-full h-full fixed top-0 left-0">
+                <div className="w-full h-full bg-gradient-to-b from-transparent to-black" />
+              </div>
             </div>
           </div>
 
           <div className="absolute aspect-[303/514] z-[3] w-[15.781vw] border-[1vw] border-white shadow-2xl rounded-[0.521vw] -bottom-[4vh] -right-[12vw] flex flex-col overflow-y-scroll no-scrollbar  ">
             <Image
               alt="Content layer"
-              src="/image/Porto/TETIPFullPageMobile.svg"
+              src="/image/Porto/EnforianFullPageMobile.svg"
               className="w-full"
               draggable="false"
               width={1000}
@@ -89,7 +92,7 @@ export default function PortoSection() {
           <div className="w-[90.698vw] aspect-[390/228]  bg-transparent border-[2.2vw] border-[#FBFCFD] rounded-[1.781vw]  flex flex-col overflow-y-scroll no-scrollbar  ">
             <Image
               alt="Content layer"
-              src="/image/Porto/TETIPFullPage.svg"
+              src="/image/Porto/EnforianFullPage.svg"
               className="w-full rounded-xl"
               draggable="false"
               width={1000}
@@ -102,7 +105,7 @@ export default function PortoSection() {
           <div className="w-[60.465vw]  aspect-[260/438] bg-black border-[2.2vw] border-[#FBFCFD] rounded-md -bottom-[4vh] -right-[4vw] flex flex-col overflow-y-scroll no-scrollbar  ">
             <Image
               alt="Content layer"
-              src="/image/Porto/TETIPFullPageMobile.svg"
+              src="/image/Porto/EnforianFullPageMobile.svg"
               className="w-full rounded-xl"
               draggable="false"
               width={1000}
