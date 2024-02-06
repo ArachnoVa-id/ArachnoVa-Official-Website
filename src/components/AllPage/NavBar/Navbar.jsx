@@ -59,7 +59,7 @@ const Navbar = () => {
 				) : (
 					<></>
 				)}
-				<Button Text="Contact Us" href="#" />
+				<Button Text="Contact Us" href="https://wa.me/6281809252706" />
 			</nav>
 		</>
 	);

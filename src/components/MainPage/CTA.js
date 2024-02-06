@@ -28,12 +28,13 @@ export default function CTA() {
 					<p>Ready to Transform Your Digital Presence ? </p>
 					<p>Let&apos;s Start Crafting Your Website Today</p>
 				</div>
-				<button
+				<a
+					href="https://wa.me/6281809252706"
 					data-aos="fade-up"
-					className="bg-black w-[13.646vw] aspect-[262/54] rounded-[0.260vw] font-SourceSansProSemibold mt-[3vw] text-[1.042vw] hover:bg-neutral-e duration-500"
+					className="bg-black w-[13.646vw] aspect-[262/54] flex justify-center items-center rounded-[0.260vw] font-SourceSansProSemibold mt-[3vw] text-[1.042vw] hover:bg-neutral-e duration-500"
 				>
 					Start Your Project
-				</button>
+				</a>
 			</div>
 
 			{/* Mobile */}
@@ -45,12 +46,13 @@ export default function CTA() {
 					<p>Ready to Transform Your Digital Presence ? </p>
 					<p>Let&apos;s Start Crafting Your Website Today</p>
 				</div>
-				<button
+				<a
+					href="https://wa.me/6281809252706"
 					data-aos="fade-up"
-					className="bg-black w-[53.256vw] aspect-[229/49] rounded-lg font-SourceSansProSemibold mt-[8vw] text-[4.5vw] hover:bg-neutral-e duration-500"
+					className="bg-black w-[53.256vw] aspect-[229/49] rounded-lg flex justify-center items-center font-SourceSansProSemibold mt-[8vw] text-[4.5vw] hover:bg-neutral-e duration-500"
 				>
 					Start Your Project
-				</button>
+				</a>
 			</div>
 		</section>
 	);
