@@ -14,20 +14,20 @@ export default function Hero() {
       <Image
         alt="Background"
         src="/image/Hero/HeroBG.png"
-        className="absolute w-full h-full -z-[1] max-lg:hidden"
+        className="absolute w-full h-full z-[1] max-lg:hidden"
         fill
         draggable="false"
       />
       <Image
         alt="Background"
         src="/image/Hero/HeroBGMobile.png"
-        className="absolute w-full h-full -z-[1] lg:hidden"
+        className="absolute w-full h-full z-[1] lg:hidden"
         fill
         draggable="false"
       />
 
       {/* Dekstop */}
-      <div className="text-black flex gap-x-[8vw] max-lg:hidden">
+      <div className="text-black flex gap-x-[8vw] max-lg:hidden z-[2]">
         <div className="flex flex-col justify-center scale-[1.2]">
           <div className="text-[1.6vw] text-neutral-g font-CoolveticaCondReg ">
             ArachnoVa{" "}
@@ -138,7 +138,7 @@ export default function Hero() {
       {/* Mobile */}
       <div
         data-aos="fade-up"
-        className="flex flex-col lg:hidden w-full items-center mb-[40vw]"
+        className="flex flex-col lg:hidden w-full items-center mb-[40vw] z-[2]"
       >
         <div className="text-[8.6vw] text-neutral-g font-CoolveticaCondReg ">
           ArachnoVa{" "}
