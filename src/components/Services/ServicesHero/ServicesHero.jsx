@@ -33,7 +33,7 @@ const ServicesHero = () => {
 				/>
 			</div>
 			<div
-				className="lg:w-[43.981vw] w-[68.442vw] flex flex-col justify-center items-center mb-[15.767vw] lg:mb-0"
+				className="lg:w-[43.981vw] w-[68.442vw] flex flex-col justify-center items-center mb-[15.767vw] lg:mb-0 lg:mt-0 mt-[20vw]"
 				data-aos="fade-down"
 			>
 				<p className="font-SourceSansProBold lg:text-[1.563vw] text-[4.186vw] bg-clip-text text-transparent bg-gradient-to-r from-[#0893D4] via-[#44C4D9] to-[#159E8D]">
