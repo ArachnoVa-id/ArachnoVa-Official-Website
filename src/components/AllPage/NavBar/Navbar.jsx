@@ -54,7 +54,7 @@ const Navbar = () => {
 				</div>
 				{isOpen ? (
 					<>
-						<NavItemMobile />
+						<NavItemMobile href="https://wa.me/6281809252706" />
 					</>
 				) : (
 					<></>

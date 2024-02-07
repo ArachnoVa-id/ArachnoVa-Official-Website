@@ -8,16 +8,19 @@ const Description = ({ Title, Description, Variant, href }) => {
 			? "items-start justify-start"
 			: "justify-center items-center text-justify";
 	const paragraph = Variant === "Right" ? "text-right" : "";
-	const ButtonMobile = () => {
+	const ButtonMobile = ({ href }) => {
 		return (
-			<button className="w-[77.907vw] aspect-[335/40] rounded-[1.86vw] flex lg:hidden items-center justify-center bg-gradient-to-br from-[#2EC1D9] to-[#179FB5] hover:translate-y-[-0.208vw] transition-all duration-500 ease-in-out">
+			<a
+				href={href}
+				className="w-[77.907vw] aspect-[335/40] rounded-[1.86vw] flex lg:hidden items-center justify-center bg-gradient-to-br from-[#2EC1D9] to-[#179FB5] hover:translate-y-[-0.208vw] transition-all duration-500 ease-in-out"
+			>
 				<p className="font-InterBold text-[3.256vw] text-neutral-a">
 					Learn More
 				</p>
-			</button>
+			</a>
 		);
 	};
-	const mobile_button = Variant ? "" : <ButtonMobile />;
+	const mobile_button = Variant ? "" : <ButtonMobile href={href} />;
 	return (
 		<>
 			<div
