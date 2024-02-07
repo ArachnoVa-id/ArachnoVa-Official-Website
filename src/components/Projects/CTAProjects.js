@@ -30,7 +30,7 @@ export default function CTAProjects() {
         </h1>
         <a
           href="https://wa.me/6281809252706"
-          className="bg-black w-[13.646vw] flex justify-center items-center aspect-[262/54] z-[2] rounded-[0.260vw] font-SourceSansProSemibold mt-[1vw] text-[1.042vw] hover:bg-neutral-e duration-500"
+          className="bg-black w-[13.646vw] flex text-neutral-a justify-center items-center aspect-[262/54] z-[2] rounded-[0.260vw] font-SourceSansProSemibold mt-[1vw] text-[1.042vw] hover:bg-neutral-e duration-500"
         >
           Start Your Project
         </a>
@@ -59,7 +59,7 @@ export default function CTAProjects() {
 
         <a
           href="https://wa.me/6281809252706"
-          className="bg-black w-[60vw] h-[12vw] z-[2] rounded-lg font-SourceSansProSemibold mt-[1vw] text-[5vw] hover:bg-neutral-e duration-500"
+          className="bg-black w-[60vw] h-[12vw] flex justify-center items-center z-[2] text-neutral-a rounded-lg font-SourceSansProSemibold mt-[1vw] text-[5vw] hover:bg-neutral-e duration-500"
         >
           Start Your Project
         </a>

@@ -34,8 +34,8 @@ const CardContents = ({ title, description, image, imageMobile }) => {
             height={1000}
           />
         </div>
-        <div className="font-SourceSansProBold text-[2.083vw]">{title}</div>
-        <div className="w-[60vw] text-center text-[1.042vw] font-SourceSansProSemibold mb-[3vw] ">
+        <div className="font-SourceSansProBold text-[2.083vw] text-neutral-a">{title}</div>
+        <div className="w-[60vw] text-center text-[1.042vw] font-SourceSansProSemibold mb-[3vw] text-neutral-a ">
           {description}
         </div>
         <div className="absolute -top-[12vw] w-[61.823vw] aspect-[1187/573]  ">
@@ -85,13 +85,13 @@ const CardContents = ({ title, description, image, imageMobile }) => {
             height={1000}
           />
         </div>
-        <div className="font-SourceSansProBold mb-[2vw] text-[5.581vw]">
+        <div className="font-SourceSansProBold mb-[2vw] text-[5.581vw] text-neutral-a">
           {title}
         </div>
-        <div className="w-[60vw] text-[3vw] text-center font-SourceSansProSemibold mb-[5vw] ">
+        <div className="w-[60vw] text-[3vw] text-center font-SourceSansProSemibold mb-[5vw] text-neutral-a">
           {description}
         </div>
-        <div className="absolute -top-[25vw] w-[70.744vw] h-[35vw] aspect-[1920/1080] ">
+        <div className="absolute -top-[25vw] w-[70.744vw] h-[35vw] aspect-[1920/1080]  ">
           <Image
             alt="Content Prototype"
             src={image}
