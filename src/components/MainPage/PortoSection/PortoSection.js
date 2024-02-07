@@ -185,6 +185,18 @@ export default function PortoSection() {
             </div>
           </div>
         </div>
+        <a
+          href="/projects"
+          className={
+            "flex flex-row justify-center items-center w-[30.792vw] gap-x-[0.26vw] mt-[8.531vw] aspect-[188/48] bg-transparent rounded-[1.17vw] hover:bg-[#5AB0BB]/20 hover:scale-[102%] transition-all duration-700 ease-in-out " +
+            styles.ButtonShadow
+          }
+        >
+          <p className="font-InterBold text-[2.833vw] bg-clip-text text-transparent bg-gradient-to-r from-[#0893D4] via-[#44C4D9] to-[#159E8D]">
+            More Projects
+          </p>
+          <FaArrowRight className="text-[#24AAA7] w-[1.25vw] aspect-[1/1]" />
+        </a>
       </div>
 
       <BorderSeparator />
