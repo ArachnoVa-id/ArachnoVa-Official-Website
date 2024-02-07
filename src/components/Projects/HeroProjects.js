@@ -15,7 +15,7 @@ const HeroProjects = () => {
       <Image
         alt="Background"
         src="/image/Projects/BGHeroProjectsMobile.svg"
-        className="absolute w-full top-[0] z-[1] lg:hidden "
+        className="absolute w-full top-[0] z-[1] lg:hidden mt-[18.372vw]"
         draggable="false"
         width={100000}
         height={100000}
@@ -46,7 +46,7 @@ const HeroProjects = () => {
       </div>
 
       {/* Mobile */}
-      <div className="text-black flex flex-col justify-center items-center text-[4vw]/[6vw] mb-[10vw] lg:hidden z-[2] mt-[12vw]" data-aos="fade-down">
+      <div className="text-black flex flex-col justify-center items-center text-[4vw]/[6vw] mb-[10vw] lg:hidden z-[2] mt-[24.372vw]" data-aos="fade-down">
         <div className="text-[4.186vw] font-SourceSansProBold bg-clip-text text-transparent bg-gradient-to-r from-[#0893D4] to-[#159E8D]" >
           Unleashing Digital Excellence
         </div>

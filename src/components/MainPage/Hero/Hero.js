@@ -141,7 +141,7 @@ export default function Hero() {
       {/* Mobile */}
       <div
         data-aos="fade-up"
-        className="flex flex-col lg:hidden w-full items-center mb-[40vw] z-[2]"
+        className="flex flex-col lg:hidden w-full items-center mb-[40vw] z-[2] mt-[24.372vw]"
       >
         <div className="text-[8.6vw] text-neutral-g font-CoolveticaCondReg ">
           ArachnoVa{" "}
@@ -152,9 +152,9 @@ export default function Hero() {
           <div className="overflow-clip  flex items-center justify-center h-[9.8vw] gap-[2vw]  leading-none">
             <div className="text-[9.8vw]">Always</div>
             <div className="flex-col gap-[4vw] text-[9.8vw] gap-y-[2vw] ">
-              <div className=" animate-swap_words ">Dependable</div>
               <div className=" animate-swap_words ">Delivered</div>
               <div className=" animate-swap_words">Distinctive</div>
+			  <div className=" animate-swap_words ">Dependable</div>
             </div>
           </div>
         </div>
