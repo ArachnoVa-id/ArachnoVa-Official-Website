@@ -28,9 +28,12 @@ export default function CTAProjects() {
         <h1 className="text-neutral-a font-SourceSansProBold text-[2.5vw] z-[2]">
           Get Inspired? Create Yours Now!
         </h1>
-        <button className="bg-black w-[13.646vw] aspect-[262/54] z-[2] rounded-[0.260vw] font-SourceSansProSemibold mt-[1vw] text-[1.042vw] hover:bg-neutral-e duration-500">
+        <a
+          href="https://wa.me/6281809252706"
+          className="bg-black w-[13.646vw] flex justify-center items-center aspect-[262/54] z-[2] rounded-[0.260vw] font-SourceSansProSemibold mt-[1vw] text-[1.042vw] hover:bg-neutral-e duration-500"
+        >
           Start Your Project
-        </button>
+        </a>
       </div>
 
       <div
@@ -54,9 +57,12 @@ export default function CTAProjects() {
           </h1>
         </div>
 
-        <button className="bg-black w-[60vw] h-[12vw] z-[2] rounded-lg font-SourceSansProSemibold mt-[1vw] text-[5vw] hover:bg-neutral-e duration-500">
+        <a
+          href="https://wa.me/6281809252706"
+          className="bg-black w-[60vw] h-[12vw] z-[2] rounded-lg font-SourceSansProSemibold mt-[1vw] text-[5vw] hover:bg-neutral-e duration-500"
+        >
           Start Your Project
-        </button>
+        </a>
       </div>
     </section>
   );

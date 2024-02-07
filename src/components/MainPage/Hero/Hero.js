@@ -173,7 +173,7 @@ export default function Hero() {
 					</div>
 				</button>
 
-				<div className="bg-transparent backdrop-blur-lg w-[80vw] h-[60vw] rounded-lg border-2 border-[#F1F5F9]  relative font-ConsolasRegular ">
+				<div className="bg-white opacity-90 w-[80vw] h-[60vw] rounded-lg border-2 border-[#F1F5F9]  relative font-ConsolasRegular ">
 					<div className="absolute w-[60vw] h-[13vw]  bg-white opacity-90 rounded-md -bottom-[6vw] -right-[4vw] text-[3vw] border-2 border-[#E2E8F0] font-ConsolasBold  ">
 						<Image
 							alt=""
@@ -190,7 +190,7 @@ export default function Hero() {
 							<div className="text-neutral-g">npm run dev</div>
 						</div>
 					</div>
-					<div className="px-[1vw] py-[4vw] text-[3vw]/[4vw] relative">
+					<div className="px-[1vw] py-[4vw] text-[3vw]/[4vw] relative ">
 						<Image
 							alt=""
 							src="/image/Hero/3ColorButton.png"
