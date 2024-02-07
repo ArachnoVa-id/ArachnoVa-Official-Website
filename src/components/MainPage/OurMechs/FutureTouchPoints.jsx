@@ -69,7 +69,10 @@ const FutureTouchPoints = () => {
           Title="More Projects"
           List={
             <>
-              <li className="mt-[1vw]">ArachnoVa selalu terbuka untuk kolaborasi dan project baru selanjutnya</li>
+              <li className="mt-[1vw]">
+                ArachnoVa selalu terbuka untuk kolaborasi dan project baru
+                selanjutnya
+              </li>
             </>
           }
           Icon={<FaArchive size="1.042vw" className="text-[#0893D4]" />}
@@ -121,8 +124,8 @@ const FutureTouchPoints = () => {
           List={
             <>
               <li className="mt-[0.8vw]">
-                Kami membuka kesempatan apabila Client menginginkan fitur
-                tambahan pada website
+                ArachnoVa selalu terbuka untuk kolaborasi dan project baru
+                selanjutnya
               </li>
             </>
           }
