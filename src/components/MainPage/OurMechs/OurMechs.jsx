@@ -359,7 +359,7 @@ const OurMechs = () => {
 						</div>
 						<Container
 							Title="Future Touch Points"
-							Description="Lorem ipsum dolor sit amet consectetur. Consequat gravida libero tortor vulputate morbi."
+							Description="Masa penyelesaian projects dan perjanjian akhir serta diskusi pemeliharaan berkelanjutan."
 							Icon={
 								<>
 									<div className="relative w-[6.047vw] aspect-[1/1]">
