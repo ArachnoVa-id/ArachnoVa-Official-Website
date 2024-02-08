@@ -49,7 +49,7 @@ export default function CTA() {
 				<a
 					href="https://wa.me/6281809252706"
 					data-aos="fade-up"
-					className="bg-black w-[53.256vw] aspect-[229/49] rounded-lg flex justify-center items-center font-SourceSansProSemibold mt-[8vw] text-[4.5vw] hover:bg-neutral-e duration-500"
+					className="bg-black w-[53.256vw] aspect-[229/49] text-neutral-a rounded-lg flex justify-center items-center font-SourceSansProSemibold mt-[8vw] text-[4.5vw] hover:bg-neutral-e duration-500"
 				>
 					Start Your Project
 				</a>
