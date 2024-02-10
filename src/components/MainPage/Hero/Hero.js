@@ -84,11 +84,11 @@ export default function Hero() {
               width={100}
               height={100}
             />
-            <div className="flex gap-x-[0.4vw] pt-[1vw]">
-              <span className="text-[#8131B2]">@arachnova</span>
+            <div className="flex gap-x-[0.1vw] pt-[1vw]">
+              <span className="text-[#8131B2]">.\arachnova-</span>
               <span className="text-[#0151EC]">official-site</span>
-              <span className="text-[#1CA7BD]">@</span>
-              npm run dev
+              <span className="text-[#1CA7BD]"> &gt; </span>
+              {" "}npm run dev
             </div>
           </div>
           <div className="px-[1vw] py-[2vw] text-[1.05vw]/[1.15vw] relative">
@@ -186,11 +186,11 @@ export default function Hero() {
               width={100}
               height={100}
             />
-            <div className="flex justify-center items-center text-[2.6vw] gap-x-[1.4vw] pt-[5vw]">
-              <div className="text-[#8131B2]">@arachnova</div>
+            <div className="flex justify-center items-center text-[2.6vw] gap-x-[.05vw] pt-[5vw]">
+              <div className="text-[#8131B2]">.\arachnova-</div>
               <div className="text-[#0151EC]">official-site</div>
-              <div className="text-[#1CA7BD]">@</div>
-              <div className="text-neutral-g">npm run dev</div>
+              <div className="text-[#1CA7BD]"> &gt;</div>
+              <div className="text-neutral-g">{"  "}npm run dev</div>
             </div>
           </div>
           <div className="px-[1vw] py-[4vw] text-[3vw]/[4vw] relative ">
