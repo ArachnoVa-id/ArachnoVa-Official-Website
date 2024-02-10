@@ -12,7 +12,7 @@ export default function KPUFT() {
     });
   }, []);
   return (
-    <section className="w-full min-h-screen flex flex-col items-center justify-center bg-neutral-a">
+    <section className="w-full lg:aspect-[1920/748] max-lg:aspect-[430/552] flex flex-col items-center justify-center bg-neutral-a">
       {/* Desktop */}
       <div className="flex max-lg:hidden">
         <div

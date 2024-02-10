@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const HeroProjects = () => {
   return (
-    <section className="w-full h-full flex flex-col items-center relative justify-center aspect-[1920/1312] bg-neutral-a ">
+    <section className="w-full lg:aspect-[1920/1312] max-lg:aspect-[430/825] flex flex-col items-center relative justify-center aspect-[1920/1312] bg-neutral-a ">
       <Image
         alt="Background"
         src="/image/Projects/BGHeroProjects.png"
