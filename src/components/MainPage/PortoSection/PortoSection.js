@@ -14,10 +14,10 @@ export default function PortoSection() {
   }, []);
 
   return (
-    <section className="w-full h-full aspect-[1920/1151] relative  flex flex-row justify-center items-center bg-white-MainPage gap-y-[2.083vw]">
+    <section className="w-full lg:aspect-[1920/1312] max-lg:aspect-[430/1101] relative  flex flex-row justify-center items-center bg-white-MainPage gap-y-[2.083vw]">
       {/* Desktop */}
       <div className="flex flex-col justify-center items-center max-lg:hidden">
-        <div className="text-neutral-g text-[2.3vw] font-SourceSansProBold flex justify-center mt-[6.250vw] ">
+        <div className="text-neutral-g text-[2.3vw] font-SourceSansProBold flex justify-center ">
           Our Work in Action
         </div>
         <div
