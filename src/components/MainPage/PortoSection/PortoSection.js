@@ -39,8 +39,8 @@ export default function PortoSection() {
                   src="/image/Porto/EnforianFullPage.svg"
                   className="w-full rounded-xl"
                   draggable="false"
-                  width={1000}
-                  height={1000}
+                  width={10000}
+                  height={10000}
                   priority
                 />
                 <div className="p-[1.2vw] w-full h-full fixed top-0 left-0 pointer-events-none">
@@ -69,8 +69,8 @@ export default function PortoSection() {
                   src="/image/Porto/EnforianFullPageMobile.svg"
                   className="w-full"
                   draggable="false"
-                  width={1000}
-                  height={1000}
+                  width={10000}
+                  height={10000}
                   priority
                 />
               </div>
