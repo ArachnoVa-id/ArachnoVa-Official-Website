@@ -15,7 +15,7 @@ const AboutUs = () => {
 	const href = "/aboutus";
 	return (
 		<>
-			<section className="relative w-full lg:min-h-[33.125vw] min-h-[158.14vw] flex flex-col justify-center items-center bg-white-MainPage lg:gap-y-[2.083vw] gap-y-[5.581vw]">
+			<section className="relative w-full lg:min-h-[33.125vw] min-h-[158.14vw] flex flex-col justify-center items-center bg-white-MainPage lg:gap-y-[2.083vw] gap-y-[5.581vw] overflow-hidden">
 				<div className="w-fit flex lg:flex-row flex-col justify-center items-center lg:gap-x-[3.333vw] gap-y-[5.581vw]">
 					<div
 						data-aos="fade-right"
