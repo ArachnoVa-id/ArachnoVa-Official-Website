@@ -47,7 +47,8 @@ const ServiceDetails = ({ _key, selected, title, description, image }) => {
                    lg:w-[31.979vw] lg:h-[18.646vw] lg:rounded-[0.781vw] lg:border-[0.156vw] lg:shadow-[0px_0.208vw_2.083vw_-0.26vw_rgba(0,0,0,0.15)"
         >
           <Swiper
-            className="lg:w-[30.625vw]"
+            className="overflow-hidden
+                       lg:w-[30.625vw] lg:rounded-[0.521vw]"
             slidesPerView={1}
             spaceBetween={5}
             onSwiper={(swiper) => (swiperRef.current = swiper)}
@@ -63,6 +64,7 @@ const ServiceDetails = ({ _key, selected, title, description, image }) => {
                     style={{ width: "30.625vw", height: "auto" }}
                     width="1920"
                     height="1080"
+                    className=""
                   />
                 </SwiperSlide>
               );

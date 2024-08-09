@@ -28,7 +28,8 @@ const ServicesAdditionalSwiper = ({ image }) => {
                    lg:w-[28.49vw] lg:h-[16.615vw] lg:rounded-[0.781vw] lg:border-[0.156vw] lg:shadow-[0px_0.208vw_2.083vw_-0.26vw_rgba(0,0,0,0.15)"
       >
         <Swiper
-          className="lg:w-[27.396vw]"
+          className="overflow-hidden
+                     lg:w-[27.396vw]  lg:rounded-[0.521vw]"
           slidesPerView={1}
           spaceBetween={5}
           onSwiper={(swiper) => (swiperRef.current = swiper)}
