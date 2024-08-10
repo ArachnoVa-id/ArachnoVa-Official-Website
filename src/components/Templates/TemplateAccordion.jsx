@@ -1,7 +1,9 @@
 import Image from "next/image";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Collapse } from "react-collapse";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const TemplateAccordion = ({ number, title, image }) => {
   const initial = () => {
@@ -10,13 +12,24 @@ const TemplateAccordion = ({ number, title, image }) => {
     }
     return true;
   };
+  const fade = (number) => {
+    if (number % 2 === 1) {
+      return "fade-right";
+    }
+    return "fade-left";
+  };
   const [toggle, setToggle] = useState(initial);
-
+  useEffect(() => {
+    AOS.init({
+      duration: 1500,
+    });
+  }, []);
   return (
     <div className="w-full text-black">
       <div
+        data-aos={fade(number)}
         className="flex flex-col justify-center w-full border-[#E2E8F0]
-                   lg:min-h-[3.646vw] lg:border-[0.156vw] lg:rounded-[0.833vw] lg:shadow-[0_0.26vw_1.042vw_-0.156vw_rgba(0,0,0,0.15)]"
+                   lg:border-[0.156vw] lg:rounded-[0.833vw] lg:shadow-[0_0.26vw_1.042vw_-0.156vw_rgba(0,0,0,0.15)]"
       >
         <div
           onClick={() => setToggle(!toggle)}
