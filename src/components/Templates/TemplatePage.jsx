@@ -54,7 +54,7 @@ const TemplatePage = () => {
           </div>
           <div className="flex flex-col lg:min-w-[70.521vw] lg:gap-[1.042vw]">
             <div
-              data-aos="fade-left"
+              data-aos="fade-right"
               className="w-full flex flex-col justify-center items-center bg-gradient-to-r from-[#76BDE4] to-[#79CACA]
                          lg:p-[0.15625vw] lg:h-[5vw] lg:rounded-[0.833vw] lg:shadow-[0_0.208vw_1.042vw_-0.052vw_rgba(0,0,0,0.15)]"
               // if you ever wanted to change border thickness, change padding value but with as much accuracy as possible. It looked off with only 3 decimal numbers, but fixed after I manually calculated vw value and put it as it is.

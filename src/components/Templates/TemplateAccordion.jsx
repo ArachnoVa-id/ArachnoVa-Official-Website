@@ -14,9 +14,9 @@ const TemplateAccordion = ({ number, title, image }) => {
   };
   const fade = (number) => {
     if (number % 2 === 1) {
-      return "fade-right";
+      return "fade-left";
     }
-    return "fade-left";
+    return "fade-right";
   };
   const [toggle, setToggle] = useState(initial);
   useEffect(() => {
