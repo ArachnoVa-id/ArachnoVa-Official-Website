@@ -4,13 +4,13 @@ import { Collapse } from "react-collapse";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 
 const TemplateAccordion = ({ number, title, image }) => {
-  const [toggle, setToggle] = useState();
-  const rotation = () => {
-    if (toggle === false) {
-      return "rotate-0";
+  const initial = () => {
+    if (number != 1) {
+      return false;
     }
-    return "rotate-180";
+    return true;
   };
+  const [toggle, setToggle] = useState(initial);
 
   return (
     <div className="w-full text-black">
