@@ -42,7 +42,7 @@ const ServicesAdditionalSwiper = ({ image }) => {
                   src={image}
                   draggable="false"
                   alt=""
-                  style={{ width: "27.396vw", height: "auto" }}
+                  style={{ width: "100%", height: "auto" }}
                   width="1920"
                   height="1080"
                 />

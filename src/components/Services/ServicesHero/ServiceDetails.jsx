@@ -61,7 +61,7 @@ const ServiceDetails = ({ _key, selected, title, description, image }) => {
                     src={image}
                     draggable="false"
                     alt=""
-                    style={{ width: "30.625vw", height: "auto" }}
+                    style={{ width: "100%", height: "auto" }}
                     width="1920"
                     height="1080"
                     className=""

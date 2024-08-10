@@ -3,14 +3,6 @@
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import {
-  Table,
-  TableHeader,
-  TableBody,
-  TableColumn,
-  TableRow,
-  TableCell,
-} from "@nextui-org/react";
 import ServicesOptionButton from "./ServicesOptionButton";
 import Image from "next/image";
 import { IoMdArrowRoundBack } from "react-icons/io";
@@ -190,14 +182,16 @@ const ServicesOption = () => {
               className="flex flex-col justify-center items-center border-[#E2E8F0] font-InterSemibold
                          lg:p-[1.667vw] lg:border-b-[0.052vw] lg:h-[4.167vw] lg:text-[0.938vw]"
             >
-              <Image
-                src="/image/OurServices/red-cross.svg"
-                alt=""
-                draggable="false"
-                style={{ width: "1.51vw", height: "auto" }}
-                width="28"
-                height="28"
-              />
+              <div className="lg:w-[1.51vw]">
+                <Image
+                  src="/image/OurServices/red-cross.svg"
+                  alt=""
+                  draggable="false"
+                  style={{ width: "100%", height: "auto" }}
+                  width="28"
+                  height="28"
+                />
+              </div>
             </div>
             <div
               className="flex flex-col justify-center items-center border-[#E2E8F0] font-InterSemibold
