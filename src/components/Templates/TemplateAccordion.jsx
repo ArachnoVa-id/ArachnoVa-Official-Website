@@ -12,12 +12,7 @@ const TemplateAccordion = ({ number, title, image }) => {
     }
     return true;
   };
-  const fade = (number) => {
-    if (number % 2 === 1) {
-      return "fade-left";
-    }
-    return "fade-right";
-  };
+
   const [toggle, setToggle] = useState(initial);
   useEffect(() => {
     AOS.init({
@@ -27,7 +22,6 @@ const TemplateAccordion = ({ number, title, image }) => {
   return (
     <div className="w-full text-black">
       <div
-        data-aos={fade(number)}
         className="flex flex-col justify-center w-full border-[#E2E8F0]
                    lg:border-[0.156vw] lg:rounded-[0.833vw] lg:shadow-[0_0.26vw_1.042vw_-0.156vw_rgba(0,0,0,0.15)]"
       >
