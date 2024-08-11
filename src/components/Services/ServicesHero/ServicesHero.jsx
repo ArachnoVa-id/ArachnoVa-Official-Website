@@ -36,7 +36,7 @@ const ServicesHero = () => {
             className="object-contain"
           />
         </div>
-        <div className="absolute top-[18.605vw] w-full aspect-[430/195] z-0 lg:hidden">
+        <div className="absolute top-[17.4vw] w-full aspect-[430/195] z-0 lg:hidden">
           <Image
             src="/image/OurServices/ServicesHero/bg-mobile.png"
             alt="bg"
