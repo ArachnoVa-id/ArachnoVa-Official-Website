@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import ServiceCard from "./ServiceCard";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -20,9 +19,14 @@ const ServicesHero = () => {
   return (
     <section
       className="relative w-full lg:min-h-screen flex flex-col justify-center items-center bg-white-MainPage
-                 lg:pb-[5.938vw]"
+                 lg:pb-[5.938vw]
+                 pb-[58.333vw]"
     >
-      <div className="lg:mt-[8vw] w-full">
+      <div
+        className="w-full
+                   lg:mt-[8vw]
+                   mt-[35.116vw] "
+      >
         <div className="absolute top-[4.271vw] w-full aspect-[1920/458] z-0 lg:flex hidden">
           <Image
             src="/image/OurServices/ServicesHero/bg.png"
@@ -32,7 +36,7 @@ const ServicesHero = () => {
             className="object-contain"
           />
         </div>
-        <div className="absolute top-[0] w-full aspect-[430/195] z-0 lg:hidden">
+        <div className="absolute top-[18.605vw] w-full aspect-[430/195] z-0 lg:hidden">
           <Image
             src="/image/OurServices/ServicesHero/bg-mobile.png"
             alt="bg"
@@ -43,24 +47,39 @@ const ServicesHero = () => {
         </div>
         <div
           className="flex flex-col justify-center items-center
-	  			   lg:gap-[3.125vw]"
+	  			           lg:gap-[3.125vw]
+                     gap-[11.279vw]"
         >
           <div
             className="flex flex-col justify-center items-center
-                       lg:gap-[3.125vw]"
+                       lg:gap-[3.125vw]
+                       gap-[9.302vw]"
             data-aos="fade-down"
           >
-            <div className="w-full flex flex-col justify-center items-center">
-              <p className="font-SourceSansProBold lg:text-[1.563vw] text-[4.186vw] bg-clip-text text-transparent bg-gradient-to-r from-[#0893D4] from-[17.73%] to-[#44C4D9] to-[65.68%]">
+            <div
+              className="w-full flex flex-col justify-center items-center
+                         lg:gap-0
+                         gap-[1.163vw]"
+            >
+              <p
+                className="font-SourceSansProBold bg-clip-text text-transparent bg-gradient-to-r from-[#0893D4] from-[17.73%] to-[#44C4D9] to-[65.68%]
+                           lg:text-[1.563vw]
+                           text-[4.186vw]"
+              >
                 What We Provide
               </p>
-              <h1 className="font-SourceSansProBold lg:text-[2.396vw] text-[6.977vw] text-neutral-g lg:leading-[2.448vw] leading-[6.977vw] text-center">
+              <h1
+                className="font-SourceSansProBold text-neutral-g text-center
+                           lg:text-[2.396vw] lg:leading-[2.448vw] lg:w-auto
+                           text-[6.977vw] leading-[100%] w-[68vw]"
+              >
                 Elevate Your Presence Online
               </h1>
             </div>
             <div
               className="flex
-				                 lg:gap-[3.125vw]"
+				                 lg:gap-[3.125vw]
+                         gap-[9.302vw]"
             >
               {data?.map((data) => {
                 return (
@@ -97,7 +116,8 @@ const ServicesHero = () => {
       </div>
       <div
         className="absolute bottom-0 w-full bg-gradient-to-r from-[#F1F5F9] via-[#CBD5E1] to-[#F1F5F9]
-                   lg:h-[0.052vw]"
+                   lg:h-[0.052vw]
+                   h-[0.233vw]"
       ></div>
     </section>
   );

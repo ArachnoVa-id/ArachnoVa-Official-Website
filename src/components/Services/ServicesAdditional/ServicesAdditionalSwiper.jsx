@@ -9,11 +9,13 @@ const ServicesAdditionalSwiper = ({ image }) => {
   return (
     <div
       className="flex justify-center items-center
-                   lg:gap-[0.417vw]"
+                 lg:gap-[0.417vw]
+                 gap-[0.93vw]"
     >
       <div
         className="text-[#9CADB4]
-                     lg:w-[2.083vw]"
+                     lg:w-[2.083vw]
+                     w-[4.884vw]"
       >
         <BsFillCaretLeftFill
           size={"100%"}
@@ -25,11 +27,13 @@ const ServicesAdditionalSwiper = ({ image }) => {
       </div>
       <div
         className="flex justify-center items-center bg-[#FBFCFD] border-[#E2E8F0]
-                   lg:w-[28.49vw] lg:h-[16.615vw] lg:rounded-[0.781vw] lg:border-[0.156vw] lg:shadow-[0px_0.208vw_2.083vw_-0.26vw_rgba(0,0,0,0.15)"
+                   lg:w-[28.49vw] lg:h-[16.615vw] lg:rounded-[0.781vw] lg:border-[0.156vw] lg:shadow-[0px_0.208vw_2.083vw_-0.26vw_rgba(0,0,0,0.15)
+                   w-[79.07vw] h-[45.581vw] rounded-[2.326vw] border-[0.349vw] shadow-[0px_0.93vw_9.302vw_-1.163vw_rgba(0,0,0,0.15)"
       >
         <Swiper
-          className="overflow-hidden
-                     lg:w-[27.396vw]  lg:rounded-[0.521vw]"
+          className="overflow-hidden border-[#E2E8F0]
+                     lg:w-[27.396vw] lg:rounded-[0.521vw] lg:border-[0.104vw]
+                     w-[75.814vw] rounded-[1.86vw] border-[0.233vw]"
           slidesPerView={1}
           spaceBetween={5}
           onSwiper={(swiper) => (swiperRef.current = swiper)}
@@ -53,7 +57,8 @@ const ServicesAdditionalSwiper = ({ image }) => {
       </div>
       <div
         className="text-[#9CADB4]
-                     lg:w-[2.083vw]"
+                   lg:w-[2.083vw]
+                   w-[4.884vw]"
       >
         <BsFillCaretRightFill
           size={"100%"}
