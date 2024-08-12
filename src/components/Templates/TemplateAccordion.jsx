@@ -66,7 +66,7 @@ const TemplateAccordion = ({ number, title, image }) => {
             <div
               className="flex flex-wrap 
                          lg:flex-row lg:justify-between lg:w-[65.677vw] lg:gap-[1.042vw]
-                         flex-col justify-center w-[81.39535vw] gap-[2.790698vw]"
+                         flex-col justify-center w-full gap-[2.790698vw]"
             >
               {image?.map((image) => {
                 return (
