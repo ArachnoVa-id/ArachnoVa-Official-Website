@@ -85,8 +85,8 @@ const TemplateAccordion = ({ number, title, image }) => {
                         src={image.src}
                         alt={image.caption}
                         draggable="false"
-                        width={620}
-                        height={349}
+                        width={5000}
+                        height={5000}
                         style={{ width: "100%", height: "auto" }}
                       />
                     </div>
