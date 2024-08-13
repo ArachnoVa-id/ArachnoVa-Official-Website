@@ -13,7 +13,7 @@ export default function Page() {
       <main className="w-full flex flex-col justify-center items-center bg-transparent">
         <ServicesHero />
         <ServicesOption />
-        <ServicesAdditional />
+        {/* <ServicesAdditional /> */}
         <ServicesCTA />
       </main>
     </>
