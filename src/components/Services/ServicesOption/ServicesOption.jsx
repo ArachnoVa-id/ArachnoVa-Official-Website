@@ -15,7 +15,7 @@ const ServicesOption = () => {
   }, []);
   return (
     <section
-      className="relative w-full lg:min-h-screen flex flex-col justify-center items-center bg-white-MainPage
+      className="relative w-full lg:min-h-screen flex flex-col justify-center items-center bg-white-MainPage overflow-hidden
                  lg:pt-[5.208vw] lg:pb-[6.25vw]
                  pt-[13.953vw] pb-[23.256vw]"
     >

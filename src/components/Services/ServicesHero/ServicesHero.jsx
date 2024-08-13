@@ -18,7 +18,7 @@ const ServicesHero = () => {
   }, []);
   return (
     <section
-      className="relative w-full lg:min-h-screen flex flex-col justify-center items-center bg-white-MainPage
+      className="relative w-full lg:min-h-screen flex flex-col justify-center items-center bg-white-MainPage overflow-hidden
                  lg:pb-[5.938vw]
                  pb-[58.333vw]"
     >
