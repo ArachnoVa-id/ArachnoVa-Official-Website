@@ -52,7 +52,7 @@ const ServicesAdditional = () => {
           </div>
         </div>
         <div
-          className="flex flex-col
+          className="flex flex-col overflow-hidden
                        lg:gap-[5.208vw]
                        gap-[11.163vw]"
         >
