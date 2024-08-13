@@ -15,7 +15,7 @@ const TemplatePage = () => {
   }, []);
   return (
     <section
-      className="relative w-full lg:min-h-[53.021vw] min-h-[190.465vw] flex flex-col items-center bg-white-MainPage text-black
+      className="relative w-full lg:min-h-[53.021vw] min-h-[190.465vw] flex flex-col items-center bg-white-MainPage text-black overflow-hidden
                  lg:pb-[5.208vw]
                  pb-[58.333vw]"
     >
