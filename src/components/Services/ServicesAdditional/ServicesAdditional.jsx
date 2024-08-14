@@ -21,7 +21,7 @@ const ServicesAdditional = () => {
   }, []);
   return (
     <section
-      className="relative w-full lg:min-h-screen flex flex-col justify-center items-center bg-white-MainPage text-black
+      className="relative w-full lg:min-h-screen flex flex-col justify-center items-center bg-white-MainPage text-black overflow-hidden
                  lg:pt-[5.208vw] lg:pb-[7.813vw]
                  pt-[18.605vw] pb-[23.256vw]"
     >
@@ -52,7 +52,7 @@ const ServicesAdditional = () => {
           </div>
         </div>
         <div
-          className="flex flex-col
+          className="flex flex-col overflow-hidden
                        lg:gap-[5.208vw]
                        gap-[11.163vw]"
         >
