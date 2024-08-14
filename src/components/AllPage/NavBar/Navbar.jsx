@@ -54,12 +54,12 @@ const Navbar = () => {
 				</div>
 				{isOpen ? (
 					<>
-						<NavItemMobile href="https://wa.me/6281809252706" />
+						<NavItemMobile href="https://wa.me/6287785917029" />
 					</>
 				) : (
 					<></>
 				)}
-				<Button Text="Contact Us" href="https://wa.me/6281809252706" />
+				<Button Text="Contact Us" href="https://wa.me/6287785917029" />
 			</nav>
 		</>
 	);

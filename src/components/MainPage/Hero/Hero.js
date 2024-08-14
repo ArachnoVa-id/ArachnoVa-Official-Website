@@ -54,7 +54,7 @@ export default function Hero() {
           </div>
           <div className="py-[2vh] flex gap-[1vw]">
             <a
-              href="https://wa.me/6281809252706"
+              href="https://wa.me/6287785917029"
               className="aspect-[167/46] w-[8.698vw] rounded-[0.4vw] bg-gradient-to-r from-[#2DC0D8] to-[#179FB5] font-InterBold text-white text-[0.8vw] flex justify-center items-center hover:translate-y-[-0.208vw] transition-all duration-500 ease-in-out "
             >
               Start Your Project
@@ -165,7 +165,7 @@ export default function Hero() {
         </div>
 
         <a
-          href="https://wa.me/6281809252706"
+          href="https://wa.me/6287785917029"
           className="w-[80vw] h-[8vw] mt-[4vw] my-[2.5vw] bg-gradient-to-r from-[#2DC0D8] to-[#179FB5] font-InterBold text-white rounded-md text-[3vw] flex justify-center items-center hover:translate-y-[-0.208vw] transition-all duration-500 ease-in-out "
         >
           Start Your Project
