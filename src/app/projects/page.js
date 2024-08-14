@@ -14,12 +14,21 @@ export default function Page() {
     <>
       <main className="w-full flex flex-col justify-center items-center bg-transparent">
         <HeroProjects />
+        {/* <PortoTemplate
+          type={1}
+          title={"PKM Recaping"}
+          desc={`Recipe Collection for Pet with Integrated Guidance: Buku resep pakan anjing yang terintegrasi media audio visual dan kalkulator nutrisi sebagai implementasi teknologi digital. Menyediakan produk buku resep pakan hewan 3 in 1 yang pertama di Indonesia yang mencakup buku fisik, kalkulator nutrisi, dan video tutorial.`}
+          srcDesktop={"/image/Projects/PKM_RecapingDesktop.png"}
+          srcMobile={"/image/Projects/PKM_RecapingMobile.png"}
+          link={"https://recaping.id/"}
+        /> */}
         <PortoTemplate
           type={2}
           title={"PKM Recaping"}
           desc={`Recipe Collection for Pet with Integrated Guidance: Buku resep pakan anjing yang terintegrasi media audio visual dan kalkulator nutrisi sebagai implementasi teknologi digital. Menyediakan produk buku resep pakan hewan 3 in 1 yang pertama di Indonesia yang mencakup buku fisik, kalkulator nutrisi, dan video tutorial.`}
           srcDesktop={"/image/Projects/PKM_RecapingDesktop.png"}
           srcMobile={"/image/Projects/PKM_RecapingMobile.png"}
+          link={"https://recaping.id/"}
         />
           <PortoEzParenting />
           <PortoKPUFT />
