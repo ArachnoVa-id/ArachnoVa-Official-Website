@@ -166,8 +166,7 @@ const ServicesOption = () => {
                                lg:text-[0.729vw] lg:w-auto
                                text-[2.791vw] w-[24.885vw]"
                     >
-                      Lorem ipsum dolor sit amet consectetur. Vulputate viverra
-                      sociis amet ullamcorper sed odio nulla sem.
+                      Laman utama yang untuk memperkenalkan produk atau identitas yang memaparkan informasi spesifik
                     </div>
                   </div>
                   <div className="absolute bottom-0">
@@ -209,7 +208,7 @@ const ServicesOption = () => {
                          border-b-[0.233vw] h-[18.605vw] text-[3.256vw]"
               >
                 {" "}
-                3-7 Hari
+                3-10 Hari
               </div>
               <div
                 className="flex flex-col justify-center items-center border-[#E2E8F0] font-InterSemibold
@@ -243,7 +242,7 @@ const ServicesOption = () => {
                          lg:p-[1.667vw] lg:border-b-[0.052vw] lg:h-[4.167vw] lg:text-[0.938vw]
                          h-[18.605vw] text-[3.256vw]"
               >
-                +25K untuk tiap section
+                +25K untuk tiap section tambahan
               </div>
             </div>
             <div
@@ -274,8 +273,8 @@ const ServicesOption = () => {
                                lg:text-[0.729vw] lg:w-auto
                                text-[2.791vw] w-[24.885vw]"
                     >
-                      Lorem ipsum dolor sit amet consectetur. Vulputate viverra
-                      sociis amet ullamcorper sed odio nulla sem.
+                      Website yang menyajikan informasi perusahaan/organisasi,
+                      visi, misi, layanan, dan kontak.
                     </div>
                   </div>
                   <div className="absolute bottom-0">
@@ -365,7 +364,7 @@ const ServicesOption = () => {
                          lg:p-[1.667vw] lg:border-b-[0.052vw] lg:h-[4.167vw] lg:text-[0.938vw]
                          h-[18.605vw] text-[3.256vw]"
               >
-                +90K untuk tiap section
+                +125K untuk tiap page tambahan
               </div>
             </div>
             <div
@@ -396,8 +395,8 @@ const ServicesOption = () => {
                                lg:text-[0.729vw] lg:w-auto
                                text-[2.791vw] w-[24.885vw]"
                     >
-                      Lorem ipsum dolor sit amet consectetur. Vulputate viverra
-                      sociis amet ullamcorper sed odio nulla sem.
+                      Website yang dirancang dan dibangun sesuai kebutuhan
+                      spesifik klien.
                     </div>
                   </div>
                   <div className="absolute bottom-0">
