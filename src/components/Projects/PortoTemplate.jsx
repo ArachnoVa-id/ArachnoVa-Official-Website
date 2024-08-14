@@ -41,7 +41,7 @@ export default function PortoTemplate({
           </p>
           <div className="flex justify-end">
             <a
-              href="https://www.ezparenting.id/"
+              href="https://recaping.id/"
               className={twMerge(
                 "w-[4.688vw] mt-[1vw] bg-gradient-to-r rounded-[0.5vw] text-[0.833vw] aspect-[90/48] from-[#2DC0D8] to-[#179FB5] font-InterBold text-white",
                 "flex justify-center items-center",
