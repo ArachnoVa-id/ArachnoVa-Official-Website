@@ -4,32 +4,53 @@ import Image from "next/image";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { twMerge } from "tailwind-merge";
 
-export default function PortoEzParenting() {
+export default function PortoTemplate({
+  type,
+  title,
+  desc,
+  srcDesktop,
+  srcMobile,
+}) {
   useEffect(() => {
     AOS.init({
       duration: 1500,
     });
   }, []);
-
+  
   return (
-    <section className="w-full lg:aspect-[1920/748] max-lg:aspect-[430/552] flex flex-col items-center justify-center bg-[#F1F4F4] overflow-hidden">
+    <section className="w-full lg:aspect-[1920/748] max-lg:aspect-[430/552] flex flex-col items-center justify-center bg-neutral-a overflow-hidden">
       {/* Desktop */}
-      <div className="flex max-lg:hidden ">
-        <div className="w-[20vw] text-black pt-[2vw] mr-[5vw]">
-          <h1 className="text-[2vw] font-SourceSansProBold">EzParenting</h1>
-          <p className="text-[1vw]/[1.5vw] font-SourceSansProSemibold text-neutral-e">
-            EzParenting adalah sebuah platform yang bertujuan untuk menemani
-            perjalanan orang tua dalam mengoptimalkan perkembangan anak-anak
-            mereka dari usia 0-5 tahun pertama kehidupan melalui pendidikan dan
-            solusi praktis.
+      <div
+        className={twMerge(
+          type === 1
+            ? "flex"
+            : type === 2
+            ? "flex flex-row-reverse "
+            : "",
+          " max-lg:hidden "
+        )}
+      >
+        <div className="w-[20vw] text-black pt-[2vw] ml-[5vw]">
+          <h1 className="text-[2vw] font-SourceSansProBold text-end">
+            {title}
+          </h1>
+          <p className="text-[1vw]/[1.5vw] font-SourceSansProSemibold text-neutral-e text-end">
+            {desc}
           </p>
-          <a
-            href="https://www.ezparenting.id/"
-            className="w-[4.688vw] mt-[1vw] bg-gradient-to-r rounded-[0.5vw] text-[0.833vw] aspect-[90/48] from-[#2DC0D8] to-[#179FB5] font-InterBold text-white flex justify-center items-center hover:translate-y-[-0.208vw] transition-all duration-500 ease-in-out "
-          >
-            Source
-          </a>
+          <div className="flex justify-end">
+            <a
+              href="https://www.ezparenting.id/"
+              className={twMerge(
+                "w-[4.688vw] mt-[1vw] bg-gradient-to-r rounded-[0.5vw] text-[0.833vw] aspect-[90/48] from-[#2DC0D8] to-[#179FB5] font-InterBold text-white",
+                "flex justify-center items-center",
+                "hover:translate-y-[-0.208vw] transition-all duration-500 ease-in-out "
+              )}
+            >
+              Source
+            </a>
+          </div>
         </div>
 
         <div
@@ -38,7 +59,7 @@ export default function PortoEzParenting() {
         >
           <Image
             alt="Content Prototype"
-            src="image/Projects/EzParenting.svg"
+            src={srcDesktop}
             className=" w-[34.6vw] aspect-[669/376] rounded-xl shadow-2xl "
             draggable="false"
             width={1000}
@@ -46,7 +67,7 @@ export default function PortoEzParenting() {
           />
           <Image
             alt="Content Prototype"
-            src="/image/Projects/EzParentingMobile.svg"
+            src={srcMobile}
             className="absolute w-[8vw] aspect-[245/485] rounded-[1vw] -bottom-[2vw] right-[0vw] shadow-2xl "
             draggable="false"
             width={1000}
@@ -58,7 +79,7 @@ export default function PortoEzParenting() {
       {/* Mobile */}
       <div className="flex flex-col justify-center items-center lg:hidden gap-y-[6vw]">
         <h1 className="text-[8vw] font-SourceSansProBold text-neutral-g ">
-          EzParenting
+          {title}
         </h1>
         <div
           className="relative w-[90.698vw] aspect-[824.28/426.9]"
@@ -66,7 +87,7 @@ export default function PortoEzParenting() {
         >
           <Image
             alt="Content Prototype"
-            src="image/Projects/EzParenting.svg"
+            src={srcDesktop}
             className=" w-[75.6vw] aspect-[669/376] rounded-xl shadow-2xl "
             draggable="false"
             width={1000}
@@ -74,7 +95,7 @@ export default function PortoEzParenting() {
           />
           <Image
             alt="Content Prototype"
-            src="/image/Projects//EzParentingMobile.svg"
+            src={srcMobile}
             className="absolute w-[20vw] aspect-[245/495] rounded-[3vw] -bottom-[2vw] right-[0vw] shadow-2xl "
             draggable="false"
             width={1000}
@@ -83,10 +104,7 @@ export default function PortoEzParenting() {
         </div>
         <div className="justify-center items-center w-[90vw]">
           <p className="text-[4.5vw]/[4.5vw] font-SourceSansProSemibold text-neutral-e ">
-            EzParenting adalah sebuah platform yang bertujuan untuk menemani
-            perjalanan orang tua dalam mengoptimalkan perkembangan anak-anak
-            mereka dari usia 0-5 tahun pertama kehidupan melalui pendidikan dan
-            solusi praktis.
+            {desc}
           </p>
         </div>
         <a

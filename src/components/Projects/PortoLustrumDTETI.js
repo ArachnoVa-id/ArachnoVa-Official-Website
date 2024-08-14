@@ -12,7 +12,7 @@ export default function PortoLustrumDTETI() {
     });
   }, []);
   return (
-    <section className="w-full lg:aspect-[1920/748] max-lg:aspect-[430/552] flex flex-col items-center justify-center bg-[#F1F4F4] ">
+    <section className="w-full lg:aspect-[1920/748] max-lg:aspect-[430/552] flex flex-col items-center justify-center bg-[#F1F4F4] overflow-hidden ">
       {/* Desktop */}
       <div className="flex max-lg:hidden ">
         <div className="w-[20vw] text-black pt-[2vw] mr-[5vw]">
