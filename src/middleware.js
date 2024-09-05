@@ -11,6 +11,8 @@ export function middleware(request) {
     return NextResponse.redirect("https://forms.gle/YWGea3bFusN9hc5E8");
   } else if (pathname === "/academy") {
     return NextResponse.redirect("https://forms.gle/47BD69dSta8wDPrV8");
+  } else if (pathname === "/client-evaluation") {
+    return NextResponse.redirect("https://forms.gle/JiMFkhp88KmL1xR89");
   }
 
   return NextResponse.next();
