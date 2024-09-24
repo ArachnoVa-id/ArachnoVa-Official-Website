@@ -53,6 +53,7 @@ export default function PortoSection() {
                       width={1000}
                       height={1000}
                       priority
+                      unoptimized
                     />
                   </div>
                   <div className="w-full h-full bg-gradient-to-b from-transparent from-55% to-black group-hover:opacity-0 duration-500 rounded-[0.781vw]" />
@@ -84,6 +85,7 @@ export default function PortoSection() {
                     width={1000}
                     height={1000}
                     priority
+                    unoptimized
                   />
                 </div>
                 <div className="w-full h-full bg-gradient-to-b from-transparent from-55% to-black group-hover:opacity-0 duration-500 rounded-[0.521vw]" />
@@ -146,6 +148,7 @@ export default function PortoSection() {
                     width={1000}
                     height={1000}
                     priority
+                    unoptimized
                   />
                 </div>
                 <div className="w-full h-full bg-gradient-to-b from-transparent from-55% to-black group-hover:opacity-0 duration-500 rounded-[0.781vw]" />
@@ -178,6 +181,7 @@ export default function PortoSection() {
                     width={1000}
                     height={1000}
                     priority
+                    unoptimized
                   />
                 </div>
                 <div className="w-full h-full bg-gradient-to-b from-transparent from-55% to-black group-hover:opacity-0 duration-500 rounded-[0.781vw]" />
