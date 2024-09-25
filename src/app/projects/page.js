@@ -15,6 +15,14 @@ export default function Page() {
       <main className="w-full flex flex-col justify-center items-center bg-transparent">
         <HeroProjects />
         <PortoTemplate
+          type={1}
+          title={"Legal Kreatif"}
+          desc={`Berdiri sejak 2012, LegalKreatif telah membantu lebih dari 4000 pengusaha Indonesia untuk mendirikan perusahaan dan mengurus suluruh kebutuhan legalitas perusahaan. Membantu pengusaha mendirikan perusahaan berupa PT, CV maupun PMA.`}
+          srcDesktop={"/image/Projects/LegalKreatifDesktop.png"}
+          srcMobile={"/image/Projects/LegalKreatifMobile.svg"}
+          link={"https://www.legalkreatif.co.id/"}
+        />
+        <PortoTemplate
           type={2}
           title={"KMTETI"}
           desc={`KMTETI adalah organisasi resmi yang ada di Departemen Teknik Elektro dan Teknologi Informasi (DTETI). Salah satu semboyan yang dimiliki KMTETI adalah Profesionalisme Berbasis Kekeluargaan.`}
