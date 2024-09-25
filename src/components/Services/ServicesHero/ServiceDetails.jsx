@@ -58,9 +58,9 @@ const ServiceDetails = ({ _key, selected, title, description, image }) => {
                      w-[70.233vw] h-[40vw] rounded-[2.326vw] border-[0.349vw] shadow-[0px_0.93vw_9.302vw_-1.163vw_rgba(0,0,0,0.15)"
         >
           <Swiper
-            className="overflow-hidden border-[#E2E8F0]
+            className="overflow-hidden border-[#E2E8F0] 
                        lg:w-[30.625vw] lg:rounded-[0.521vw] lg:border-[0.104vw]
-                       w-[66.977vw] rounded-[1.86vw] border-[0.233vw]"
+                       w-[66.977vw] aspect-[1920/980] rounded-[1.86vw] border-[0.233vw]"
             slidesPerView={1}
             spaceBetween={5}
             onSwiper={(swiper) => (swiperRef.current = swiper)}

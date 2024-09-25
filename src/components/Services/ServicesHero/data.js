@@ -18,9 +18,12 @@ const data = [
     description:
       "Website Profiling memberikan informasi menyeluruh tentang organisasi atau event melalui beberapa halaman, memungkinkan pengunjung untuk dengan mudah menavigasi situs dan memperoleh detail informasi mendetail.",
     image: [
-      "/image/OurProducts/KPUFTHero.svg",
-      "/image/OurProducts/KPUFTInfoCalon.svg",
-      "/image/OurProducts/KPUFTTentangKami.svg",
+      "/image/OurProducts/KMTETI1.png",
+      "/image/OurProducts/KMTETI2.png",
+      "/image/OurProducts/KMTETI3.png",
+      "/image/OurProducts/KMTETI4.png",
+      "/image/OurProducts/KMTETI5.png",
+      "/image/OurProducts/KMTETI6.png",
     ],
   },
   {
