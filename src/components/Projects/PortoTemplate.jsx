@@ -82,7 +82,9 @@ export default function PortoTemplate({
           <Image
             alt="Content Prototype"
             src={srcDesktop}
-            className=" w-[34.6vw] aspect-[669/376] rounded-xl shadow-2xl "
+            className={twMerge("absolute w-[34.6vw] aspect-[669/376] rounded-xl shadow-2xl",
+              type === 1 ? "left-[0vw]" : type === 2 ? "right-[0vw]" : "" 
+            )}
             draggable="false"
             width={1000}
             height={1000}
@@ -90,7 +92,9 @@ export default function PortoTemplate({
           <Image
             alt="Content Prototype"
             src={srcMobile}
-            className="absolute w-[8vw] aspect-[245/485] rounded-[1vw] -bottom-[2vw] right-[0vw] shadow-2xl "
+            className={twMerge("absolute w-[8vw] aspect-[245/485] rounded-[1vw] -bottom-[2vw]  shadow-2xl",
+              type === 1 ?"right-[0vw]" : type === 2 ? "left-[0vw]" : ""
+            )}
             draggable="false"
             width={1000}
             height={1000}
