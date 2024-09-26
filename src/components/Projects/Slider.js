@@ -29,9 +29,9 @@ export default function Slider() {
       "",
     ],
     image: [
-      "/image/Projects/LustrumDTETIDesktop.svg",
-      "/image/OurProducts/KPUFTHero.svg",
-      "image/Projects/EzParenting.svg",
+      "/image/Projects/LustrumDTETIDesktop.png",
+      "/image/Projects/KPUFT.png",
+      "/image/Projects/EzParenting.png",
       "/image/Projects/PKM_RecapingDesktop.png",
       "/image/Projects/TeknisiadeDesktop.png",
       "/image/Projects/KMTETIDesktop.png",

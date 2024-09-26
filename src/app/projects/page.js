@@ -63,11 +63,33 @@ export default function Page() {
             solusi praktis.`}
           srcDesktop={"/image/Projects/EzParenting.png"}
           srcMobile={"/image/Projects/EzParentingMobile.png"}
-          link={"https://forked-fe-teknisiade.vercel.app/"}
+          link={"https://ez-parenting.vercel.app/"}
         />
-          <PortoKPUFT />
-          <PortoLustrumDTETI />
-          <CTAProjects />
+        <PortoTemplate
+          type={2}
+          title={"KPU FT UGM"}
+          desc={`Komisi Pemilihan Umum Fakultas Teknik UGM adalah website yang
+            dirancang untuk melakukan pelaksanaan pemilihan ketua umum Badan
+            Eksekutif Mahasiswa (BEM KMFT) untuk periode 2024-2025. Website
+            memiliki fitur untuk melakukan voting dan live count saat pemilihan
+            berlangsung.`}
+          srcDesktop={"/image/Projects/KPUFT.png"}
+          srcMobile={"/image/Projects/KPUFTMobile.png"}
+          link={"https://www.electionftugm.web.id/"}
+        />
+        <PortoTemplate
+          type={1}
+          title={"Lustrum DTETI"}
+          desc={`Rangkaian acara besar perayaan ulang tahun Departemen Teknik Elektro
+            dan Teknologi Informasi UGM yang ke-60 lebih tepatnya perayaan
+            lustrum yang ke-12. Acara ini dimeriahkan menjadi 3 sub acara besar
+            yaitu Tetipendence, Enforian dan Troposfer dengan semua kegiatan
+            dinaungi oleh bagian dari DTETI FT UGM.`}
+          srcDesktop={"/image/Projects/LustrumDTETIDesktop.png"}
+          srcMobile={"/image/Projects/LustrumDTETIMobile.png"}
+          link={"https://lustrumdteti.id/"}
+        />
+        <CTAProjects />
       </main>
     </>
   );
