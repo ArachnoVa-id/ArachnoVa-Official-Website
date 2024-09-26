@@ -6,7 +6,16 @@ import CardContents from "./CardContents";
 
 export default function Slider() {
   const data = {
-    title: ["Lustrum DTETI XII", "KPU FT","EzParenting","PKM Recaping", "Teknisiade","KMTETI", "Legal Kreatif"],
+    title: [
+      "Lustrum DTETI XII",
+      "KPU FT",
+      "EzParenting",
+      "PKM Recaping",
+      "Teknisiade",
+      "KMTETI",
+      "Legal Kreatif",
+      "HMTI",
+    ],
     description: [
       "Lustrum DTETI merupakan rangkaian acara besar perayaan ulang tahun Departemen Teknik Elektro dan Teknologi Informasi UGM yang ke-60 lebih tepatnya perayaan lustrum yang ke-12. Acara ini dimeriahkan menjadi 3 sub acara besar yaitu Tetipendence, Enforian dan Troposfer dengan semua kegiatan dinaungi oleh bagian dari DTETI FT UGM.",
       "Komisi Pemilihan Umum Fakultas Teknik UGM adalah website yang dirancang untuk melakukan pelaksanaan pemilihan ketua umum Badan Eksekutif Mahasiswa (BEM KMFT) untuk periode 2024-2025. Website memiliki fitur untuk melakukan voting dan live count saat pemilihan berlangsung.",
@@ -15,10 +24,31 @@ export default function Slider() {
       "Teknisiade adalah ajang tahunan yang diselenggarakan oleh Kementrian Olahraga, Apresiasi, dan Daya Kreasi Seni (OASE) BEM KMFT UGM. Acara ini menjadi sarana untuk mengekspresikan kreativitas olahraga dan apresiasi seni dengan mempertemukan mahasiswa dari berbagai jurusan di Fakultas Teknik",
       "KMTETI merupakan singkatan dari Keluarga Mahasiswa Teknik Elektro dan Teknologi Informasi, KMTETI adalah organisasi resmi yang ada di Departemen Teknik Elektro dan Teknologi Informasi (DTETI). Salah satu semboyan yang dimiliki KMTETI adalah Profesionalisme Berbasis Kekeluargaan.",
       "Berdiri sejak 2012, LegalKreatif telah membantu lebih dari 4000 pengusaha Indonesia untuk mendirikan perusahaan dan mengurus suluruh kebutuhan legalitas perusahaan. Membantu pengusaha mendirikan perusahaan berupa PT, CV maupun PMA.",
+      "HMTI UGM berdiri sekitar bulan Juni tahun 2000. HMTI UGM pada mulanya merupakan Badan Semi Otonom (BSO) dibawah Keluarga Mahasiswa Teknik Mesin (KMTM) UGM. Hingga pada tahun 2003, kedudukan HMTI telah sejajar dengan KMTM sebagai keluarga/himpunan mahasiswa.",
+      "",
       "",
     ],
-    image: ["/image/Projects/LustrumDTETIDesktop.svg", "/image/OurProducts/KPUFTHero.svg","image/Projects/EzParenting.svg","/image/Projects/PKM_RecapingDesktop.png","/image/Projects/TeknisiadeDesktop.png","/image/Projects/KMTETIDesktop.png","/image/Projects/LegalKreatifDesktop.png",""],
-    imageMobile : ["/image/Projects/LustrumDTETIMobile.svg", "/image/Projects/KPUFTMobile.svg","image/Projects/EzParentingMobile.svg","/image/Projects/PKM_RecapingMobile.png", "/image/Projects/TeknisiadeMobile.svg","/image/Projects/KMTETIMobile.svg","/image/Projects/LegalKreatifMobile.svg",""]
+    image: [
+      "/image/Projects/LustrumDTETIDesktop.svg",
+      "/image/OurProducts/KPUFTHero.svg",
+      "image/Projects/EzParenting.svg",
+      "/image/Projects/PKM_RecapingDesktop.png",
+      "/image/Projects/TeknisiadeDesktop.png",
+      "/image/Projects/KMTETIDesktop.png",
+      "/image/Projects/LegalKreatifDesktop.png",
+      "/image/Projects/HMTIDesktop.png",
+    ],
+    imageMobile: [
+      "/image/Projects/LustrumDTETIMobile.png",
+      "/image/Projects/KPUFTMobile.png",
+      "/image/Projects/EzParentingMobile.png",
+      "/image/Projects/PKM_RecapingMobile.png",
+      "/image/Projects/TeknisiadeMobile.png",
+      "/image/Projects/KMTETIMobile.png",
+      "/image/Projects/LegalKreatifMobile.png",
+      "/image/Projects/HMTIMobile.png",
+      "",
+    ],
   };
 
   return (
