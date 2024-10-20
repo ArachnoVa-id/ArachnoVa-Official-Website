@@ -314,7 +314,7 @@ const ServicesOption = () => {
                          lg:p-[1.667vw] lg:border-b-[0.052vw] lg:h-[4.167vw] lg:text-[0.938vw]
                          border-b-[0.233vw] h-[18.605vw] text-[3.256vw]"
               >
-                4-8 Pages
+                3-6 Pages
               </div>
               <div
                 className="flex flex-col justify-center items-center border-[#E2E8F0] font-InterSemibold
@@ -322,7 +322,7 @@ const ServicesOption = () => {
                          border-b-[0.233vw] h-[18.605vw] text-[3.256vw]"
               >
                 {" "}
-                20-35
+                15-25
               </div>
               <div
                 className="flex flex-col justify-center items-center border-[#E2E8F0] font-InterSemibold

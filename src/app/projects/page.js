@@ -89,6 +89,7 @@ export default function Page() {
           srcMobile={"/image/Projects/LustrumDTETIMobile.png"}
           link={"https://lustrumdteti.id/"}
         />
+
         <CTAProjects />
       </main>
     </>
