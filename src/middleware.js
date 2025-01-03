@@ -13,7 +13,9 @@ export function middleware(request) {
     return NextResponse.redirect("https://forms.gle/47BD69dSta8wDPrV8");
   } else if (pathname === "/client-evaluation") {
     return NextResponse.redirect("https://forms.gle/JiMFkhp88KmL1xR89");
-  }
+  } else if (pathname === "/open-recruitment") {
+    return NextResponse.redirect("https://forms.gle/sTQDcQKCpXgfa2b79");
+  };
 
   return NextResponse.next();
 }
