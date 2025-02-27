@@ -16,6 +16,22 @@ export default function Page() {
         <HeroProjects />
         <PortoTemplate
           type={2}
+          title={"Gadjah Mada Chamber Orchestra"}
+          desc={`GMCO merupakan sebuah kelompok seni bermusik khususnya dalam bidang musik instrumental. Pada tanggal 16 February 2008, atas inisiatif Andreas Joko Purwanto (FMIPA 2005) dan Gian Afrisando (FMIPA 2007) mengumpulkan teman-teman maka muncullah ide untuk membentuk sebuah orkestra di Unversitas Gadjah Mada.`}
+          srcDesktop={"/image/Projects/GMCODesktop.png"}
+          srcMobile={"/image/Projects/GMCOMobile.png"}
+          link={"http://gmcograndconcert.web.id/"}
+        />
+        <PortoTemplate
+          type={1}
+          title={"Tsirwah Quran"}
+          desc={`Tsirwah adalah pesantren Digital, Menghubungkan Anda dengan Kehidupan Akhirat, Mempertemukan Masyarakat dengan Alim Ulama Keilmuan Bersanad ila Rasulillah.`}
+          srcDesktop={"/image/Projects/TsirwahDesktop.png"}
+          srcMobile={"/image/Projects/TsirwahMobile.png"}
+          link={"https://quran.tsirwah.com/"}
+        />
+        <PortoTemplate
+          type={2}
           title={"HMTI"}
           desc={`HMTI UGM berdiri sekitar bulan Juni tahun 2000. HMTI UGM pada mulanya merupakan Badan Semi Otonom (BSO) dibawah Keluarga Mahasiswa Teknik Mesin (KMTM) UGM. Hingga pada tahun 2003, kedudukan HMTI telah sejajar dengan KMTM sebagai keluarga/himpunan mahasiswa.`}
           srcDesktop={"/image/Projects/HMTIDesktop.png"}
@@ -56,6 +72,14 @@ export default function Page() {
         />
         <PortoTemplate
           type={1}
+          title={"Batam Karya Prima"}
+          desc={`Perusahaan yang turut berkontribusi meningkatkan kualitas sumber daya manusia pada industri, kesehatan serta institusi lainnya agar mampu membawa perubahan yang signifikan kearah kemajuan dengan memiliki keunggulan kompetitif agar tercapai performa kerja yang unggul dan optimal.`}
+          srcDesktop={"/image/Projects/BKPDesktop.png"}
+          srcMobile={"/image/Projects/BKPMobile.png"}
+          link={"https://bkpbatam.id/"}
+        />
+        <PortoTemplate
+          type={2}
           title={"EzParenting"}
           desc={` EzParenting adalah sebuah platform yang bertujuan untuk menemani
             perjalanan orang tua dalam mengoptimalkan perkembangan anak-anak
@@ -66,7 +90,7 @@ export default function Page() {
           link={"https://ez-parenting.vercel.app/"}
         />
         <PortoTemplate
-          type={2}
+          type={1}
           title={"KPU FT UGM"}
           desc={`Komisi Pemilihan Umum Fakultas Teknik UGM adalah website yang
             dirancang untuk melakukan pelaksanaan pemilihan ketua umum Badan
@@ -78,7 +102,7 @@ export default function Page() {
           link={"https://www.electionftugm.web.id/"}
         />
         <PortoTemplate
-          type={1}
+          type={2}
           title={"Lustrum DTETI"}
           desc={`Rangkaian acara besar perayaan ulang tahun Departemen Teknik Elektro
             dan Teknologi Informasi UGM yang ke-60 lebih tepatnya perayaan
